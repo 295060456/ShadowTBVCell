@@ -20,10 +20,6 @@
 		C5FAC2DC24C54F4900372BCD /* ShadowTBVCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2DB24C54F4900372BCD /* ShadowTBVCellTests.m */; };
 		C5FAC2E724C54F4A00372BCD /* ShadowTBVCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2E624C54F4A00372BCD /* ShadowTBVCellUITests.m */; };
 		C5FAC2FB24C5507800372BCD /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2F924C5507800372BCD /* UIView+Extras.m */; };
-		C5FAC30824C5508200372BCD /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2FE24C5508200372BCD /* BaseVC.m */; };
-		C5FAC30924C5508200372BCD /* ECAuthorizationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC30124C5508200372BCD /* ECAuthorizationTools.m */; };
-		C5FAC30A24C5508200372BCD /* FSCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC30624C5508200372BCD /* FSCustomButton.m */; };
-		C5FAC30B24C5508200372BCD /* CALayer+FSUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC30724C5508200372BCD /* CALayer+FSUI.m */; };
 		C5FAC30E24C5525400372BCD /* MyFansTBVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC30C24C5525400372BCD /* MyFansTBVCell.m */; };
 		C5FAC31424C5527A00372BCD /* TBVCell_style_02.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC31024C5527A00372BCD /* TBVCell_style_02.m */; };
 		C5FAC31524C5527A00372BCD /* TBVCell_style_01.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC31124C5527A00372BCD /* TBVCell_style_01.m */; };
@@ -36,6 +32,10 @@
 		C5FAC32624C5614400372BCD /* PushToVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC32524C5614400372BCD /* PushToVCViewController.m */; };
 		C5FAC32924C5635E00372BCD /* PushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC32824C5635E00372BCD /* PushAnimation.m */; };
 		C5FAC32C24C5655700372BCD /* BackAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC32A24C5655700372BCD /* BackAnimation.m */; };
+		C5FAC35024C58F9D00372BCD /* ECAuthorizationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC34F24C58F9D00372BCD /* ECAuthorizationTools.m */; };
+		C5FAC35324C58FA300372BCD /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC35124C58FA300372BCD /* BaseVC.m */; };
+		C5FAC35924C58FAD00372BCD /* CALayer+FSUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC35424C58FAC00372BCD /* CALayer+FSUI.m */; };
+		C5FAC35A24C58FAD00372BCD /* FSCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC35824C58FAD00372BCD /* FSCustomButton.m */; };
 		DB711CCE85F33C059B4B10CA /* Pods_ShadowTBVCell_ShadowTBVCellUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C476AB37ABD73CB83E958503 /* Pods_ShadowTBVCell_ShadowTBVCellUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -86,15 +86,6 @@
 		C5FAC2F724C5505200372BCD /* AABlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABlock.h; sourceTree = "<group>"; };
 		C5FAC2F924C5507800372BCD /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
 		C5FAC2FA24C5507800372BCD /* UIView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extras.h"; sourceTree = "<group>"; };
-		C5FAC2FD24C5508200372BCD /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
-		C5FAC2FE24C5508200372BCD /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
-		C5FAC30024C5508200372BCD /* ECAuthorizationTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAuthorizationTools.h; sourceTree = "<group>"; };
-		C5FAC30124C5508200372BCD /* ECAuthorizationTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAuthorizationTools.m; sourceTree = "<group>"; };
-		C5FAC30324C5508200372BCD /* FSCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCustomButton.h; sourceTree = "<group>"; };
-		C5FAC30424C5508200372BCD /* CALayer+FSUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FSUI.h"; sourceTree = "<group>"; };
-		C5FAC30524C5508200372BCD /* FSCommenDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCommenDefine.h; sourceTree = "<group>"; };
-		C5FAC30624C5508200372BCD /* FSCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCustomButton.m; sourceTree = "<group>"; };
-		C5FAC30724C5508200372BCD /* CALayer+FSUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+FSUI.m"; sourceTree = "<group>"; };
 		C5FAC30C24C5525400372BCD /* MyFansTBVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFansTBVCell.m; sourceTree = "<group>"; };
 		C5FAC30D24C5525400372BCD /* MyFansTBVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFansTBVCell.h; sourceTree = "<group>"; };
 		C5FAC31024C5527A00372BCD /* TBVCell_style_02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVCell_style_02.m; sourceTree = "<group>"; };
@@ -114,6 +105,15 @@
 		C5FAC32A24C5655700372BCD /* BackAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackAnimation.m; sourceTree = "<group>"; };
 		C5FAC32B24C5655700372BCD /* BackAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackAnimation.h; sourceTree = "<group>"; };
 		C5FAC32E24C56CA300372BCD /* TableViewCell 阴影 + 点击动效 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TableViewCell 阴影 + 点击动效"; sourceTree = "<group>"; };
+		C5FAC34E24C58F9D00372BCD /* ECAuthorizationTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAuthorizationTools.h; sourceTree = "<group>"; };
+		C5FAC34F24C58F9D00372BCD /* ECAuthorizationTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAuthorizationTools.m; sourceTree = "<group>"; };
+		C5FAC35124C58FA300372BCD /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		C5FAC35224C58FA300372BCD /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		C5FAC35424C58FAC00372BCD /* CALayer+FSUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+FSUI.m"; sourceTree = "<group>"; };
+		C5FAC35524C58FAC00372BCD /* CALayer+FSUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FSUI.h"; sourceTree = "<group>"; };
+		C5FAC35624C58FAC00372BCD /* FSCommenDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCommenDefine.h; sourceTree = "<group>"; };
+		C5FAC35724C58FAD00372BCD /* FSCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCustomButton.h; sourceTree = "<group>"; };
+		C5FAC35824C58FAD00372BCD /* FSCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCustomButton.m; sourceTree = "<group>"; };
 		E71F229796717705CD401899 /* Pods_ShadowTBVCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShadowTBVCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77D68908ADF1429A896B457 /* Pods_ShadowTBVCellTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShadowTBVCellTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75669ED6EA7A1DDDF3038B1 /* Pods-ShadowTBVCell-ShadowTBVCellUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCell-ShadowTBVCellUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCell-ShadowTBVCellUITests/Pods-ShadowTBVCell-ShadowTBVCellUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -248,47 +248,14 @@
 		C5FAC2F824C5506D00372BCD /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				C5FAC34D24C58F8C00372BCD /* ECAuthorizationTools */,
+				C5FAC34C24C58F5B00372BCD /* BaseVC */,
+				C5FAC34924C58F3F00372BCD /* 高度自定义的按钮 */,
 				C5FAC32D24C5656400372BCD /* Animation */,
 				C5FAC32324C560D100372BCD /* Others */,
 				C5FAC30F24C5527A00372BCD /* UITableViewCell */,
-				C5FAC2FF24C5508200372BCD /* ECAuthorizationTools */,
-				C5FAC30224C5508200372BCD /* 高度自定义的按钮 */,
-				C5FAC2FC24C5508200372BCD /* BaseVC */,
 			);
 			path = 3rd;
-			sourceTree = "<group>";
-		};
-		C5FAC2FC24C5508200372BCD /* BaseVC */ = {
-			isa = PBXGroup;
-			children = (
-				C5FAC2FD24C5508200372BCD /* BaseVC.h */,
-				C5FAC2FE24C5508200372BCD /* BaseVC.m */,
-			);
-			name = BaseVC;
-			path = ../../commentList/commentList/3rd/BaseVC;
-			sourceTree = "<group>";
-		};
-		C5FAC2FF24C5508200372BCD /* ECAuthorizationTools */ = {
-			isa = PBXGroup;
-			children = (
-				C5FAC30024C5508200372BCD /* ECAuthorizationTools.h */,
-				C5FAC30124C5508200372BCD /* ECAuthorizationTools.m */,
-			);
-			name = ECAuthorizationTools;
-			path = ../../commentList/commentList/3rd/ECAuthorizationTools;
-			sourceTree = "<group>";
-		};
-		C5FAC30224C5508200372BCD /* 高度自定义的按钮 */ = {
-			isa = PBXGroup;
-			children = (
-				C5FAC30424C5508200372BCD /* CALayer+FSUI.h */,
-				C5FAC30724C5508200372BCD /* CALayer+FSUI.m */,
-				C5FAC30524C5508200372BCD /* FSCommenDefine.h */,
-				C5FAC30324C5508200372BCD /* FSCustomButton.h */,
-				C5FAC30624C5508200372BCD /* FSCustomButton.m */,
-			);
-			name = "高度自定义的按钮";
-			path = "../../commentList/commentList/3rd/高度自定义的按钮";
 			sourceTree = "<group>";
 		};
 		C5FAC30F24C5527A00372BCD /* UITableViewCell */ = {
@@ -334,6 +301,36 @@
 				C5FAC32A24C5655700372BCD /* BackAnimation.m */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		C5FAC34924C58F3F00372BCD /* 高度自定义的按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC35524C58FAC00372BCD /* CALayer+FSUI.h */,
+				C5FAC35424C58FAC00372BCD /* CALayer+FSUI.m */,
+				C5FAC35624C58FAC00372BCD /* FSCommenDefine.h */,
+				C5FAC35724C58FAD00372BCD /* FSCustomButton.h */,
+				C5FAC35824C58FAD00372BCD /* FSCustomButton.m */,
+			);
+			path = "高度自定义的按钮";
+			sourceTree = "<group>";
+		};
+		C5FAC34C24C58F5B00372BCD /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC35224C58FA300372BCD /* BaseVC.h */,
+				C5FAC35124C58FA300372BCD /* BaseVC.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		C5FAC34D24C58F8C00372BCD /* ECAuthorizationTools */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC34E24C58F9D00372BCD /* ECAuthorizationTools.h */,
+				C5FAC34F24C58F9D00372BCD /* ECAuthorizationTools.m */,
+			);
+			path = ECAuthorizationTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -580,19 +577,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5FAC30824C5508200372BCD /* BaseVC.m in Sources */,
 				C5FAC31524C5527A00372BCD /* TBVCell_style_01.m in Sources */,
 				C5FAC2D224C54F4900372BCD /* main.m in Sources */,
 				C5FAC31424C5527A00372BCD /* TBVCell_style_02.m in Sources */,
+				C5FAC35924C58FAD00372BCD /* CALayer+FSUI.m in Sources */,
 				C5FAC2FB24C5507800372BCD /* UIView+Extras.m in Sources */,
+				C5FAC35024C58F9D00372BCD /* ECAuthorizationTools.m in Sources */,
 				C5FAC32924C5635E00372BCD /* PushAnimation.m in Sources */,
-				C5FAC30924C5508200372BCD /* ECAuthorizationTools.m in Sources */,
 				C5FAC2CA24C54F4800372BCD /* ShadowTBVCell.xcdatamodeld in Sources */,
+				C5FAC35324C58FA300372BCD /* BaseVC.m in Sources */,
 				C5FAC2C424C54F4800372BCD /* ViewController.m in Sources */,
-				C5FAC30A24C5508200372BCD /* FSCustomButton.m in Sources */,
 				C5FAC2BE24C54F4800372BCD /* AppDelegate.m in Sources */,
+				C5FAC35A24C58FAD00372BCD /* FSCustomButton.m in Sources */,
 				C5FAC32C24C5655700372BCD /* BackAnimation.m in Sources */,
-				C5FAC30B24C5508200372BCD /* CALayer+FSUI.m in Sources */,
 				C5FAC2C124C54F4800372BCD /* SceneDelegate.m in Sources */,
 				C5FAC32624C5614400372BCD /* PushToVCViewController.m in Sources */,
 				C5FAC30E24C5525400372BCD /* MyFansTBVCell.m in Sources */,
