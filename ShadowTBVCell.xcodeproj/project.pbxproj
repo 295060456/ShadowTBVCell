@@ -1,0 +1,936 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D81F70E82F6C1BE60147B4 /* Pods_ShadowTBVCellTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77D68908ADF1429A896B457 /* Pods_ShadowTBVCellTests.framework */; };
+		6ABAD4E39E6C5B6552C4E801 /* Pods_ShadowTBVCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71F229796717705CD401899 /* Pods_ShadowTBVCell.framework */; };
+		C5FAC2BE24C54F4800372BCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2BD24C54F4800372BCD /* AppDelegate.m */; };
+		C5FAC2C124C54F4800372BCD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2C024C54F4800372BCD /* SceneDelegate.m */; };
+		C5FAC2C424C54F4800372BCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2C324C54F4800372BCD /* ViewController.m */; };
+		C5FAC2C724C54F4800372BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FAC2C524C54F4800372BCD /* Main.storyboard */; };
+		C5FAC2CA24C54F4800372BCD /* ShadowTBVCell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2C824C54F4800372BCD /* ShadowTBVCell.xcdatamodeld */; };
+		C5FAC2CC24C54F4900372BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FAC2CB24C54F4900372BCD /* Assets.xcassets */; };
+		C5FAC2CF24C54F4900372BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FAC2CD24C54F4900372BCD /* LaunchScreen.storyboard */; };
+		C5FAC2D224C54F4900372BCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2D124C54F4900372BCD /* main.m */; };
+		C5FAC2DC24C54F4900372BCD /* ShadowTBVCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2DB24C54F4900372BCD /* ShadowTBVCellTests.m */; };
+		C5FAC2E724C54F4A00372BCD /* ShadowTBVCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2E624C54F4A00372BCD /* ShadowTBVCellUITests.m */; };
+		C5FAC2FB24C5507800372BCD /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2F924C5507800372BCD /* UIView+Extras.m */; };
+		C5FAC30824C5508200372BCD /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2FE24C5508200372BCD /* BaseVC.m */; };
+		C5FAC30924C5508200372BCD /* ECAuthorizationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC30124C5508200372BCD /* ECAuthorizationTools.m */; };
+		C5FAC30A24C5508200372BCD /* FSCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC30624C5508200372BCD /* FSCustomButton.m */; };
+		C5FAC30B24C5508200372BCD /* CALayer+FSUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC30724C5508200372BCD /* CALayer+FSUI.m */; };
+		C5FAC30E24C5525400372BCD /* MyFansTBVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC30C24C5525400372BCD /* MyFansTBVCell.m */; };
+		C5FAC31424C5527A00372BCD /* TBVCell_style_02.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC31024C5527A00372BCD /* TBVCell_style_02.m */; };
+		C5FAC31524C5527A00372BCD /* TBVCell_style_01.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC31124C5527A00372BCD /* TBVCell_style_01.m */; };
+		C5FAC31824C553AB00372BCD /* 官方@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5FAC31624C553AB00372BCD /* 官方@2x.png */; };
+		C5FAC31924C553AB00372BCD /* 官方@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5FAC31724C553AB00372BCD /* 官方@3x.png */; };
+		C5FAC31B24C55A6100372BCD /* 0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C5FAC31A24C55A6100372BCD /* 0.jpeg */; };
+		C5FAC31D24C55A6600372BCD /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C5FAC31C24C55A6600372BCD /* 1.jpeg */; };
+		C5FAC31F24C55A6C00372BCD /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C5FAC31E24C55A6C00372BCD /* 2.jpeg */; };
+		C5FAC32124C55A7100372BCD /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C5FAC32024C55A7100372BCD /* 3.jpeg */; };
+		C5FAC32624C5614400372BCD /* PushToVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC32524C5614400372BCD /* PushToVCViewController.m */; };
+		C5FAC32924C5635E00372BCD /* PushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC32824C5635E00372BCD /* PushAnimation.m */; };
+		C5FAC32C24C5655700372BCD /* BackAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC32A24C5655700372BCD /* BackAnimation.m */; };
+		DB711CCE85F33C059B4B10CA /* Pods_ShadowTBVCell_ShadowTBVCellUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C476AB37ABD73CB83E958503 /* Pods_ShadowTBVCell_ShadowTBVCellUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5FAC2D824C54F4900372BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FAC2B124C54F4800372BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FAC2B824C54F4800372BCD;
+			remoteInfo = ShadowTBVCell;
+		};
+		C5FAC2E324C54F4A00372BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FAC2B124C54F4800372BCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FAC2B824C54F4800372BCD;
+			remoteInfo = ShadowTBVCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		147A26E6016DFE7691271195 /* Pods-ShadowTBVCellTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCellTests.release.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCellTests/Pods-ShadowTBVCellTests.release.xcconfig"; sourceTree = "<group>"; };
+		2BA685B28A35C329C4671F7C /* Pods-ShadowTBVCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCell.debug.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCell/Pods-ShadowTBVCell.debug.xcconfig"; sourceTree = "<group>"; };
+		367C627C746F7D9578C9EBCB /* Pods-ShadowTBVCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCell.release.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCell/Pods-ShadowTBVCell.release.xcconfig"; sourceTree = "<group>"; };
+		9289F0C71F46DA1560318BA1 /* Pods-ShadowTBVCellTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCellTests.debug.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCellTests/Pods-ShadowTBVCellTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C476AB37ABD73CB83E958503 /* Pods_ShadowTBVCell_ShadowTBVCellUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShadowTBVCell_ShadowTBVCellUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A32A22AF5631C9CE30AE1F /* Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCell-ShadowTBVCellUITests/Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5FAC2B924C54F4800372BCD /* ShadowTBVCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowTBVCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FAC2BC24C54F4800372BCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5FAC2BD24C54F4800372BCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5FAC2BF24C54F4800372BCD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C5FAC2C024C54F4800372BCD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C5FAC2C224C54F4800372BCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5FAC2C324C54F4800372BCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5FAC2C624C54F4800372BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5FAC2C924C54F4800372BCD /* ShadowTBVCell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShadowTBVCell.xcdatamodel; sourceTree = "<group>"; };
+		C5FAC2CB24C54F4900372BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5FAC2CE24C54F4900372BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5FAC2D024C54F4900372BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5FAC2D124C54F4900372BCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5FAC2D724C54F4900372BCD /* ShadowTBVCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowTBVCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FAC2DB24C54F4900372BCD /* ShadowTBVCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowTBVCellTests.m; sourceTree = "<group>"; };
+		C5FAC2DD24C54F4900372BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5FAC2E224C54F4A00372BCD /* ShadowTBVCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowTBVCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FAC2E624C54F4A00372BCD /* ShadowTBVCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowTBVCellUITests.m; sourceTree = "<group>"; };
+		C5FAC2E824C54F4A00372BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5FAC2F524C5500E00372BCD /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ShadowTBVCell/PrefixHeader.pch; sourceTree = "<group>"; };
+		C5FAC2F724C5505200372BCD /* AABlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABlock.h; sourceTree = "<group>"; };
+		C5FAC2F924C5507800372BCD /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
+		C5FAC2FA24C5507800372BCD /* UIView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extras.h"; sourceTree = "<group>"; };
+		C5FAC2FD24C5508200372BCD /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		C5FAC2FE24C5508200372BCD /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		C5FAC30024C5508200372BCD /* ECAuthorizationTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAuthorizationTools.h; sourceTree = "<group>"; };
+		C5FAC30124C5508200372BCD /* ECAuthorizationTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAuthorizationTools.m; sourceTree = "<group>"; };
+		C5FAC30324C5508200372BCD /* FSCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCustomButton.h; sourceTree = "<group>"; };
+		C5FAC30424C5508200372BCD /* CALayer+FSUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FSUI.h"; sourceTree = "<group>"; };
+		C5FAC30524C5508200372BCD /* FSCommenDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCommenDefine.h; sourceTree = "<group>"; };
+		C5FAC30624C5508200372BCD /* FSCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCustomButton.m; sourceTree = "<group>"; };
+		C5FAC30724C5508200372BCD /* CALayer+FSUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+FSUI.m"; sourceTree = "<group>"; };
+		C5FAC30C24C5525400372BCD /* MyFansTBVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFansTBVCell.m; sourceTree = "<group>"; };
+		C5FAC30D24C5525400372BCD /* MyFansTBVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFansTBVCell.h; sourceTree = "<group>"; };
+		C5FAC31024C5527A00372BCD /* TBVCell_style_02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVCell_style_02.m; sourceTree = "<group>"; };
+		C5FAC31124C5527A00372BCD /* TBVCell_style_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVCell_style_01.m; sourceTree = "<group>"; };
+		C5FAC31224C5527A00372BCD /* TBVCell_style_02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVCell_style_02.h; sourceTree = "<group>"; };
+		C5FAC31324C5527A00372BCD /* TBVCell_style_01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVCell_style_01.h; sourceTree = "<group>"; };
+		C5FAC31624C553AB00372BCD /* 官方@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "官方@2x.png"; sourceTree = "<group>"; };
+		C5FAC31724C553AB00372BCD /* 官方@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "官方@3x.png"; sourceTree = "<group>"; };
+		C5FAC31A24C55A6100372BCD /* 0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpeg; sourceTree = "<group>"; };
+		C5FAC31C24C55A6600372BCD /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		C5FAC31E24C55A6C00372BCD /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		C5FAC32024C55A7100372BCD /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		C5FAC32424C5614400372BCD /* PushToVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushToVCViewController.h; sourceTree = "<group>"; };
+		C5FAC32524C5614400372BCD /* PushToVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushToVCViewController.m; sourceTree = "<group>"; };
+		C5FAC32724C5635E00372BCD /* PushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAnimation.h; sourceTree = "<group>"; };
+		C5FAC32824C5635E00372BCD /* PushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAnimation.m; sourceTree = "<group>"; };
+		C5FAC32A24C5655700372BCD /* BackAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackAnimation.m; sourceTree = "<group>"; };
+		C5FAC32B24C5655700372BCD /* BackAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackAnimation.h; sourceTree = "<group>"; };
+		C5FAC32E24C56CA300372BCD /* TableViewCell 阴影 + 点击动效 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TableViewCell 阴影 + 点击动效"; sourceTree = "<group>"; };
+		E71F229796717705CD401899 /* Pods_ShadowTBVCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShadowTBVCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77D68908ADF1429A896B457 /* Pods_ShadowTBVCellTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShadowTBVCellTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75669ED6EA7A1DDDF3038B1 /* Pods-ShadowTBVCell-ShadowTBVCellUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCell-ShadowTBVCellUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCell-ShadowTBVCellUITests/Pods-ShadowTBVCell-ShadowTBVCellUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5FAC2B624C54F4800372BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABAD4E39E6C5B6552C4E801 /* Pods_ShadowTBVCell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FAC2D424C54F4900372BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D81F70E82F6C1BE60147B4 /* Pods_ShadowTBVCellTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FAC2DF24C54F4A00372BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB711CCE85F33C059B4B10CA /* Pods_ShadowTBVCell_ShadowTBVCellUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F4D2129506010A73AC279B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E71F229796717705CD401899 /* Pods_ShadowTBVCell.framework */,
+				C476AB37ABD73CB83E958503 /* Pods_ShadowTBVCell_ShadowTBVCellUITests.framework */,
+				E77D68908ADF1429A896B457 /* Pods_ShadowTBVCellTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4FD68746493532F46A7BEDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BA685B28A35C329C4671F7C /* Pods-ShadowTBVCell.debug.xcconfig */,
+				367C627C746F7D9578C9EBCB /* Pods-ShadowTBVCell.release.xcconfig */,
+				F75669ED6EA7A1DDDF3038B1 /* Pods-ShadowTBVCell-ShadowTBVCellUITests.debug.xcconfig */,
+				C4A32A22AF5631C9CE30AE1F /* Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig */,
+				9289F0C71F46DA1560318BA1 /* Pods-ShadowTBVCellTests.debug.xcconfig */,
+				147A26E6016DFE7691271195 /* Pods-ShadowTBVCellTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5FAC2B024C54F4800372BCD = {
+			isa = PBXGroup;
+			children = (
+				C5FAC32E24C56CA300372BCD /* TableViewCell 阴影 + 点击动效 */,
+				C5FAC2F524C5500E00372BCD /* PrefixHeader.pch */,
+				C5FAC32224C560B900372BCD /* Resource */,
+				C5FAC2F824C5506D00372BCD /* 3rd */,
+				C5FAC2F624C5501D00372BCD /* Others */,
+				C5FAC2BB24C54F4800372BCD /* ShadowTBVCell */,
+				C5FAC2BA24C54F4800372BCD /* Products */,
+				C4FD68746493532F46A7BEDB /* Pods */,
+				9F4D2129506010A73AC279B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5FAC2BA24C54F4800372BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC2B924C54F4800372BCD /* ShadowTBVCell.app */,
+				C5FAC2D724C54F4900372BCD /* ShadowTBVCellTests.xctest */,
+				C5FAC2E224C54F4A00372BCD /* ShadowTBVCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5FAC2BB24C54F4800372BCD /* ShadowTBVCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC2D024C54F4900372BCD /* Info.plist */,
+				C5FAC30D24C5525400372BCD /* MyFansTBVCell.h */,
+				C5FAC30C24C5525400372BCD /* MyFansTBVCell.m */,
+				C5FAC2C224C54F4800372BCD /* ViewController.h */,
+				C5FAC2C324C54F4800372BCD /* ViewController.m */,
+				C5FAC32424C5614400372BCD /* PushToVCViewController.h */,
+				C5FAC32524C5614400372BCD /* PushToVCViewController.m */,
+			);
+			path = ShadowTBVCell;
+			sourceTree = "<group>";
+		};
+		C5FAC2DA24C54F4900372BCD /* ShadowTBVCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC2DB24C54F4900372BCD /* ShadowTBVCellTests.m */,
+				C5FAC2DD24C54F4900372BCD /* Info.plist */,
+			);
+			path = ShadowTBVCellTests;
+			sourceTree = "<group>";
+		};
+		C5FAC2E524C54F4A00372BCD /* ShadowTBVCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC2E624C54F4A00372BCD /* ShadowTBVCellUITests.m */,
+				C5FAC2E824C54F4A00372BCD /* Info.plist */,
+			);
+			path = ShadowTBVCellUITests;
+			sourceTree = "<group>";
+		};
+		C5FAC2F624C5501D00372BCD /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC2D124C54F4900372BCD /* main.m */,
+				C5FAC2BC24C54F4800372BCD /* AppDelegate.h */,
+				C5FAC2BD24C54F4800372BCD /* AppDelegate.m */,
+				C5FAC2BF24C54F4800372BCD /* SceneDelegate.h */,
+				C5FAC2C024C54F4800372BCD /* SceneDelegate.m */,
+				C5FAC2CB24C54F4900372BCD /* Assets.xcassets */,
+				C5FAC2CD24C54F4900372BCD /* LaunchScreen.storyboard */,
+				C5FAC2C524C54F4800372BCD /* Main.storyboard */,
+				C5FAC2C824C54F4800372BCD /* ShadowTBVCell.xcdatamodeld */,
+				C5FAC2DA24C54F4900372BCD /* ShadowTBVCellTests */,
+				C5FAC2E524C54F4A00372BCD /* ShadowTBVCellUITests */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C5FAC2F824C5506D00372BCD /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC32D24C5656400372BCD /* Animation */,
+				C5FAC32324C560D100372BCD /* Others */,
+				C5FAC30F24C5527A00372BCD /* UITableViewCell */,
+				C5FAC2FF24C5508200372BCD /* ECAuthorizationTools */,
+				C5FAC30224C5508200372BCD /* 高度自定义的按钮 */,
+				C5FAC2FC24C5508200372BCD /* BaseVC */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		C5FAC2FC24C5508200372BCD /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC2FD24C5508200372BCD /* BaseVC.h */,
+				C5FAC2FE24C5508200372BCD /* BaseVC.m */,
+			);
+			name = BaseVC;
+			path = ../../commentList/commentList/3rd/BaseVC;
+			sourceTree = "<group>";
+		};
+		C5FAC2FF24C5508200372BCD /* ECAuthorizationTools */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC30024C5508200372BCD /* ECAuthorizationTools.h */,
+				C5FAC30124C5508200372BCD /* ECAuthorizationTools.m */,
+			);
+			name = ECAuthorizationTools;
+			path = ../../commentList/commentList/3rd/ECAuthorizationTools;
+			sourceTree = "<group>";
+		};
+		C5FAC30224C5508200372BCD /* 高度自定义的按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC30424C5508200372BCD /* CALayer+FSUI.h */,
+				C5FAC30724C5508200372BCD /* CALayer+FSUI.m */,
+				C5FAC30524C5508200372BCD /* FSCommenDefine.h */,
+				C5FAC30324C5508200372BCD /* FSCustomButton.h */,
+				C5FAC30624C5508200372BCD /* FSCustomButton.m */,
+			);
+			name = "高度自定义的按钮";
+			path = "../../commentList/commentList/3rd/高度自定义的按钮";
+			sourceTree = "<group>";
+		};
+		C5FAC30F24C5527A00372BCD /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC31324C5527A00372BCD /* TBVCell_style_01.h */,
+				C5FAC31124C5527A00372BCD /* TBVCell_style_01.m */,
+				C5FAC31224C5527A00372BCD /* TBVCell_style_02.h */,
+				C5FAC31024C5527A00372BCD /* TBVCell_style_02.m */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		C5FAC32224C560B900372BCD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC31624C553AB00372BCD /* 官方@2x.png */,
+				C5FAC31724C553AB00372BCD /* 官方@3x.png */,
+				C5FAC31A24C55A6100372BCD /* 0.jpeg */,
+				C5FAC31C24C55A6600372BCD /* 1.jpeg */,
+				C5FAC31E24C55A6C00372BCD /* 2.jpeg */,
+				C5FAC32024C55A7100372BCD /* 3.jpeg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C5FAC32324C560D100372BCD /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC2F724C5505200372BCD /* AABlock.h */,
+				C5FAC2FA24C5507800372BCD /* UIView+Extras.h */,
+				C5FAC2F924C5507800372BCD /* UIView+Extras.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C5FAC32D24C5656400372BCD /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC32724C5635E00372BCD /* PushAnimation.h */,
+				C5FAC32824C5635E00372BCD /* PushAnimation.m */,
+				C5FAC32B24C5655700372BCD /* BackAnimation.h */,
+				C5FAC32A24C5655700372BCD /* BackAnimation.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5FAC2B824C54F4800372BCD /* ShadowTBVCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FAC2EB24C54F4A00372BCD /* Build configuration list for PBXNativeTarget "ShadowTBVCell" */;
+			buildPhases = (
+				A057B2CEAEF70BE691568B8E /* [CP] Check Pods Manifest.lock */,
+				C5FAC2B524C54F4800372BCD /* Sources */,
+				C5FAC2B624C54F4800372BCD /* Frameworks */,
+				C5FAC2B724C54F4800372BCD /* Resources */,
+				8D4F4FF2CD3C486B0C863CA0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadowTBVCell;
+			productName = ShadowTBVCell;
+			productReference = C5FAC2B924C54F4800372BCD /* ShadowTBVCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5FAC2D624C54F4900372BCD /* ShadowTBVCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FAC2EE24C54F4A00372BCD /* Build configuration list for PBXNativeTarget "ShadowTBVCellTests" */;
+			buildPhases = (
+				970BBB761C31390E8BCAC652 /* [CP] Check Pods Manifest.lock */,
+				C5FAC2D324C54F4900372BCD /* Sources */,
+				C5FAC2D424C54F4900372BCD /* Frameworks */,
+				C5FAC2D524C54F4900372BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5FAC2D924C54F4900372BCD /* PBXTargetDependency */,
+			);
+			name = ShadowTBVCellTests;
+			productName = ShadowTBVCellTests;
+			productReference = C5FAC2D724C54F4900372BCD /* ShadowTBVCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5FAC2E124C54F4A00372BCD /* ShadowTBVCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FAC2F124C54F4A00372BCD /* Build configuration list for PBXNativeTarget "ShadowTBVCellUITests" */;
+			buildPhases = (
+				FFED3655B2323E1F150013D9 /* [CP] Check Pods Manifest.lock */,
+				C5FAC2DE24C54F4A00372BCD /* Sources */,
+				C5FAC2DF24C54F4A00372BCD /* Frameworks */,
+				C5FAC2E024C54F4A00372BCD /* Resources */,
+				65B8F2679AD72A2FB21B1C7C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5FAC2E424C54F4A00372BCD /* PBXTargetDependency */,
+			);
+			name = ShadowTBVCellUITests;
+			productName = ShadowTBVCellUITests;
+			productReference = C5FAC2E224C54F4A00372BCD /* ShadowTBVCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5FAC2B124C54F4800372BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Jobs;
+				TargetAttributes = {
+					C5FAC2B824C54F4800372BCD = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					C5FAC2D624C54F4900372BCD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = C5FAC2B824C54F4800372BCD;
+					};
+					C5FAC2E124C54F4A00372BCD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = C5FAC2B824C54F4800372BCD;
+					};
+				};
+			};
+			buildConfigurationList = C5FAC2B424C54F4800372BCD /* Build configuration list for PBXProject "ShadowTBVCell" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5FAC2B024C54F4800372BCD;
+			productRefGroup = C5FAC2BA24C54F4800372BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5FAC2B824C54F4800372BCD /* ShadowTBVCell */,
+				C5FAC2D624C54F4900372BCD /* ShadowTBVCellTests */,
+				C5FAC2E124C54F4A00372BCD /* ShadowTBVCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5FAC2B724C54F4800372BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FAC31D24C55A6600372BCD /* 1.jpeg in Resources */,
+				C5FAC31B24C55A6100372BCD /* 0.jpeg in Resources */,
+				C5FAC2CF24C54F4900372BCD /* LaunchScreen.storyboard in Resources */,
+				C5FAC32124C55A7100372BCD /* 3.jpeg in Resources */,
+				C5FAC31924C553AB00372BCD /* 官方@3x.png in Resources */,
+				C5FAC31F24C55A6C00372BCD /* 2.jpeg in Resources */,
+				C5FAC2CC24C54F4900372BCD /* Assets.xcassets in Resources */,
+				C5FAC2C724C54F4800372BCD /* Main.storyboard in Resources */,
+				C5FAC31824C553AB00372BCD /* 官方@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FAC2D524C54F4900372BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FAC2E024C54F4A00372BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65B8F2679AD72A2FB21B1C7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShadowTBVCell-ShadowTBVCellUITests/Pods-ShadowTBVCell-ShadowTBVCellUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShadowTBVCell-ShadowTBVCellUITests/Pods-ShadowTBVCell-ShadowTBVCellUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShadowTBVCell-ShadowTBVCellUITests/Pods-ShadowTBVCell-ShadowTBVCellUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D4F4FF2CD3C486B0C863CA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShadowTBVCell/Pods-ShadowTBVCell-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShadowTBVCell/Pods-ShadowTBVCell-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShadowTBVCell/Pods-ShadowTBVCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		970BBB761C31390E8BCAC652 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShadowTBVCellTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A057B2CEAEF70BE691568B8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShadowTBVCell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFED3655B2323E1F150013D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShadowTBVCell-ShadowTBVCellUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5FAC2B524C54F4800372BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FAC30824C5508200372BCD /* BaseVC.m in Sources */,
+				C5FAC31524C5527A00372BCD /* TBVCell_style_01.m in Sources */,
+				C5FAC2D224C54F4900372BCD /* main.m in Sources */,
+				C5FAC31424C5527A00372BCD /* TBVCell_style_02.m in Sources */,
+				C5FAC2FB24C5507800372BCD /* UIView+Extras.m in Sources */,
+				C5FAC32924C5635E00372BCD /* PushAnimation.m in Sources */,
+				C5FAC30924C5508200372BCD /* ECAuthorizationTools.m in Sources */,
+				C5FAC2CA24C54F4800372BCD /* ShadowTBVCell.xcdatamodeld in Sources */,
+				C5FAC2C424C54F4800372BCD /* ViewController.m in Sources */,
+				C5FAC30A24C5508200372BCD /* FSCustomButton.m in Sources */,
+				C5FAC2BE24C54F4800372BCD /* AppDelegate.m in Sources */,
+				C5FAC32C24C5655700372BCD /* BackAnimation.m in Sources */,
+				C5FAC30B24C5508200372BCD /* CALayer+FSUI.m in Sources */,
+				C5FAC2C124C54F4800372BCD /* SceneDelegate.m in Sources */,
+				C5FAC32624C5614400372BCD /* PushToVCViewController.m in Sources */,
+				C5FAC30E24C5525400372BCD /* MyFansTBVCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FAC2D324C54F4900372BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FAC2DC24C54F4900372BCD /* ShadowTBVCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FAC2DE24C54F4A00372BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FAC2E724C54F4A00372BCD /* ShadowTBVCellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5FAC2D924C54F4900372BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5FAC2B824C54F4800372BCD /* ShadowTBVCell */;
+			targetProxy = C5FAC2D824C54F4900372BCD /* PBXContainerItemProxy */;
+		};
+		C5FAC2E424C54F4A00372BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5FAC2B824C54F4800372BCD /* ShadowTBVCell */;
+			targetProxy = C5FAC2E324C54F4A00372BCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5FAC2C524C54F4800372BCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FAC2C624C54F4800372BCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5FAC2CD24C54F4900372BCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FAC2CE24C54F4900372BCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5FAC2E924C54F4A00372BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5FAC2EA24C54F4A00372BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5FAC2EC24C54F4A00372BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA685B28A35C329C4671F7C /* Pods-ShadowTBVCell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AGGNX9596Z;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShadowTBVCell/PrefixHeader.pch";
+				INFOPLIST_FILE = ShadowTBVCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MonkeyKingVideo.ShadowTBVCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5FAC2ED24C54F4A00372BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 367C627C746F7D9578C9EBCB /* Pods-ShadowTBVCell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AGGNX9596Z;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShadowTBVCell/PrefixHeader.pch";
+				INFOPLIST_FILE = ShadowTBVCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MonkeyKingVideo.ShadowTBVCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5FAC2EF24C54F4A00372BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9289F0C71F46DA1560318BA1 /* Pods-ShadowTBVCellTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AGGNX9596Z;
+				INFOPLIST_FILE = ShadowTBVCellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MonkeyKingVideo.ShadowTBVCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowTBVCell.app/ShadowTBVCell";
+			};
+			name = Debug;
+		};
+		C5FAC2F024C54F4A00372BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147A26E6016DFE7691271195 /* Pods-ShadowTBVCellTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AGGNX9596Z;
+				INFOPLIST_FILE = ShadowTBVCellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MonkeyKingVideo.ShadowTBVCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowTBVCell.app/ShadowTBVCell";
+			};
+			name = Release;
+		};
+		C5FAC2F224C54F4A00372BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F75669ED6EA7A1DDDF3038B1 /* Pods-ShadowTBVCell-ShadowTBVCellUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AGGNX9596Z;
+				INFOPLIST_FILE = ShadowTBVCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MonkeyKingVideo.ShadowTBVCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShadowTBVCell;
+			};
+			name = Debug;
+		};
+		C5FAC2F324C54F4A00372BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A32A22AF5631C9CE30AE1F /* Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AGGNX9596Z;
+				INFOPLIST_FILE = ShadowTBVCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MonkeyKingVideo.ShadowTBVCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShadowTBVCell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5FAC2B424C54F4800372BCD /* Build configuration list for PBXProject "ShadowTBVCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FAC2E924C54F4A00372BCD /* Debug */,
+				C5FAC2EA24C54F4A00372BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5FAC2EB24C54F4A00372BCD /* Build configuration list for PBXNativeTarget "ShadowTBVCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FAC2EC24C54F4A00372BCD /* Debug */,
+				C5FAC2ED24C54F4A00372BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5FAC2EE24C54F4A00372BCD /* Build configuration list for PBXNativeTarget "ShadowTBVCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FAC2EF24C54F4A00372BCD /* Debug */,
+				C5FAC2F024C54F4A00372BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5FAC2F124C54F4A00372BCD /* Build configuration list for PBXNativeTarget "ShadowTBVCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FAC2F224C54F4A00372BCD /* Debug */,
+				C5FAC2F324C54F4A00372BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C5FAC2C824C54F4800372BCD /* ShadowTBVCell.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5FAC2C924C54F4800372BCD /* ShadowTBVCell.xcdatamodel */,
+			);
+			currentVersion = C5FAC2C924C54F4800372BCD /* ShadowTBVCell.xcdatamodel */;
+			path = ShadowTBVCell.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C5FAC2B124C54F4800372BCD /* Project object */;
+}
