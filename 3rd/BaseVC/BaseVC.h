@@ -15,67 +15,54 @@ typedef enum : NSUInteger {
     ComingStyle_PRESENT
 } ComingStyle;
 
+typedef enum : NSUInteger {
+    SYS_AlertController = 0,//UIAlertController
+    YX_AlertController//Pod
+} AlertControllerStyle;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BaseVC : UIViewController
 <
 UIGestureRecognizerDelegate
 ,UINavigationControllerDelegate
-,TZImagePickerControllerDelegate
 >
 
+#pragma mark ——RACSignal
 @property(nonatomic,strong)RACSignal *reqSignal;
-@property(nonatomic,strong)MJRefreshAutoGifFooter *tableViewFooter;
-@property(nonatomic,strong)MJRefreshGifHeader *tableViewHeader;
-@property(nonatomic,strong)MJRefreshBackNormalFooter *refreshBackNormalFooter;
-@property(nonatomic,weak)TZImagePickerController *imagePickerVC;
-@property(nonatomic,strong)BRStringPickerView *stringPickerView;
-//@property(nonatomic,strong)ViewForHeader *viewForHeader;
-//@property(nonatomic,strong)ViewForFooter *viewForFooter;
-@property(nonatomic,strong)FSCustomButton *backBtn;
-@property(nonatomic,strong)UIAlertController *alertController;
-@property(nonatomic,assign)BRStringPickerMode brStringPickerMode;
-@property(nonatomic,strong)NSArray *BRStringPickerViewDataMutArr;
 
-@property(nonatomic,assign)BOOL isRequestFinish;//数据请求是否完毕
+@property(nonatomic,assign)BOOL isRequestFinish;//数据请求是否完毕 !!!
 @property(nonatomic,copy)void (^ReachableViaWWANNetWorking)(void);//3G网络
 @property(nonatomic,copy)void (^ReachableViaWiFiNetWorking)(void);//WiFi
 @property(nonatomic,copy)void (^UnknownNetWorking)(void);//未知网络
 @property(nonatomic,copy)void (^NotReachableNetWorking)(void);//无任何网络连接
 @property(nonatomic,copy)void (^ReachableNetWorking)(void);//有网络
+#pragma mark —— BaseVC+TZImagePickerController
 
--(void)backBtnClickEvent:(UIButton *)sender;
--(void)VCwillComingBlock:(DataBlock)block;//即将进来
--(void)VCdidComingBlock:(DataBlock)block;//已经进来
--(void)VCwillBackBlock:(DataBlock)block;//即将出去
--(void)VCdidBackBlock:(DataBlock)block;//已经出去
--(void)GettingPicBlock:(DataBlock)block;//点选的图片
--(void)BRStringPickerViewBlock:(DataBlock)block;
+#pragma mark —— BaseVC+MJRefresh
+@property(nonatomic,strong)MJRefreshAutoGifFooter *tableViewFooter;
+@property(nonatomic,strong)MJRefreshGifHeader *tableViewHeader;
+@property(nonatomic,strong)MJRefreshBackNormalFooter *refreshBackNormalFooter;
 
--(void)AFNReachability;
-
--(void)showLoginAlertView;
--(void)showAlertViewTitle:(NSString *)title
-                  message:(NSString *)message
-              btnTitleArr:(NSArray <NSString*>*)btnTitleArr
-           alertBtnAction:(NSArray <NSString*>*)alertBtnActionArr;
--(void)showActionSheetTitle:(NSString *)title
-                    message:(NSString *)message
-                btnTitleArr:(NSArray <NSString*>*)btnTitleArr
-             alertBtnAction:(NSArray <NSString*>*)alertBtnActionArr
-                     sender:(nullable UIButton *)sender;
-
+#pragma mark —— Sys_LifeCycle
+-(void)VCwillComingBlock:(MKDataBlock)block;//即将进来
+-(void)VCdidComingBlock:(MKDataBlock)block;//已经进来
+-(void)VCwillBackBlock:(MKDataBlock)block;//即将出去
+-(void)VCdidBackBlock:(MKDataBlock)block;//已经出去
+#pragma mark —— Sys.
 -(void)locateTabBar:(NSInteger)index;
+///设置状态栏背景颜色
 -(void)setStatusBarBackgroundColor:(UIColor *)color;
--(void)choosePic;//选择图片
--(void)camera:(NSString *)doSth;//访问摄像头
--(void)feedbackGenerator;//震动特效反馈
+#pragma mark —— Others
+@property(nonatomic,copy)MKDataBlock didBackBlock;
+//@property(nonatomic,strong)ViewForHeader *viewForHeader;
+//@property(nonatomic,strong)ViewForFooter *viewForFooter;
 
 + (instancetype)ComingFromVC:(UIViewController *)rootVC
                  comingStyle:(ComingStyle)comingStyle
            presentationStyle:(UIModalPresentationStyle)presentationStyle
                requestParams:(nullable id)requestParams
-                     success:(DataBlock)block
+                     success:(MKDataBlock)block
                     animated:(BOOL)animated;
 
 @end
