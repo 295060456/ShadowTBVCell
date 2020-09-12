@@ -11,6 +11,7 @@
 
 #import "AABlock.h"
 #import <Masonry/Masonry.h>
+#import "SPAlertController.h"
 #import "AFNetworking.h"
 #import <ReactiveObjC.h>
 #import "TZImagePickerController.h"
@@ -23,13 +24,19 @@
 #import "SceneDelegate.h"
 #import "YYKit.h"
 #import "UIView+Extras.h"
+#import "BWShareView.h"
+#import "NSString+Extras.h"
+#import "SDWebImage-umbrella.h"//不支持图片后处理
+#import "MBProgressHUD+WJExtension.h"
+#import "UIButton+ImageTitleSpacing.h"
+#import "NSObject+Extras.h"
 
 #import "BaseVC.h"
-#import "UIViewController+Shake.h"
 #import "BaseVC+TZImagePickerController.h"
 #import "BaseVC+TZImagePickerControllerDelegate.h"
 #import "BaseVC+TZLocationManager.h"
-#import "BaseVC+AlertController.h"
+#import "BaseVC+SYSAlertController.h"
+#import "BaseVC+SPAlertController.h"
 #import "BaseVC+AFNReachability.h"
 #import "BaseVC+BackBtn.h"
 #import "BaseVC+JXCategoryListContentViewDelegate.h"
@@ -82,6 +89,7 @@ static inline BOOL isiPhoneX_series() {
     }return iPhoneXSeries;
 }
 
+#define StringFormat(format,...) [NSString stringWithFormat:format, ##__VA_ARGS__]
 #pragma mark ======================================== 色彩相关 ========================================
 #define kTableViewBackgroundColor HEXCOLOR(0xf6f5fa)
 ///常见颜色

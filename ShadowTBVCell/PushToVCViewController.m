@@ -16,7 +16,7 @@ UINavigationControllerDelegate
 >
 
 @property(nonatomic,strong)id requestParams;
-@property(nonatomic,copy)DataBlock successBlock;
+@property(nonatomic,copy)MKDataBlock successBlock;
 @property(nonatomic,assign)BOOL isPush;
 @property(nonatomic,assign)BOOL isPresent;
 
@@ -34,7 +34,7 @@ UINavigationControllerDelegate
                  comingStyle:(ComingStyle)comingStyle
            presentationStyle:(UIModalPresentationStyle)presentationStyle
                requestParams:(nullable id)requestParams
-                     success:(DataBlock)block
+                     success:(MKDataBlock)block
                     animated:(BOOL)animated{
     PushToVCViewController *vc = PushToVCViewController.new;
     vc.successBlock = block;
