@@ -1,24 +1,24 @@
 //
-//  BaseVC+AlertController.m
+//  NSObject+SYSAlertController.m
 //  MonkeyKingVideo
 //
-//  Created by Jobs on 2020/8/4.
+//  Created by Jobs on 2020/9/12.
 //  Copyright © 2020 Jobs. All rights reserved.
 //
 
-#import "BaseVC+SYSAlertController.h"
-#import <objc/runtime.h>
+#import "NSObject+SYSAlertController.h"
 
-@implementation BaseVC (SYSAlertController)
+@implementation NSObject (SYSAlertController)
 
 ///屏幕正中央 isSeparateStyle如果为YES 那么有实质性进展的键位在右侧，否则在左侧
--(void)showSYSAlertViewTitle:(nullable NSString *)title
++(void)showSYSAlertViewTitle:(nullable NSString *)title
                      message:(nullable NSString *)message
              isSeparateStyle:(BOOL)isSeparateStyle
                  btnTitleArr:(NSArray <NSString*>*)btnTitleArr
               alertBtnAction:(NSArray <NSString*>*)alertBtnActionArr
+                    targetVC:(UIViewController *)targetVC
                 alertVCBlock:(MKDataBlock)alertVCBlock{
-    @weakify(self)
+    @weakify(targetVC)
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title
                                                                              message:message
                                                                       preferredStyle:UIAlertControllerStyleAlert];
@@ -26,40 +26,41 @@
         UIAlertAction *okAction = [UIAlertAction actionWithTitle:btnTitleArr[i]
                                                            style:isSeparateStyle ? (i == alertBtnActionArr.count - 1 ? UIAlertActionStyleCancel : UIAlertActionStyleDefault) : UIAlertActionStyleDefault
                                                          handler:^(UIAlertAction * _Nonnull action) {
-                                                             @strongify(self)
-                                                             [self performSelector:NSSelectorFromString((NSString *)alertBtnActionArr[i])
-                                                                        withObject:Nil];
-                                                         }];
+            @strongify(targetVC)
+            [targetVC performSelector:NSSelectorFromString([NSString ensureNonnullString:alertBtnActionArr[i] ReplaceStr:@"defaultFunc"])
+                           withObject:Nil];
+        }];
         [alertController addAction:okAction];
     }
     if (alertVCBlock) {
         alertVCBlock(alertController);
     }
-    [self presentViewController:alertController
-                       animated:YES
-                     completion:nil];
+    [targetVC presentViewController:alertController
+                           animated:YES
+                         completion:nil];
 }
 
--(void)showSYSActionSheetTitle:(nullable NSString *)title
++(void)showSYSActionSheetTitle:(nullable NSString *)title
                        message:(nullable NSString *)message
                isSeparateStyle:(BOOL)isSeparateStyle
                    btnTitleArr:(NSArray <NSString*>*)btnTitleArr
                 alertBtnAction:(NSArray <NSString*>*)alertBtnActionArr
+                      targetVC:(UIViewController *)targetVC
                         sender:(nullable UIControl *)sender
                   alertVCBlock:(MKDataBlock)alertVCBlock{
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title
                                                                              message:message
                                                                       preferredStyle:UIAlertControllerStyleActionSheet];
     UIViewController *vc = alertController;
-    @weakify(self)
+    @weakify(targetVC)
     for (int i = 0; i < alertBtnActionArr.count; i++) {
         UIAlertAction *okAction = [UIAlertAction actionWithTitle:btnTitleArr[i]
                                                            style:isSeparateStyle ? (i == alertBtnActionArr.count - 1 ? UIAlertActionStyleCancel : UIAlertActionStyleDefault) : UIAlertActionStyleDefault
                                                          handler:^(UIAlertAction * _Nonnull action) {
-                                                             @strongify(self)
-                                                             [self performSelector:NSSelectorFromString((NSString *)alertBtnActionArr[i])
-                                                                        withObject:Nil];
-                                                         }];
+            @strongify(targetVC)
+            [targetVC performSelector:NSSelectorFromString([NSString ensureNonnullString:alertBtnActionArr[i] ReplaceStr:@"defaultFunc"])
+                           withObject:Nil];
+        }];
         [alertController addAction:okAction];
     }
     if (alertVCBlock) {
@@ -71,12 +72,12 @@
         popover.sourceRect = sender.bounds;
         popover.permittedArrowDirections = UIPopoverArrowDirectionAny;
     }
-    [self presentViewController:vc
-                       animated:YES
-                     completion:nil];
+    [targetVC presentViewController:vc
+                           animated:YES
+                         completion:nil];
 }
 
--(void)showLoginAlertView{
++(void)showLoginAlertViewWithTargetVC:(UIViewController *)targetVC{
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Login"
                                                                              message:@"Enter Your Account Info Below"
                                                                       preferredStyle:UIAlertControllerStyleAlert];
@@ -85,7 +86,7 @@
         @strongify(self)
         textField.placeholder = @"username";
         [textField addTarget:self
-                      action:@selector(alertUserAccountInfoDidChange:)
+                      action:@selector(alertUserAccountInfoDidChange:targetVC:)
             forControlEvents:UIControlEventEditingChanged];
     }];
     [alertController addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) {
@@ -93,7 +94,7 @@
         textField.placeholder = @"password";
         textField.secureTextEntry = YES;
         [textField addTarget:self
-                      action:@selector(alertUserAccountInfoDidChange:)
+                      action:@selector(alertUserAccountInfoDidChange:targetVC:)
             forControlEvents:UIControlEventEditingChanged];
     }];
 
@@ -113,13 +114,14 @@
     loginAction.enabled = NO;   // 禁用Login按钮
     [alertController addAction:cancelAction];
     [alertController addAction:loginAction];
-    [self presentViewController:alertController
-                       animated:YES
-                     completion:nil];
+    [targetVC presentViewController:alertController
+                           animated:YES
+                         completion:nil];
 }
-
--(void)alertUserAccountInfoDidChange:(UITextField *)sender{
-    UIAlertController *alertController = (UIAlertController *)self.presentedViewController;
+//???
++(void)alertUserAccountInfoDidChange:(UITextField *)sender
+                            targetVC:(UIViewController *)targetVC{
+    UIAlertController *alertController = (UIAlertController *)targetVC.presentedViewController;
     if (alertController){
         NSString *userName = alertController.textFields.firstObject.text;
         NSString *password = alertController.textFields.lastObject.text;
@@ -133,5 +135,10 @@
             loginAction.enabled = NO;
     }
 }
+
+-(void)defaultFunc{
+    NSLog(@"defaultFunc self.class = %@;NSStringFromSelector(_cmd) = '%@';__FUNCTION__ = %s", self.class, NSStringFromSelector(_cmd),__FUNCTION__);
+}
+
 
 @end

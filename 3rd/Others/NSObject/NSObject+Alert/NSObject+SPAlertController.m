@@ -1,16 +1,16 @@
 //
-//  BaseVC+SPAlertController.m
-//  Shooting
+//  NSObject+SPAlertController.m
+//  MonkeyKingVideo
 //
-//  Created by Jobs on 2020/9/11.
+//  Created by Jobs on 2020/9/12.
 //  Copyright © 2020 Jobs. All rights reserved.
 //
 
-#import "BaseVC+SPAlertController.h"
+#import "NSObject+SPAlertController.h"
 
-@implementation BaseVC (SPAlertController)
+@implementation NSObject (SPAlertController)
 
--(SPAlertController *)SPAlertControllerWithType:(SPAlertControllerInitType)SPAlertControllerInitType
++(SPAlertController *)SPAlertControllerWithType:(NSObject_SPAlertControllerInitType)SPAlertControllerInitType
                                           title:(NSString *_Nullable)title
                                         message:(NSString *_Nullable)message
                                 customAlertView:(UIView *_Nullable)customAlertView
@@ -21,10 +21,11 @@
                             alertActionTitleArr:(NSArray <NSString *>*)alertActionTitleArr
                             alertActionStyleArr:(NSArray <NSNumber *>*)alertActionStyleArr//SPAlertActionStyle
                                  alertBtnAction:(NSArray <NSString *>*)alertBtnActionArr
+                                       targetVC:(UIViewController *)targetVC
                                    alertVCBlock:(TwoDataBlock)alertVCBlock{
     SPAlertController *vc = nil;
     switch (SPAlertControllerInitType) {
-        case SPAlertControllerInitType_1:{
+        case NSObject_SPAlertControllerInitType_1:{
             // 示例1:actionSheet的默认动画样式(从底部弹出，有取消按钮)
             // 示例2:actionSheet的默认动画(从底部弹出,无取消按钮)
             // 示例8:actionSheet 模拟多分区样式
@@ -33,7 +34,7 @@
                                                      message:message
                                               preferredStyle:preferredStyle];
         }break;
-        case SPAlertControllerInitType_2:{
+        case NSObject_SPAlertControllerInitType_2:{
             // 示例3:actionSheet从顶部弹出(无标题)
             // 示例4:actionSheet从顶部弹出(有标题)
             // 示例5:actionSheet 水平排列（有取消按钮）
@@ -54,7 +55,7 @@
                                               preferredStyle:preferredStyle
                                                animationType:animationType];
         }break;
-        case SPAlertControllerInitType_3:{
+        case NSObject_SPAlertControllerInitType_3:{
             // 示例20:自定义整个对话框(actionSheet样式从底部弹出)
             // 示例21:自定义整个对话框(actionSheet样式从右边弹出)
             // 示例22:自定义整个对话框(actionSheet样式从左边弹出)
@@ -65,14 +66,14 @@
                                                         preferredStyle:preferredStyle
                                                          animationType:animationType];
         }break;
-        case SPAlertControllerInitType_4:{
+        case NSObject_SPAlertControllerInitType_4:{
             // 示例18:自定义头部(xib)
             // 示例19:自定义整个对话框(alert样式)
             vc = [SPAlertController alertControllerWithCustomHeaderView:customHeaderView
                                                          preferredStyle:preferredStyle
                                                           animationType:animationType];
         }break;
-        case SPAlertControllerInitType_5:{
+        case NSObject_SPAlertControllerInitType_5:{
             // 示例25:自定义action部分
             vc = [SPAlertController alertControllerWithCustomActionSequenceView:customActionSequenceView
                                                                           title:title
@@ -80,7 +81,7 @@
                                                                  preferredStyle:preferredStyle
                                                                   animationType:animationType];
         }break;
-        case SPAlertControllerInitType_6:{
+        case NSObject_SPAlertControllerInitType_6:{
             // 示例29:当文字和按钮同时过多时，文字占据更多位置
             // 示例30:含有文本输入框，且文字过多,默认会滑动到第一个文本输入框的位置
             // 示例31:action上的文字过长（垂直）
@@ -104,8 +105,8 @@
                                                          style:alertActionStyleArr[i].integerValue
                                                        handler:^(SPAlertAction * _Nonnull action) {
             @strongify(self)
-            [self performSelector:NSSelectorFromString((NSString *)alertBtnActionArr[i])
-                       withObject:Nil];
+            [targetVC performSelector:NSSelectorFromString((NSString *)alertBtnActionArr[i])
+                           withObject:Nil];
         }];
         [vc addAction:action];
         [mutArr addObject:action];
@@ -115,11 +116,12 @@
         alertVCBlock(vc,mutArr);
     }
 
-    [self presentViewController:vc
-                       animated:YES
-                     completion:^{}];
+    [targetVC presentViewController:vc
+                           animated:YES
+                         completion:^{}];
     return vc;
 }
+
 
 
 @end

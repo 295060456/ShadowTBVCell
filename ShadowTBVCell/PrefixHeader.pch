@@ -30,13 +30,12 @@
 #import "MBProgressHUD+WJExtension.h"
 #import "UIButton+ImageTitleSpacing.h"
 #import "NSObject+Extras.h"
+#import "LoadingImage.h"
 
 #import "BaseVC.h"
 #import "BaseVC+TZImagePickerController.h"
 #import "BaseVC+TZImagePickerControllerDelegate.h"
 #import "BaseVC+TZLocationManager.h"
-#import "BaseVC+SYSAlertController.h"
-#import "BaseVC+SPAlertController.h"
 #import "BaseVC+AFNReachability.h"
 #import "BaseVC+BackBtn.h"
 #import "BaseVC+JXCategoryListContentViewDelegate.h"
@@ -63,7 +62,6 @@
 #ifndef SCREEN_HEIGHT
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #endif
-#define kIMG(imgName) [UIImage imageNamed:imgName]
 
 static inline UIWindow * getMainWindow(){
     UIWindow *window = nil;
