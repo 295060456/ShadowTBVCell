@@ -32,6 +32,7 @@
 		C5AA48BC250BB6C5009F583F /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA48BA250BB6C4009F583F /* UIButton+ImageTitleSpacing.m */; };
 		C5AA48BF250BB6F5009F583F /* NSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA48BE250BB6F5009F583F /* NSObject+Extras.m */; };
 		C5AA48F3250BB863009F583F /* UIViewController+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA48F2250BB863009F583F /* UIViewController+Shake.m */; };
+		C5B1FA17252756AC005F5DB2 /* BaseVC+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B1FA15252756AC005F5DB2 /* BaseVC+MJRefresh.m */; };
 		C5FAC2BE24C54F4800372BCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2BD24C54F4800372BCD /* AppDelegate.m */; };
 		C5FAC2C124C54F4800372BCD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2C024C54F4800372BCD /* SceneDelegate.m */; };
 		C5FAC2C424C54F4800372BCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2C324C54F4800372BCD /* ViewController.m */; };
@@ -130,6 +131,8 @@
 		C5AA48BE250BB6F5009F583F /* NSObject+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extras.m"; sourceTree = "<group>"; };
 		C5AA48F1250BB863009F583F /* UIViewController+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Shake.h"; path = "../../../../GitLab/monkeyKingVideo/MonkeyKingVideo/BaseCustomizeUIKit/UIViewController/UIViewController+Shake.h"; sourceTree = "<group>"; };
 		C5AA48F2250BB863009F583F /* UIViewController+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Shake.m"; path = "../../../../GitLab/monkeyKingVideo/MonkeyKingVideo/BaseCustomizeUIKit/UIViewController/UIViewController+Shake.m"; sourceTree = "<group>"; };
+		C5B1FA15252756AC005F5DB2 /* BaseVC+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseVC+MJRefresh.m"; sourceTree = "<group>"; };
+		C5B1FA16252756AC005F5DB2 /* BaseVC+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseVC+MJRefresh.h"; sourceTree = "<group>"; };
 		C5FAC2B924C54F4800372BCD /* ShadowTBVCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowTBVCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FAC2BC24C54F4800372BCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5FAC2BD24C54F4800372BCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -418,6 +421,8 @@
 			children = (
 				C5AA488E250BB29D009F583F /* BaseVC.h */,
 				C5AA488D250BB29D009F583F /* BaseVC.m */,
+				C5B1FA16252756AC005F5DB2 /* BaseVC+MJRefresh.h */,
+				C5B1FA15252756AC005F5DB2 /* BaseVC+MJRefresh.m */,
 				C5AA48F1250BB863009F583F /* UIViewController+Shake.h */,
 				C5AA48F2250BB863009F583F /* UIViewController+Shake.m */,
 				C5AA4891250BB29D009F583F /* BaseVC+AFNReachability.h */,
@@ -710,6 +715,7 @@
 				C5AA48BC250BB6C5009F583F /* UIButton+ImageTitleSpacing.m in Sources */,
 				C5FAC35024C58F9D00372BCD /* ECAuthorizationTools.m in Sources */,
 				C5AA48B2250BB484009F583F /* BWItemModel.m in Sources */,
+				C5B1FA17252756AC005F5DB2 /* BaseVC+MJRefresh.m in Sources */,
 				C5AA48B4250BB484009F583F /* BWShareView.m in Sources */,
 				C5AA48A0250BB29D009F583F /* BaseVC+BWShareView.m in Sources */,
 				C5AA489B250BB29D009F583F /* BaseVC+AFNReachability.m in Sources */,

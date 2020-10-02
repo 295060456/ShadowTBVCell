@@ -113,8 +113,8 @@ didHighlightRowAtIndexPath:(NSIndexPath *)indexPath{
         _tableView.estimatedRowHeight = 0;
         _tableView.estimatedSectionFooterHeight = 0;
         _tableView.estimatedSectionHeaderHeight = 0 ;
-        _tableView.mj_header = self.tableViewHeader;
-        _tableView.mj_footer = self.tableViewFooter;
+        _tableView.mj_header = self.mjRefreshGifHeader;
+        _tableView.mj_footer = self.mjRefreshAutoGifFooter;
         _tableView.ly_emptyView = [LYEmptyView emptyViewWithImageStr:@"noData"
                                                     titleStr:@"您还没有粉丝"
                                                    detailStr:@""];
