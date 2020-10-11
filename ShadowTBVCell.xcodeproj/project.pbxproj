@@ -26,6 +26,7 @@
 		C56E3251252F4566004ACCC7 /* BaseVC+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56E3243252F4566004ACCC7 /* BaseVC+BRPickerView.m */; };
 		C56E3252252F4566004ACCC7 /* BaseVC+JPImageresizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56E3244252F4566004ACCC7 /* BaseVC+JPImageresizerView.m */; };
 		C56E3253252F4566004ACCC7 /* BaseVC+GifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56E3245252F4566004ACCC7 /* BaseVC+GifImageView.m */; };
+		C57F0D32253337370080EEF0 /* NSObject+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C57F0D30253337370080EEF0 /* NSObject+OpenURL.m */; };
 		C5AA48B2250BB484009F583F /* BWItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA48AB250BB483009F583F /* BWItemModel.m */; };
 		C5AA48B3250BB484009F583F /* 分享控件的用法 in Resources */ = {isa = PBXBuildFile; fileRef = C5AA48AC250BB483009F583F /* 分享控件的用法 */; };
 		C5AA48B4250BB484009F583F /* BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA48AE250BB483009F583F /* BWShareView.m */; };
@@ -119,6 +120,8 @@
 		C56E3243252F4566004ACCC7 /* BaseVC+BRPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+BRPickerView.m"; path = "../../../My_BaseProj/My_BaseProj/BaseCustomizeUIKit/UIViewController/BaseVC+BRPickerView.m"; sourceTree = "<group>"; };
 		C56E3244252F4566004ACCC7 /* BaseVC+JPImageresizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+JPImageresizerView.m"; path = "../../../My_BaseProj/My_BaseProj/BaseCustomizeUIKit/UIViewController/BaseVC+JPImageresizerView.m"; sourceTree = "<group>"; };
 		C56E3245252F4566004ACCC7 /* BaseVC+GifImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BaseVC+GifImageView.m"; path = "../../../My_BaseProj/My_BaseProj/BaseCustomizeUIKit/UIViewController/BaseVC+GifImageView.m"; sourceTree = "<group>"; };
+		C57F0D30253337370080EEF0 /* NSObject+OpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OpenURL.m"; sourceTree = "<group>"; };
+		C57F0D31253337370080EEF0 /* NSObject+OpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OpenURL.h"; sourceTree = "<group>"; };
 		C5AA48A9250BB2FA009F583F /* AABlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABlock.h; sourceTree = "<group>"; };
 		C5AA48AB250BB483009F583F /* BWItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWItemModel.m; sourceTree = "<group>"; };
 		C5AA48AC250BB483009F583F /* 分享控件的用法 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "分享控件的用法"; sourceTree = "<group>"; };
@@ -247,6 +250,8 @@
 			isa = PBXGroup;
 			children = (
 				C53CFB5525234C66001091E5 /* NSObject+Alert */,
+				C57F0D31253337370080EEF0 /* NSObject+OpenURL.h */,
+				C57F0D30253337370080EEF0 /* NSObject+OpenURL.m */,
 				C53CFB6325234CC7001091E5 /* NSObject+Shake.h */,
 				C53CFB6425234CC7001091E5 /* NSObject+Shake.m */,
 				C5AA48BD250BB6F5009F583F /* NSObject+Extras.h */,
@@ -730,6 +735,7 @@
 				C5FAC32C24C5655700372BCD /* BackAnimation.m in Sources */,
 				C5AA48BF250BB6F5009F583F /* NSObject+Extras.m in Sources */,
 				C5FAC2C124C54F4800372BCD /* SceneDelegate.m in Sources */,
+				C57F0D32253337370080EEF0 /* NSObject+OpenURL.m in Sources */,
 				C5FAC32624C5614400372BCD /* PushToVCViewController.m in Sources */,
 				C56E3251252F4566004ACCC7 /* BaseVC+BRPickerView.m in Sources */,
 				C56E3253252F4566004ACCC7 /* BaseVC+GifImageView.m in Sources */,
