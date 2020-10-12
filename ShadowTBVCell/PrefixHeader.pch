@@ -27,12 +27,12 @@
 #import "BWShareView.h"
 #import "NSString+Extras.h"
 #import "SDWebImage-umbrella.h"//不支持图片后处理
-#import "MBProgressHUD+WJExtension.h"
 #import "UIButton+ImageTitleSpacing.h"
 #import "NSObject+Extras.h"
 #import "NSObject+Shake.h"
 #import "NSObject+OpenURL.h"
 #import "LoadingImage.h"
+#import "WHToast.h"
 
 #import "BaseVC.h"
 #import "BaseVC+TZImagePickerController.h"

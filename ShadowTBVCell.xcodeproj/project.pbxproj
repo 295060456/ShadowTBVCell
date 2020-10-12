@@ -12,7 +12,6 @@
 		C53CFB5A25234C6D001091E5 /* NSObject+SPAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CFB5625234C6D001091E5 /* NSObject+SPAlertController.m */; };
 		C53CFB5B25234C6D001091E5 /* NSObject+SYSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CFB5825234C6D001091E5 /* NSObject+SYSAlertController.m */; };
 		C53CFB6525234CC7001091E5 /* NSObject+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CFB6425234CC7001091E5 /* NSObject+Shake.m */; };
-		C56E3246252F4566004ACCC7 /* BaseVC+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C56E322A252F4565004ACCC7 /* BaseVC+OpenURL.m */; };
 		C56E3247252F4566004ACCC7 /* BaseVC+TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C56E322B252F4565004ACCC7 /* BaseVC+TZImagePickerController.m */; };
 		C56E3248252F4566004ACCC7 /* BaseVC+AFNReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C56E322D252F4565004ACCC7 /* BaseVC+AFNReachability.m */; };
 		C56E3249252F4566004ACCC7 /* BaseVC+TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C56E322E252F4565004ACCC7 /* BaseVC+TZLocationManager.m */; };
@@ -721,7 +720,6 @@
 				C56E324A252F4566004ACCC7 /* UIViewController+Shake.m in Sources */,
 				C56E3250252F4566004ACCC7 /* BaseVC+BWShareView.m in Sources */,
 				C5FAC35024C58F9D00372BCD /* ECAuthorizationTools.m in Sources */,
-				C56E3246252F4566004ACCC7 /* BaseVC+OpenURL.m in Sources */,
 				C5AA48B2250BB484009F583F /* BWItemModel.m in Sources */,
 				C5AA48B4250BB484009F583F /* BWShareView.m in Sources */,
 				C56E324E252F4566004ACCC7 /* BaseVC+BackBtn.m in Sources */,
