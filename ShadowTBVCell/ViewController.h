@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : BaseVC
+@interface ViewController : UIViewController
 
 @property(nonatomic,strong)UITableView * _Nullable tableView;
 @property(nonatomic,strong)NSIndexPath * _Nonnull indexPath;
