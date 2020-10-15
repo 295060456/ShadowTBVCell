@@ -33,6 +33,8 @@
 		C5AA48B8250BB50E009F583F /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA48B7250BB50E009F583F /* NSString+Extras.m */; };
 		C5AA48BC250BB6C5009F583F /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA48BA250BB6C4009F583F /* UIButton+ImageTitleSpacing.m */; };
 		C5AA48BF250BB6F5009F583F /* NSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA48BE250BB6F5009F583F /* NSObject+Extras.m */; };
+		C5AEEB04253841F8000E1C5F /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AEEB01253841F8000E1C5F /* UIView+Extras.m */; };
+		C5AEEB05253841F8000E1C5F /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AEEB02253841F8000E1C5F /* UIView+Animation.m */; };
 		C5FAC2BE24C54F4800372BCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2BD24C54F4800372BCD /* AppDelegate.m */; };
 		C5FAC2C124C54F4800372BCD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2C024C54F4800372BCD /* SceneDelegate.m */; };
 		C5FAC2C424C54F4800372BCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2C324C54F4800372BCD /* ViewController.m */; };
@@ -43,7 +45,6 @@
 		C5FAC2D224C54F4900372BCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2D124C54F4900372BCD /* main.m */; };
 		C5FAC2DC24C54F4900372BCD /* ShadowTBVCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2DB24C54F4900372BCD /* ShadowTBVCellTests.m */; };
 		C5FAC2E724C54F4A00372BCD /* ShadowTBVCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2E624C54F4A00372BCD /* ShadowTBVCellUITests.m */; };
-		C5FAC2FB24C5507800372BCD /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2F924C5507800372BCD /* UIView+Extras.m */; };
 		C5FAC30E24C5525400372BCD /* MyFansTBVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC30C24C5525400372BCD /* MyFansTBVCell.m */; };
 		C5FAC31424C5527A00372BCD /* TBVCell_style_02.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC31024C5527A00372BCD /* TBVCell_style_02.m */; };
 		C5FAC31524C5527A00372BCD /* TBVCell_style_01.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC31124C5527A00372BCD /* TBVCell_style_01.m */; };
@@ -135,6 +136,10 @@
 		C5AA48BB250BB6C4009F583F /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
 		C5AA48BD250BB6F5009F583F /* NSObject+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extras.h"; sourceTree = "<group>"; };
 		C5AA48BE250BB6F5009F583F /* NSObject+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extras.m"; sourceTree = "<group>"; };
+		C5AEEB00253841F8000E1C5F /* UIView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extras.h"; sourceTree = "<group>"; };
+		C5AEEB01253841F8000E1C5F /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
+		C5AEEB02253841F8000E1C5F /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		C5AEEB03253841F8000E1C5F /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
 		C5FAC2B924C54F4800372BCD /* ShadowTBVCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowTBVCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FAC2BC24C54F4800372BCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5FAC2BD24C54F4800372BCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -155,8 +160,6 @@
 		C5FAC2E624C54F4A00372BCD /* ShadowTBVCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowTBVCellUITests.m; sourceTree = "<group>"; };
 		C5FAC2E824C54F4A00372BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5FAC2F524C5500E00372BCD /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ShadowTBVCell/PrefixHeader.pch; sourceTree = "<group>"; };
-		C5FAC2F924C5507800372BCD /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
-		C5FAC2FA24C5507800372BCD /* UIView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extras.h"; sourceTree = "<group>"; };
 		C5FAC30C24C5525400372BCD /* MyFansTBVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFansTBVCell.m; sourceTree = "<group>"; };
 		C5FAC30D24C5525400372BCD /* MyFansTBVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFansTBVCell.h; sourceTree = "<group>"; };
 		C5FAC31024C5527A00372BCD /* TBVCell_style_02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVCell_style_02.m; sourceTree = "<group>"; };
@@ -394,8 +397,10 @@
 				C53CFB5F25234C81001091E5 /* NSObject */,
 				C5AA48B6250BB50E009F583F /* NSString+Extras.h */,
 				C5AA48B7250BB50E009F583F /* NSString+Extras.m */,
-				C5FAC2FA24C5507800372BCD /* UIView+Extras.h */,
-				C5FAC2F924C5507800372BCD /* UIView+Extras.m */,
+				C5AEEB03253841F8000E1C5F /* UIView+Animation.h */,
+				C5AEEB02253841F8000E1C5F /* UIView+Animation.m */,
+				C5AEEB00253841F8000E1C5F /* UIView+Extras.h */,
+				C5AEEB01253841F8000E1C5F /* UIView+Extras.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -710,12 +715,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5FAC31524C5527A00372BCD /* TBVCell_style_01.m in Sources */,
+				C5AEEB04253841F8000E1C5F /* UIView+Extras.m in Sources */,
 				C5FAC2D224C54F4900372BCD /* main.m in Sources */,
 				C56E3247252F4566004ACCC7 /* BaseVC+TZImagePickerController.m in Sources */,
 				C56E324D252F4566004ACCC7 /* BaseVC.m in Sources */,
 				C5FAC31424C5527A00372BCD /* TBVCell_style_02.m in Sources */,
 				C5AA48B5250BB484009F583F /* BWItemCollectionViewCell.m in Sources */,
-				C5FAC2FB24C5507800372BCD /* UIView+Extras.m in Sources */,
 				C5AA48BC250BB6C5009F583F /* UIButton+ImageTitleSpacing.m in Sources */,
 				C56E324A252F4566004ACCC7 /* UIViewController+Shake.m in Sources */,
 				C56E3250252F4566004ACCC7 /* BaseVC+BWShareView.m in Sources */,
@@ -725,6 +730,7 @@
 				C56E324E252F4566004ACCC7 /* BaseVC+BackBtn.m in Sources */,
 				C53CFB5B25234C6D001091E5 /* NSObject+SYSAlertController.m in Sources */,
 				C5FAC32924C5635E00372BCD /* PushAnimation.m in Sources */,
+				C5AEEB05253841F8000E1C5F /* UIView+Animation.m in Sources */,
 				C56E324F252F4566004ACCC7 /* BaseVC+TZImagePickerControllerDelegate.m in Sources */,
 				C5FAC2CA24C54F4800372BCD /* ShadowTBVCell.xcdatamodeld in Sources */,
 				C5FAC2C424C54F4800372BCD /* ViewController.m in Sources */,
