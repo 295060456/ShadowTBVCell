@@ -21,7 +21,11 @@
                                    reuseIdentifier:ReuseIdentifier
                                            marginX:10
                                            marginY:20];
-        [cell shadowCell];
+        [cell shadowCellWithLayerCornerRadius:defaultValue
+                             layerShadowColor:defaultObj
+                              backgroundColor:defaultObj
+                            layerShadowRadius:defaultValue
+                           layerShadowOpacity:defaultValue];
     }return cell;
 }
 

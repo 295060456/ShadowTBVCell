@@ -47,9 +47,11 @@
 #import "UIViewController+TZImagePickerController.h"
 #import "UIViewController+TZImagePickerControllerDelegate.h"
 #import "UIViewController+TZLocationManager.h"
-//#import "UIViewController+NavigationBarHiddenMgr.h"
+#import "UIViewController+NavigationBar.h"
 //UINavigationController
 #import "BaseNavigationVC.h"
+//UINavigationBar
+#import "NavigationBar.h"
 
 #import "TBVCell_style_01.h"
 #import "TBVCell_style_02.h"
@@ -110,8 +112,20 @@ static inline BOOL isiPhoneX_series() {
     }return iPhoneXSeries;
 }
 
+static inline CGFloat Top(){
+    static CGFloat value = 0;
+    static dispatch_once_t once_t = 0;
+    dispatch_once(&once_t, ^{
+        value = isiPhoneX_series() ? 88.0f : 64.0f;
+    });
+    return value;
+}
+
 #define StringFormat(format,...) [NSString stringWithFormat:format, ##__VA_ARGS__]
 #define kFontSize(x) [UIFont systemFontOfSize:x weight:UIFontWeightRegular]
+#pragma mark ======================================== 默认值 ========================================
+#define defaultValue 0
+#define defaultObj Nil
 #pragma mark ======================================== 色彩相关 ========================================
 #define kTableViewBackgroundColor HEXCOLOR(0xf6f5fa)
 ///常见颜色
