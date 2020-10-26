@@ -26,6 +26,7 @@ def func
   pod 'BRPickerView'
   pod 'GKNavigationBar'
   pod 'JXCategoryView'
+  pod 'JXPagingView/Pager' # https://github.com/pujiaxin33/JXPagingView NO_SMP
   pod 'YYKit'
   pod 'SDWebImage'  # https://github.com/SDWebImage/SDWebImage Asynchronous image downloader with cache support as a UIImageView category
 #  pod 'SDWebImage/WebP' # https://github.com/SDWebImage/SDWebImageWebPCoder A WebP coder plugin for SDWebImage, use libwebp
