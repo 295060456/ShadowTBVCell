@@ -23,7 +23,6 @@
                                            marginY:20];
         [cell shadowCellWithLayerCornerRadius:defaultValue
                              layerShadowColor:defaultObj
-                              backgroundColor:defaultObj
                             layerShadowRadius:defaultValue
                            layerShadowOpacity:defaultValue];
     }return cell;
