@@ -21,10 +21,17 @@
                                    reuseIdentifier:ReuseIdentifier
                                            marginX:10
                                            marginY:20];
-        [cell shadowCellWithLayerCornerRadius:defaultValue
-                             layerShadowColor:defaultObj
-                            layerShadowRadius:defaultValue
-                           layerShadowOpacity:defaultValue];
+        //加阴影立体效果
+        [UIView makeTargetShadowview:cell
+                           superView:nil
+                     shadowDirection:ShadowDirection_rightDown
+                   shadowWithOffsetX:5
+                             offsetY:5
+                        cornerRadius:8
+                        shadowOffset:defaultSize
+                       shadowOpacity:1
+                    layerShadowColor:defaultObj
+                   layerShadowRadius:defaultValue];
     }return cell;
 }
 
