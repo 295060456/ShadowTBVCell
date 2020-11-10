@@ -258,6 +258,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C53419AE255A820500DFAFE4 /* TBVCell_style_02 */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC31224C5527A00372BCD /* TBVCell_style_02.h */,
+				C5FAC31024C5527A00372BCD /* TBVCell_style_02.m */,
+			);
+			path = TBVCell_style_02;
+			sourceTree = "<group>";
+		};
+		C53419AF255A820C00DFAFE4 /* TBVCell_style_01 */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC31324C5527A00372BCD /* TBVCell_style_01.h */,
+				C5FAC31124C5527A00372BCD /* TBVCell_style_01.m */,
+			);
+			path = TBVCell_style_01;
+			sourceTree = "<group>";
+		};
 		C53CFB5525234C66001091E5 /* NSObject+Alert */ = {
 			isa = PBXGroup;
 			children = (
@@ -462,10 +480,8 @@
 		C5FAC30F24C5527A00372BCD /* UITableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				C5FAC31324C5527A00372BCD /* TBVCell_style_01.h */,
-				C5FAC31124C5527A00372BCD /* TBVCell_style_01.m */,
-				C5FAC31224C5527A00372BCD /* TBVCell_style_02.h */,
-				C5FAC31024C5527A00372BCD /* TBVCell_style_02.m */,
+				C53419AF255A820C00DFAFE4 /* TBVCell_style_01 */,
+				C53419AE255A820500DFAFE4 /* TBVCell_style_02 */,
 				C562D61425400A19009DFA21 /* UITableViewCell+WhiteArrows.h */,
 				C562D61225400A19009DFA21 /* UITableViewCell+WhiteArrows.m */,
 				C562D61525400A19009DFA21 /* WhiteRightArrow@2x.png */,
