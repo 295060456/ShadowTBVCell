@@ -598,6 +598,7 @@
 		C5FAC2B124C54F4800372BCD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ShadowTBVCell;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = Jobs;
 				TargetAttributes = {
