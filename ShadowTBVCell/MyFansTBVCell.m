@@ -14,7 +14,7 @@
 
 @implementation MyFansTBVCell
 
-+(instancetype)cellWith:(UITableView *)tableView{
++(instancetype)cellWithTableView:(UITableView *)tableView{
     MyFansTBVCell *cell = (MyFansTBVCell *)[tableView dequeueReusableCellWithIdentifier:ReuseIdentifier];
     if (!cell) {
         cell = [[MyFansTBVCell alloc]initWithStyle:UITableViewCellStyleDefault

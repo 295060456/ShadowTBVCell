@@ -88,7 +88,7 @@ didHighlightRowAtIndexPath:(NSIndexPath *)indexPath{
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
          cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    MyFansTBVCell *cell = [MyFansTBVCell cellWith:tableView];
+    MyFansTBVCell *cell = [MyFansTBVCell cellWithTableView:tableView];
     [cell richElementsInCellWithModel:@(indexPath.row % 4)];
     return cell;
 }
