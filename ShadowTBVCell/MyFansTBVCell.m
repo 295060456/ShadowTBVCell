@@ -18,9 +18,9 @@
     MyFansTBVCell *cell = (MyFansTBVCell *)[tableView dequeueReusableCellWithIdentifier:ReuseIdentifier];
     if (!cell) {
         cell = [[MyFansTBVCell alloc]initWithStyle:UITableViewCellStyleDefault
-                                   reuseIdentifier:ReuseIdentifier
-                                           marginX:10
-                                           marginY:20];
+                                   reuseIdentifier:ReuseIdentifier];
+        cell.marginX = 10;
+        cell.marginY = 20;
         //加阴影立体效果
         [UIView makeTargetShadowview:cell
                            superView:nil

@@ -128,8 +128,7 @@
 //UINavigationBar
 #import "NavigationBar.h"
 
-#import "TBVCell_style_01.h"
-#import "TBVCell_style_02.h"
+#import "UITableViewCell+Margin.h"
 
 //警告处理⚠️
 #define SuppressPerformSelectorLeakWarning(Stuff) \

@@ -6,11 +6,11 @@
 //  Copyright © 2020 Jobs. All rights reserved.
 //
 
-#import "TBVCell_style_02.h"
+#import "UITableViewCell+Margin.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MyFansTBVCell : TBVCell_style_02
+@interface MyFansTBVCell : UITableViewCell
 
 @property(nonatomic,strong)UIImageView *imgView;
 
