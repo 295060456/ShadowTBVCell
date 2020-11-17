@@ -444,11 +444,11 @@
 			isa = PBXGroup;
 			children = (
 				C5C15BE6256393A200285E2E /* README.md */,
-				9F4D2129506010A73AC279B2 /* Frameworks */,
-				C4FD68746493532F46A7BEDB /* Pods */,
 				C5FAC2BB24C54F4800372BCD /* ShadowTBVCell */,
 				C5FAC2DA24C54F4900372BCD /* ShadowTBVCellTests */,
 				C5FAC2E524C54F4A00372BCD /* ShadowTBVCellUITests */,
+				9F4D2129506010A73AC279B2 /* Frameworks */,
+				C4FD68746493532F46A7BEDB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -466,15 +466,15 @@
 		C5FAC2BB24C54F4800372BCD /* ShadowTBVCell */ = {
 			isa = PBXGroup;
 			children = (
+				C5AA48A9250BB2FA009F583F /* AABlock.h */,
 				C5FAC2F524C5500E00372BCD /* PrefixHeader.pch */,
 				C5FAC2D024C54F4900372BCD /* Info.plist */,
 				C5FAC32224C560B900372BCD /* Resource */,
 				C5C15C33256393BE00285E2E /* AppDelegate & SceneDelegate */,
+				C5FAC2F624C5501D00372BCD /* Others */,
 				C5FAC2F824C5506D00372BCD /* 3rd */,
-				C5AA48A9250BB2FA009F583F /* AABlock.h */,
 				C5FAC30D24C5525400372BCD /* MyFansTBVCell.h */,
 				C5FAC30C24C5525400372BCD /* MyFansTBVCell.m */,
-				C5FAC2F624C5501D00372BCD /* Others */,
 				C5FAC32424C5614400372BCD /* PushToVCViewController.h */,
 				C5FAC32524C5614400372BCD /* PushToVCViewController.m */,
 				C5FAC2C224C54F4800372BCD /* ViewController.h */,
