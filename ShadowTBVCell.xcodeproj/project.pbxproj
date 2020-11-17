@@ -165,6 +165,7 @@
 		C5AEEB01253841F8000E1C5F /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
 		C5AEEB02253841F8000E1C5F /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
 		C5AEEB03253841F8000E1C5F /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		C5C15BE6256393A200285E2E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C5FAC2B924C54F4800372BCD /* ShadowTBVCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowTBVCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FAC2BC24C54F4800372BCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5FAC2BD24C54F4800372BCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -184,7 +185,7 @@
 		C5FAC2E224C54F4A00372BCD /* ShadowTBVCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowTBVCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FAC2E624C54F4A00372BCD /* ShadowTBVCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowTBVCellUITests.m; sourceTree = "<group>"; };
 		C5FAC2E824C54F4A00372BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5FAC2F524C5500E00372BCD /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ShadowTBVCell/PrefixHeader.pch; sourceTree = "<group>"; };
+		C5FAC2F524C5500E00372BCD /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C5FAC30C24C5525400372BCD /* MyFansTBVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFansTBVCell.m; sourceTree = "<group>"; };
 		C5FAC30D24C5525400372BCD /* MyFansTBVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFansTBVCell.h; sourceTree = "<group>"; };
 		C5FAC31624C553AB00372BCD /* 官方@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "官方@2x.png"; sourceTree = "<group>"; };
@@ -199,7 +200,6 @@
 		C5FAC32824C5635E00372BCD /* PushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAnimation.m; sourceTree = "<group>"; };
 		C5FAC32A24C5655700372BCD /* BackAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackAnimation.m; sourceTree = "<group>"; };
 		C5FAC32B24C5655700372BCD /* BackAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackAnimation.h; sourceTree = "<group>"; };
-		C5FAC32E24C56CA300372BCD /* TableViewCell 阴影 + 点击动效 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TableViewCell 阴影 + 点击动效"; sourceTree = "<group>"; };
 		C5FAC34E24C58F9D00372BCD /* ECAuthorizationTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAuthorizationTools.h; sourceTree = "<group>"; };
 		C5FAC34F24C58F9D00372BCD /* ECAuthorizationTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECAuthorizationTools.m; sourceTree = "<group>"; };
 		D53CB02EB68FD3FC3B1ABB05 /* Pods_ShadowTBVCellUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShadowTBVCellUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -413,20 +413,42 @@
 			path = "分享控件";
 			sourceTree = "<group>";
 		};
+		C5C15C33256393BE00285E2E /* AppDelegate & SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C5C15C35256393CD00285E2E /* AppDelegate */,
+				C5C15C36256393D500285E2E /* SceneDelegate */,
+			);
+			path = "AppDelegate & SceneDelegate";
+			sourceTree = "<group>";
+		};
+		C5C15C35256393CD00285E2E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC2BC24C54F4800372BCD /* AppDelegate.h */,
+				C5FAC2BD24C54F4800372BCD /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C5C15C36256393D500285E2E /* SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C5FAC2BF24C54F4800372BCD /* SceneDelegate.h */,
+				C5FAC2C024C54F4800372BCD /* SceneDelegate.m */,
+			);
+			path = SceneDelegate;
+			sourceTree = "<group>";
+		};
 		C5FAC2B024C54F4800372BCD = {
 			isa = PBXGroup;
 			children = (
-				C55AF584253C453100C558C4 /* ⚽️PicResource */,
-				C5FAC32E24C56CA300372BCD /* TableViewCell 阴影 + 点击动效 */,
-				C5FAC2F524C5500E00372BCD /* PrefixHeader.pch */,
-				C5AA48A9250BB2FA009F583F /* AABlock.h */,
-				C5FAC32224C560B900372BCD /* Resource */,
-				C5FAC2F824C5506D00372BCD /* 3rd */,
-				C5FAC2F624C5501D00372BCD /* Others */,
-				C5FAC2BB24C54F4800372BCD /* ShadowTBVCell */,
-				C5FAC2BA24C54F4800372BCD /* Products */,
-				C4FD68746493532F46A7BEDB /* Pods */,
+				C5C15BE6256393A200285E2E /* README.md */,
 				9F4D2129506010A73AC279B2 /* Frameworks */,
+				C4FD68746493532F46A7BEDB /* Pods */,
+				C5FAC2BB24C54F4800372BCD /* ShadowTBVCell */,
+				C5FAC2DA24C54F4900372BCD /* ShadowTBVCellTests */,
+				C5FAC2E524C54F4A00372BCD /* ShadowTBVCellUITests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -438,18 +460,25 @@
 				C5FAC2E224C54F4A00372BCD /* ShadowTBVCellUITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		C5FAC2BB24C54F4800372BCD /* ShadowTBVCell */ = {
 			isa = PBXGroup;
 			children = (
+				C5FAC2F524C5500E00372BCD /* PrefixHeader.pch */,
 				C5FAC2D024C54F4900372BCD /* Info.plist */,
+				C5FAC32224C560B900372BCD /* Resource */,
+				C5C15C33256393BE00285E2E /* AppDelegate & SceneDelegate */,
+				C5FAC2F824C5506D00372BCD /* 3rd */,
+				C5AA48A9250BB2FA009F583F /* AABlock.h */,
 				C5FAC30D24C5525400372BCD /* MyFansTBVCell.h */,
 				C5FAC30C24C5525400372BCD /* MyFansTBVCell.m */,
-				C5FAC2C224C54F4800372BCD /* ViewController.h */,
-				C5FAC2C324C54F4800372BCD /* ViewController.m */,
+				C5FAC2F624C5501D00372BCD /* Others */,
 				C5FAC32424C5614400372BCD /* PushToVCViewController.h */,
 				C5FAC32524C5614400372BCD /* PushToVCViewController.m */,
+				C5FAC2C224C54F4800372BCD /* ViewController.h */,
+				C5FAC2C324C54F4800372BCD /* ViewController.m */,
 			);
 			path = ShadowTBVCell;
 			sourceTree = "<group>";
@@ -475,17 +504,11 @@
 		C5FAC2F624C5501D00372BCD /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				C5FAC2BA24C54F4800372BCD /* Products */,
 				C5FAC2D124C54F4900372BCD /* main.m */,
-				C5FAC2BC24C54F4800372BCD /* AppDelegate.h */,
-				C5FAC2BD24C54F4800372BCD /* AppDelegate.m */,
-				C5FAC2BF24C54F4800372BCD /* SceneDelegate.h */,
-				C5FAC2C024C54F4800372BCD /* SceneDelegate.m */,
-				C5FAC2CB24C54F4900372BCD /* Assets.xcassets */,
 				C5FAC2CD24C54F4900372BCD /* LaunchScreen.storyboard */,
 				C5FAC2C524C54F4800372BCD /* Main.storyboard */,
 				C5FAC2C824C54F4800372BCD /* ShadowTBVCell.xcdatamodeld */,
-				C5FAC2DA24C54F4900372BCD /* ShadowTBVCellTests */,
-				C5FAC2E524C54F4A00372BCD /* ShadowTBVCellUITests */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -518,6 +541,8 @@
 		C5FAC32224C560B900372BCD /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				C5FAC2CB24C54F4900372BCD /* Assets.xcassets */,
+				C55AF584253C453100C558C4 /* ⚽️PicResource */,
 				C5FAC31624C553AB00372BCD /* 官方@2x.png */,
 				C5FAC31724C553AB00372BCD /* 官方@3x.png */,
 				C5FAC31A24C55A6100372BCD /* 0.jpeg */,
