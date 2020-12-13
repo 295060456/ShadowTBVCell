@@ -21,8 +21,6 @@
 		C54AB15E255E6036000A314D /* WhiteRightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C54AB15A255E6036000A314D /* WhiteRightArrow@2x.png */; };
 		C54AB15F255E6036000A314D /* WhiteRightArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C54AB15B255E6036000A314D /* WhiteRightArrow@3x.png */; };
 		C54AB160255E6036000A314D /* UITableViewCell+WhiteArrows.m in Sources */ = {isa = PBXBuildFile; fileRef = C54AB15C255E6036000A314D /* UITableViewCell+WhiteArrows.m */; };
-		C55696CC255BFD49005C1361 /* NSString+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C55696C6255BFD49005C1361 /* NSString+Time.m */; };
-		C55696CD255BFD49005C1361 /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C55696C9255BFD49005C1361 /* TimeModel.m */; };
 		C55696CE255BFD49005C1361 /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C55696CA255BFD49005C1361 /* NSString+Extras.m */; };
 		C55AF585253C453100C558C4 /* ⚽️PicResource in Resources */ = {isa = PBXBuildFile; fileRef = C55AF584253C453100C558C4 /* ⚽️PicResource */; };
 		C5727932254099BF002373D7 /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C5727930254099BF002373D7 /* UIViewController+NavigationBar.m */; };
@@ -49,6 +47,8 @@
 		C5AA48BF250BB6F5009F583F /* NSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA48BE250BB6F5009F583F /* NSObject+Extras.m */; };
 		C5AEEB04253841F8000E1C5F /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AEEB01253841F8000E1C5F /* UIView+Extras.m */; };
 		C5AEEB05253841F8000E1C5F /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AEEB02253841F8000E1C5F /* UIView+Animation.m */; };
+		C5D6DBD025860EF900029AFF /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6DBCC25860EF900029AFF /* NSObject+Time.m */; };
+		C5D6DBD125860EF900029AFF /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6DBCE25860EF900029AFF /* TimeModel.m */; };
 		C5FAC2BE24C54F4800372BCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2BD24C54F4800372BCD /* AppDelegate.m */; };
 		C5FAC2C124C54F4800372BCD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2C024C54F4800372BCD /* SceneDelegate.m */; };
 		C5FAC2C424C54F4800372BCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2C324C54F4800372BCD /* ViewController.m */; };
@@ -117,10 +117,6 @@
 		C54AB15A255E6036000A314D /* WhiteRightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteRightArrow@2x.png"; sourceTree = "<group>"; };
 		C54AB15B255E6036000A314D /* WhiteRightArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WhiteRightArrow@3x.png"; sourceTree = "<group>"; };
 		C54AB15C255E6036000A314D /* UITableViewCell+WhiteArrows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+WhiteArrows.m"; sourceTree = "<group>"; };
-		C55696C6255BFD49005C1361 /* NSString+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Time.m"; sourceTree = "<group>"; };
-		C55696C7255BFD49005C1361 /* NSString+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Time.h"; sourceTree = "<group>"; };
-		C55696C8255BFD49005C1361 /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
-		C55696C9255BFD49005C1361 /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
 		C55696CA255BFD49005C1361 /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
 		C55696CB255BFD49005C1361 /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
 		C55AF584253C453100C558C4 /* ⚽️PicResource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "⚽️PicResource"; sourceTree = "<group>"; };
@@ -174,6 +170,10 @@
 		C5AEEB02253841F8000E1C5F /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
 		C5AEEB03253841F8000E1C5F /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
 		C5C15BE6256393A200285E2E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C5D6DBCB25860EF900029AFF /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Time.h"; sourceTree = "<group>"; };
+		C5D6DBCC25860EF900029AFF /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
+		C5D6DBCE25860EF900029AFF /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
+		C5D6DBCF25860EF900029AFF /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
 		C5FAC2B924C54F4800372BCD /* ShadowTBVCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowTBVCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FAC2BC24C54F4800372BCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5FAC2BD24C54F4800372BCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -283,13 +283,12 @@
 		C53CFB5F25234C81001091E5 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				C5D6DBCD25860EF900029AFF /* NSObject (Time) */,
+				C5D6DBCA25860EF900029AFF /* NSObject+Time */,
 				C53CFB5525234C66001091E5 /* NSObject+Alert */,
-				C57F0D31253337370080EEF0 /* NSObject+OpenURL.h */,
-				C57F0D30253337370080EEF0 /* NSObject+OpenURL.m */,
-				C53CFB6325234CC7001091E5 /* NSObject+Shake.h */,
-				C53CFB6425234CC7001091E5 /* NSObject+Shake.m */,
-				C5AA48BD250BB6F5009F583F /* NSObject+Extras.h */,
-				C5AA48BE250BB6F5009F583F /* NSObject+Extras.m */,
+				C5D6C9452585F37100029AFF /* NSObject+Extras */,
+				C5D6C9432585F36500029AFF /* NSObject+OpenURL */,
+				C5D6C9442585F36B00029AFF /* NSObject+Shake */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -419,12 +418,7 @@
 		C55696C5255BFD40005C1361 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				C55696CB255BFD49005C1361 /* NSString+Extras.h */,
-				C55696CA255BFD49005C1361 /* NSString+Extras.m */,
-				C55696C7255BFD49005C1361 /* NSString+Time.h */,
-				C55696C6255BFD49005C1361 /* NSString+Time.m */,
-				C55696C8255BFD49005C1361 /* TimeModel.h */,
-				C55696C9255BFD49005C1361 /* TimeModel.m */,
+				C5D6CE552585FB1100029AFF /* NSString+Extras */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -531,6 +525,61 @@
 				C5FAC2C024C54F4800372BCD /* SceneDelegate.m */,
 			);
 			path = SceneDelegate;
+			sourceTree = "<group>";
+		};
+		C5D6C9432585F36500029AFF /* NSObject+OpenURL */ = {
+			isa = PBXGroup;
+			children = (
+				C57F0D31253337370080EEF0 /* NSObject+OpenURL.h */,
+				C57F0D30253337370080EEF0 /* NSObject+OpenURL.m */,
+			);
+			path = "NSObject+OpenURL";
+			sourceTree = "<group>";
+		};
+		C5D6C9442585F36B00029AFF /* NSObject+Shake */ = {
+			isa = PBXGroup;
+			children = (
+				C53CFB6325234CC7001091E5 /* NSObject+Shake.h */,
+				C53CFB6425234CC7001091E5 /* NSObject+Shake.m */,
+			);
+			path = "NSObject+Shake";
+			sourceTree = "<group>";
+		};
+		C5D6C9452585F37100029AFF /* NSObject+Extras */ = {
+			isa = PBXGroup;
+			children = (
+				C5AA48BD250BB6F5009F583F /* NSObject+Extras.h */,
+				C5AA48BE250BB6F5009F583F /* NSObject+Extras.m */,
+			);
+			path = "NSObject+Extras";
+			sourceTree = "<group>";
+		};
+		C5D6CE552585FB1100029AFF /* NSString+Extras */ = {
+			isa = PBXGroup;
+			children = (
+				C55696CB255BFD49005C1361 /* NSString+Extras.h */,
+				C55696CA255BFD49005C1361 /* NSString+Extras.m */,
+			);
+			path = "NSString+Extras";
+			sourceTree = "<group>";
+		};
+		C5D6DBCA25860EF900029AFF /* NSObject+Time */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6DBCB25860EF900029AFF /* NSObject+Time.h */,
+				C5D6DBCC25860EF900029AFF /* NSObject+Time.m */,
+			);
+			path = "NSObject+Time";
+			sourceTree = "<group>";
+		};
+		C5D6DBCD25860EF900029AFF /* NSObject (Time) */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6DBCE25860EF900029AFF /* TimeModel.m */,
+				C5D6DBCF25860EF900029AFF /* TimeModel.h */,
+			);
+			name = "NSObject (Time)";
+			path = "../../../../../JobsBitsMonitor/JobsBitsMonitor/BaseCustomizeUIKit/NSObject/NSObject (Time)";
 			sourceTree = "<group>";
 		};
 		C5D78A5C257F7A510087FC92 /* UIViewController+Others */ = {
@@ -938,7 +987,6 @@
 				C5914C96253850BF007777A6 /* UIViewController+TZImagePickerControllerDelegate.m in Sources */,
 				C544C13F258375B100C6CF2A /* LOTAnimationMJRefreshHeader.m in Sources */,
 				C54AB15D255E6036000A314D /* UITableViewCell+Margin.m in Sources */,
-				C55696CD255BFD49005C1361 /* TimeModel.m in Sources */,
 				C5AA48B5250BB484009F583F /* BWItemCollectionViewCell.m in Sources */,
 				C5727943254099F6002373D7 /* NavigationBar.m in Sources */,
 				C5914C91253850BF007777A6 /* UIViewController+BackBtn.m in Sources */,
@@ -948,6 +996,8 @@
 				C5914C8F253850BF007777A6 /* UIViewController+BaseVC.m in Sources */,
 				C5FAC35024C58F9D00372BCD /* ECAuthorizationTools.m in Sources */,
 				C5914C94253850BF007777A6 /* UIViewController+GifImageView.m in Sources */,
+				C5D6DBD125860EF900029AFF /* TimeModel.m in Sources */,
+				C5D6DBD025860EF900029AFF /* NSObject+Time.m in Sources */,
 				C57675772546BCC400C382C8 /* UIViewController+JXCategoryListContentViewDelegate.m in Sources */,
 				C5AA48B2250BB484009F583F /* BWItemModel.m in Sources */,
 				C5AA48B4250BB484009F583F /* BWShareView.m in Sources */,
@@ -957,7 +1007,6 @@
 				C5FAC32924C5635E00372BCD /* PushAnimation.m in Sources */,
 				C54AB160255E6036000A314D /* UITableViewCell+WhiteArrows.m in Sources */,
 				C5AEEB05253841F8000E1C5F /* UIView+Animation.m in Sources */,
-				C55696CC255BFD49005C1361 /* NSString+Time.m in Sources */,
 				C5FAC2CA24C54F4800372BCD /* ShadowTBVCell.xcdatamodeld in Sources */,
 				C5FAC2C424C54F4800372BCD /* ViewController.m in Sources */,
 				C57675762546BCC400C382C8 /* UIViewController+JXPagerViewListViewDelegate.m in Sources */,
