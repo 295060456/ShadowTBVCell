@@ -429,10 +429,8 @@
 		C55696D5255BFD51005C1361 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				C5AEEB03253841F8000E1C5F /* UIView+Animation.h */,
-				C5AEEB02253841F8000E1C5F /* UIView+Animation.m */,
-				C5AEEB00253841F8000E1C5F /* UIView+Extras.h */,
-				C5AEEB01253841F8000E1C5F /* UIView+Extras.m */,
+				C595BE002586421B002A4531 /* UIView+Extras */,
+				C595BDFF25864216002A4531 /* UIView+Animation */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -486,6 +484,24 @@
 				C5D60239258631E900029AFF /* UIViewController+Category */,
 			);
 			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		C595BDFF25864216002A4531 /* UIView+Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C5AEEB03253841F8000E1C5F /* UIView+Animation.h */,
+				C5AEEB02253841F8000E1C5F /* UIView+Animation.m */,
+			);
+			path = "UIView+Animation";
+			sourceTree = "<group>";
+		};
+		C595BE002586421B002A4531 /* UIView+Extras */ = {
+			isa = PBXGroup;
+			children = (
+				C5AEEB00253841F8000E1C5F /* UIView+Extras.h */,
+				C5AEEB01253841F8000E1C5F /* UIView+Extras.m */,
+			);
+			path = "UIView+Extras";
 			sourceTree = "<group>";
 		};
 		C5AA48AA250BB47C009F583F /* 分享控件 */ = {
