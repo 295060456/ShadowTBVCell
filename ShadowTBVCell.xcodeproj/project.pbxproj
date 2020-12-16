@@ -410,9 +410,9 @@
 			isa = PBXGroup;
 			children = (
 				C54AB159255E6036000A314D /* UITableViewCell+WhiteArrows.h */,
+				C54AB15C255E6036000A314D /* UITableViewCell+WhiteArrows.m */,
 				C54AB15A255E6036000A314D /* WhiteRightArrow@2x.png */,
 				C54AB15B255E6036000A314D /* WhiteRightArrow@3x.png */,
-				C54AB15C255E6036000A314D /* UITableViewCell+WhiteArrows.m */,
 			);
 			path = "自定义右侧小箭头图标";
 			sourceTree = "<group>";
