@@ -1,134 +1,13 @@
 //
-//  PrefixHeader.pch
-//  My_BaseProj
+//  MacroDef.h
+//  ShadowTBVCell
 //
-//  Created by Administrator on 03/06/2019.
-//  Copyright © 2019 Administrator. All rights reserved.
+//  Created by Jobs on 2020/12/16.
+//  Copyright © 2020 Jobs. All rights reserved.
 //
 
-#ifndef PrefixHeader_pch
-#define PrefixHeader_pch
-
-#import "AABlock.h"
-
-#if __has_include(<Masonry/Masonry.h>)
-#import <Masonry/Masonry.h>
-#else
-#import "Masonry.h"
-#endif
-
-#if __has_include(<SPAlertController/SPAlertController.h>)
-#import <SPAlertController/SPAlertController.h>
-#else
-#import "SPAlertController.h"
-#endif
-
-#if __has_include(<AFNetworking/AFNetworking.h>)
-#import <AFNetworking/AFNetworking.h>
-#else
-#import "AFNetworking.h"
-#endif
-
-#if __has_include(<ReactiveObjC/ReactiveObjC.h>)
-#import <ReactiveObjC/ReactiveObjC.h>
-#else
-#import "ReactiveObjC.h"
-#endif
-
-#if __has_include(<TZImagePickerController/TZImagePickerController.h>)
-#import <TZImagePickerController/TZImagePickerController.h>
-#else
-#import "TZImagePickerController.h"
-#endif
-
-#if __has_include(<MJExtension/MJExtension.h>)
-#import <MJExtension/MJExtension.h>
-#else
-#import "MJExtension.h"
-#endif
-
-#if __has_include(<MJRefresh/MJRefresh.h>)
-#import <MJRefresh/MJRefresh.h>
-#else
-#import "MJRefresh.h"
-#endif
-
-#if __has_include(<BRPickerView/BRPickerView.h>)
-#import <BRPickerView/BRPickerView.h>
-#else
-#import "BRPickerView.h"
-#endif
-
-#if __has_include(<GKNavigationBar/GKNavigationBar.h>)
-#import <GKNavigationBar/GKNavigationBar.h>
-#else
-#import "GKNavigationBar.h"
-#endif
-
-#if __has_include(<JXCategoryView/JXCategoryView.h>)
-#import <JXCategoryView/JXCategoryView.h>
-#else
-#import "JXCategoryView.h"
-#endif
-
-#if __has_include(<YYKit/YYKit.h>)
-#import <YYKit/YYKit.h>
-#else
-#import "YYKit.h"
-#endif
-
-#if __has_include(<SDWebImage/SDWebImage.h>)
-#import <SDWebImage/SDWebImage.h>
-#else
-#import "SDWebImage.h"
-#endif
-
-#if __has_include(<WHToast/WHToast.h>)
-#import <WHToast/WHToast.h>
-#else
-#import "WHToast.h"
-#endif
-
-#if __has_include(<LYEmptyView/LYEmptyViewHeader.h>)
-#import <LYEmptyView/LYEmptyViewHeader.h>
-#else
-#import "LYEmptyViewHeader.h"
-#endif
-
-#import "ECAuthorizationTools.h"
-#import "SceneDelegate.h"
-
-#import "UIView+Extras.h"
-#import "BWShareView.h"
-#import "NSString+Extras.h"
-
-#import "UIButton+ImageTitleSpacing.h"
-#import "NSObject+Extras.h"
-#import "NSObject+Shake.h"
-#import "NSObject+OpenURL.h"
-#import "LoadingImage.h"
-
-//UIViewController
-#import "UIViewController+BaseVC.h"
-#import "UIViewController+BackBtn.h"
-#import "UIViewController+BRPickerView.h"
-#import "UIViewController+BWShareView.h"
-#import "UIViewController+GifImageView.h"
-#import "UIViewController+JPImageresizerView.h"
-#import "UIViewController+JXCategoryListContentViewDelegate.h"
-#import "UIViewController+JXPagerViewListViewDelegate.h"
-#import "UIViewController+MJRefresh.h"
-#import "UIViewController+Shake.h"
-#import "UIViewController+TZImagePickerController.h"
-#import "UIViewController+TZImagePickerControllerDelegate.h"
-#import "UIViewController+TZLocationManager.h"
-#import "UIViewController+NavigationBar.h"
-//UINavigationController
-#import "BaseNavigationVC.h"
-//UINavigationBar
-#import "NavigationBar.h"
-
-#import "UITableViewCell+Margin.h"
+#ifndef MacroDef_h
+#define MacroDef_h
 
 //警告处理⚠️
 #define SuppressPerformSelectorLeakWarning(Stuff) \
@@ -161,6 +40,7 @@
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #endif
 
+#import "SceneDelegate.h"
 static inline UIWindow * getMainWindow(){
     UIWindow *window = nil;
     if (@available(iOS 13.0, *)) {
@@ -253,4 +133,4 @@ alpha:1] \
 
 #define ReuseIdentifier NSStringFromClass ([self class])
 
-#endif /* PrefixHeader_pch */
+#endif /* MacroDef_h */
