@@ -43,6 +43,8 @@
 		C5914C95253850BF007777A6 /* UIViewController+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5914C88253850BF007777A6 /* UIViewController+BRPickerView.m */; };
 		C5914C96253850BF007777A6 /* UIViewController+TZImagePickerControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5914C89253850BF007777A6 /* UIViewController+TZImagePickerControllerDelegate.m */; };
 		C5914C97253850BF007777A6 /* UIViewController+TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5914C8A253850BF007777A6 /* UIViewController+TZImagePickerController.m */; };
+		C59A3E1B258DD21D005F6260 /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3E19258DD21D005F6260 /* UserDefaultModel.m */; };
+		C59A3E1C258DD21D005F6260 /* UserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3E1A258DD21D005F6260 /* UserDefaultManager.m */; };
 		C5AA48BC250BB6C5009F583F /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA48BA250BB6C4009F583F /* UIButton+ImageTitleSpacing.m */; };
 		C5AA48BF250BB6F5009F583F /* NSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA48BE250BB6F5009F583F /* NSObject+Extras.m */; };
 		C5AEEB04253841F8000E1C5F /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AEEB01253841F8000E1C5F /* UIView+Extras.m */; };
@@ -171,6 +173,10 @@
 		C5914C88253850BF007777A6 /* UIViewController+BRPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BRPickerView.m"; sourceTree = "<group>"; };
 		C5914C89253850BF007777A6 /* UIViewController+TZImagePickerControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TZImagePickerControllerDelegate.m"; sourceTree = "<group>"; };
 		C5914C8A253850BF007777A6 /* UIViewController+TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TZImagePickerController.m"; sourceTree = "<group>"; };
+		C59A3E17258DD21D005F6260 /* UserDefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultManager.h; sourceTree = "<group>"; };
+		C59A3E18258DD21D005F6260 /* UserDefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultModel.h; sourceTree = "<group>"; };
+		C59A3E19258DD21D005F6260 /* UserDefaultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultModel.m; sourceTree = "<group>"; };
+		C59A3E1A258DD21D005F6260 /* UserDefaultManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultManager.m; sourceTree = "<group>"; };
 		C5AA48A9250BB2FA009F583F /* AABlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABlock.h; sourceTree = "<group>"; };
 		C5AA48BA250BB6C4009F583F /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
 		C5AA48BB250BB6C4009F583F /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
@@ -599,6 +605,7 @@
 		C558F167258A2EF80078DB8F /* Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
+				C59A3E16258DD21D005F6260 /* UserDefaultManager */,
 				C5AA48AA250BB47C009F583F /* 分享控件 */,
 				C5FAC32D24C5656400372BCD /* Animation */,
 				C5FAC34D24C58F8C00372BCD /* ECAuthorizationTools */,
@@ -673,6 +680,17 @@
 				C5AEEB01253841F8000E1C5F /* UIView+Extras.m */,
 			);
 			path = "UIView+Extras";
+			sourceTree = "<group>";
+		};
+		C59A3E16258DD21D005F6260 /* UserDefaultManager */ = {
+			isa = PBXGroup;
+			children = (
+				C59A3E17258DD21D005F6260 /* UserDefaultManager.h */,
+				C59A3E18258DD21D005F6260 /* UserDefaultModel.h */,
+				C59A3E19258DD21D005F6260 /* UserDefaultModel.m */,
+				C59A3E1A258DD21D005F6260 /* UserDefaultManager.m */,
+			);
+			path = UserDefaultManager;
 			sourceTree = "<group>";
 		};
 		C5AA48AA250BB47C009F583F /* 分享控件 */ = {
@@ -1195,12 +1213,14 @@
 				C5914C97253850BF007777A6 /* UIViewController+TZImagePickerController.m in Sources */,
 				C5AA48BC250BB6C5009F583F /* UIButton+ImageTitleSpacing.m in Sources */,
 				C5914C8F253850BF007777A6 /* UIViewController+BaseVC.m in Sources */,
+				C59A3E1C258DD21D005F6260 /* UserDefaultManager.m in Sources */,
 				C5D1C086258B207C00784D2F /* UIView+EmptyData.m in Sources */,
 				C5FAC35024C58F9D00372BCD /* ECAuthorizationTools.m in Sources */,
 				C5914C94253850BF007777A6 /* UIViewController+GifImageView.m in Sources */,
 				C534CDBF25875A05001369FD /* BWShareView.m in Sources */,
 				C5D6DBD025860EF900029AFF /* NSObject+Time.m in Sources */,
 				C57675772546BCC400C382C8 /* UIViewController+JXCategoryListContentViewDelegate.m in Sources */,
+				C59A3E1B258DD21D005F6260 /* UserDefaultModel.m in Sources */,
 				C53CFB5B25234C6D001091E5 /* NSObject+SYSAlertController.m in Sources */,
 				C544C13E258375B100C6CF2A /* MJRefreshConfigModel.m in Sources */,
 				C5914C95253850BF007777A6 /* UIViewController+BRPickerView.m in Sources */,

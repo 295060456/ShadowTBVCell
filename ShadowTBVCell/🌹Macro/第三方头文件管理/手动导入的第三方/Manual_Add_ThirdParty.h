@@ -46,10 +46,10 @@
 #import "UITableViewCell+Margin.h"
 
 #pragma mark —— Manual_Add_ThirdParty
+#import "UserDefaultManager.h"
 #import "BWShareView.h"
 #import "PushAnimation.h"
 #import "BackAnimation.h"
 #import "ECAuthorizationTools.h"
-
 
 #endif /* Manual_Add_ThirdParty_h */
