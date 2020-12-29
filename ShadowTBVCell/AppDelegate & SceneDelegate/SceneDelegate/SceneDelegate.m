@@ -11,6 +11,9 @@
 
 #import "ViewController.h"
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunguarded-availability-new"
+
 @interface SceneDelegate ()
 
 @property(nonatomic,strong)UIWindowScene *windowScene;
@@ -87,5 +90,6 @@ willConnectToSession:(UISceneSession *)session
     }return _navigationController;
 }
 
-
 @end
+
+#pragma clang diagnostic pop
