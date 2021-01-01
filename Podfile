@@ -19,7 +19,6 @@ use_frameworks!
 def func
   pod 'Masonry'
   pod 'AFNetworking'
-  pod 'TZImagePickerController'
   pod 'ReactiveObjC'
   pod 'MJRefresh'
   pod 'MJExtension'
