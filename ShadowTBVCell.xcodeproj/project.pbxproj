@@ -10,11 +10,11 @@
 		5E50E62EAD8DAE56536DBD90 /* Pods_ShadowTBVCellUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4B821F274BCEAFF35B290D /* Pods_ShadowTBVCellUITests.framework */; };
 		6ABAD4E39E6C5B6552C4E801 /* Pods_ShadowTBVCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71F229796717705CD401899 /* Pods_ShadowTBVCell.framework */; };
 		C5267FBF258A4D270095A681 /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5267FBD258A4D270095A681 /* TimeModel.m */; };
+		C52F9AE025A6D9EA00924990 /* NSObject+SPAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52F9ADD25A6D9E900924990 /* NSObject+SPAlertController.m */; };
+		C52F9AE125A6D9EA00924990 /* NSObject+SYSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52F9ADE25A6D9E900924990 /* NSObject+SYSAlertController.m */; };
 		C534CDBC25875A05001369FD /* BWItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CDB525875A05001369FD /* BWItemModel.m */; };
 		C534CDBD25875A05001369FD /* BWItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CDB625875A05001369FD /* BWItemCollectionViewCell.m */; };
 		C534CDBF25875A05001369FD /* BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CDBA25875A05001369FD /* BWShareView.m */; };
-		C53CFB5A25234C6D001091E5 /* NSObject+SPAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CFB5625234C6D001091E5 /* NSObject+SPAlertController.m */; };
-		C53CFB5B25234C6D001091E5 /* NSObject+SYSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CFB5825234C6D001091E5 /* NSObject+SYSAlertController.m */; };
 		C53CFB6525234CC7001091E5 /* NSObject+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CFB6425234CC7001091E5 /* NSObject+Shake.m */; };
 		C544C13E258375B100C6CF2A /* MJRefreshConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C544C138258375B100C6CF2A /* MJRefreshConfigModel.m */; };
 		C544C13F258375B100C6CF2A /* LOTAnimationMJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C544C13A258375B100C6CF2A /* LOTAnimationMJRefreshHeader.m */; };
@@ -147,6 +147,10 @@
 		C4A32A22AF5631C9CE30AE1F /* Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCell-ShadowTBVCellUITests/Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C5267FBD258A4D270095A681 /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
 		C5267FBE258A4D270095A681 /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
+		C52F9ADC25A6D9E900924990 /* NSObject+SPAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SPAlertController.h"; sourceTree = "<group>"; };
+		C52F9ADD25A6D9E900924990 /* NSObject+SPAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SPAlertController.m"; sourceTree = "<group>"; };
+		C52F9ADE25A6D9E900924990 /* NSObject+SYSAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SYSAlertController.m"; sourceTree = "<group>"; };
+		C52F9ADF25A6D9E900924990 /* NSObject+SYSAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SYSAlertController.h"; sourceTree = "<group>"; };
 		C534CDB525875A05001369FD /* BWItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWItemModel.m; sourceTree = "<group>"; };
 		C534CDB625875A05001369FD /* BWItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWItemCollectionViewCell.m; sourceTree = "<group>"; };
 		C534CDB725875A05001369FD /* 分享控件的用法.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "分享控件的用法.md"; sourceTree = "<group>"; };
@@ -154,10 +158,6 @@
 		C534CDB925875A05001369FD /* BWItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWItemCollectionViewCell.h; sourceTree = "<group>"; };
 		C534CDBA25875A05001369FD /* BWShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWShareView.m; sourceTree = "<group>"; };
 		C534CDBB25875A05001369FD /* BWItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWItemModel.h; sourceTree = "<group>"; };
-		C53CFB5625234C6D001091E5 /* NSObject+SPAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SPAlertController.m"; sourceTree = "<group>"; };
-		C53CFB5725234C6D001091E5 /* NSObject+SYSAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SYSAlertController.h"; sourceTree = "<group>"; };
-		C53CFB5825234C6D001091E5 /* NSObject+SYSAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SYSAlertController.m"; sourceTree = "<group>"; };
-		C53CFB5925234C6D001091E5 /* NSObject+SPAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SPAlertController.h"; sourceTree = "<group>"; };
 		C53CFB6325234CC7001091E5 /* NSObject+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Shake.h"; sourceTree = "<group>"; };
 		C53CFB6425234CC7001091E5 /* NSObject+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Shake.m"; sourceTree = "<group>"; };
 		C53CFB6C25234D64001091E5 /* LoadingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingImage.h; sourceTree = "<group>"; };
@@ -403,10 +403,10 @@
 		C53CFB5525234C66001091E5 /* NSObject+Alert */ = {
 			isa = PBXGroup;
 			children = (
-				C53CFB5925234C6D001091E5 /* NSObject+SPAlertController.h */,
-				C53CFB5625234C6D001091E5 /* NSObject+SPAlertController.m */,
-				C53CFB5725234C6D001091E5 /* NSObject+SYSAlertController.h */,
-				C53CFB5825234C6D001091E5 /* NSObject+SYSAlertController.m */,
+				C52F9ADC25A6D9E900924990 /* NSObject+SPAlertController.h */,
+				C52F9ADD25A6D9E900924990 /* NSObject+SPAlertController.m */,
+				C52F9ADF25A6D9E900924990 /* NSObject+SYSAlertController.h */,
+				C52F9ADE25A6D9E900924990 /* NSObject+SYSAlertController.m */,
 			);
 			path = "NSObject+Alert";
 			sourceTree = "<group>";
@@ -1426,12 +1426,13 @@
 				C59A3E1C258DD21D005F6260 /* UserDefaultManager.m in Sources */,
 				C5D1C086258B207C00784D2F /* UIView+EmptyData.m in Sources */,
 				C5914C94253850BF007777A6 /* UIViewController+GifImageView.m in Sources */,
+				C52F9AE125A6D9EA00924990 /* NSObject+SYSAlertController.m in Sources */,
 				C534CDBF25875A05001369FD /* BWShareView.m in Sources */,
 				C5D6DBD025860EF900029AFF /* NSObject+Time.m in Sources */,
 				C57675772546BCC400C382C8 /* UIViewController+JXCategoryListContentViewDelegate.m in Sources */,
+				C52F9AE025A6D9EA00924990 /* NSObject+SPAlertController.m in Sources */,
 				C5C6530A259DF92100FD2F99 /* ECPrivacyCheckMicrophone.m in Sources */,
 				C59A3E1B258DD21D005F6260 /* UserDefaultModel.m in Sources */,
-				C53CFB5B25234C6D001091E5 /* NSObject+SYSAlertController.m in Sources */,
 				C544C13E258375B100C6CF2A /* MJRefreshConfigModel.m in Sources */,
 				C5C6530F259DF92100FD2F99 /* ECPrivacyCheckFilesAndFolders.m in Sources */,
 				C5914C95253850BF007777A6 /* UIViewController+BRPickerView.m in Sources */,
@@ -1460,7 +1461,6 @@
 				C5FAC2C124C54F4800372BCD /* SceneDelegate.m in Sources */,
 				C57F0D32253337370080EEF0 /* NSObject+OpenURL.m in Sources */,
 				C5FAC32624C5614400372BCD /* PushToVCViewController.m in Sources */,
-				C53CFB5A25234C6D001091E5 /* NSObject+SPAlertController.m in Sources */,
 				C5FAC30E24C5525400372BCD /* MyFansTBVCell.m in Sources */,
 				C534CDBD25875A05001369FD /* BWItemCollectionViewCell.m in Sources */,
 				C5C65311259DF92100FD2F99 /* ECPrivacyCheckSpeechRecognition.m in Sources */,
