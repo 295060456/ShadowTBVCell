@@ -37,6 +37,16 @@
 		C5914C95253850BF007777A6 /* UIViewController+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5914C88253850BF007777A6 /* UIViewController+BRPickerView.m */; };
 		C59A3E1B258DD21D005F6260 /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3E19258DD21D005F6260 /* UserDefaultModel.m */; };
 		C59A3E1C258DD21D005F6260 /* UserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3E1A258DD21D005F6260 /* UserDefaultManager.m */; };
+		C5A439E925AAF80F000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A439E425AAF80F000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m */; };
+		C5A439EB25AAF80F000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A439E825AAF80F000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		C5A4445525ABFC0E000F0CD2 /* GKPhotoBrowser+SaveBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4444125ABFC0D000F0CD2 /* GKPhotoBrowser+SaveBtn.m */; };
+		C5A4445625ABFC0E000F0CD2 /* JXCategoryTitleBackgroundCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4444725ABFC0D000F0CD2 /* JXCategoryTitleBackgroundCellModel.m */; };
+		C5A4445725ABFC0E000F0CD2 /* JXCategoryTitleBackgroundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4444825ABFC0D000F0CD2 /* JXCategoryTitleBackgroundCell.m */; };
+		C5A4445825ABFC0E000F0CD2 /* JXCategoryTitleBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4444925ABFC0D000F0CD2 /* JXCategoryTitleBackgroundView.m */; };
+		C5A4445925ABFC0E000F0CD2 /* JXCategoryTimelineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4444C25ABFC0D000F0CD2 /* JXCategoryTimelineView.m */; };
+		C5A4445A25ABFC0E000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4444D25ABFC0D000F0CD2 /* JXCategoryTimelineCellModel.m */; };
+		C5A4445B25ABFC0E000F0CD2 /* JXCategoryTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4444E25ABFC0D000F0CD2 /* JXCategoryTimelineCell.m */; };
+		C5A4445C25ABFC0E000F0CD2 /* WHToast+DDToast.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4445325ABFC0D000F0CD2 /* WHToast+DDToast.m */; };
 		C5AA48BC250BB6C5009F583F /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA48BA250BB6C4009F583F /* UIButton+ImageTitleSpacing.m */; };
 		C5AA48BF250BB6F5009F583F /* NSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA48BE250BB6F5009F583F /* NSObject+Extras.m */; };
 		C5AEEB04253841F8000E1C5F /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AEEB01253841F8000E1C5F /* UIView+Extras.m */; };
@@ -208,6 +218,27 @@
 		C59A3E18258DD21D005F6260 /* UserDefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultModel.h; sourceTree = "<group>"; };
 		C59A3E19258DD21D005F6260 /* UserDefaultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultModel.m; sourceTree = "<group>"; };
 		C59A3E1A258DD21D005F6260 /* UserDefaultManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultManager.m; sourceTree = "<group>"; };
+		C5A439E425AAF80F000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		C5A439E525AAF80F000F0CD2 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		C5A439E625AAF80F000F0CD2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C5A439E725AAF80F000F0CD2 /* UIScrollView+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		C5A439E825AAF80F000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		C5A4444025ABFC0D000F0CD2 /* GKPhotoBrowser+SaveBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GKPhotoBrowser+SaveBtn.h"; sourceTree = "<group>"; };
+		C5A4444125ABFC0D000F0CD2 /* GKPhotoBrowser+SaveBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GKPhotoBrowser+SaveBtn.m"; sourceTree = "<group>"; };
+		C5A4444525ABFC0D000F0CD2 /* JXCategoryTitleBackgroundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTitleBackgroundCell.h; sourceTree = "<group>"; };
+		C5A4444625ABFC0D000F0CD2 /* JXCategoryTitleBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTitleBackgroundView.h; sourceTree = "<group>"; };
+		C5A4444725ABFC0D000F0CD2 /* JXCategoryTitleBackgroundCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTitleBackgroundCellModel.m; sourceTree = "<group>"; };
+		C5A4444825ABFC0D000F0CD2 /* JXCategoryTitleBackgroundCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTitleBackgroundCell.m; sourceTree = "<group>"; };
+		C5A4444925ABFC0D000F0CD2 /* JXCategoryTitleBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTitleBackgroundView.m; sourceTree = "<group>"; };
+		C5A4444A25ABFC0D000F0CD2 /* JXCategoryTitleBackgroundCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTitleBackgroundCellModel.h; sourceTree = "<group>"; };
+		C5A4444C25ABFC0D000F0CD2 /* JXCategoryTimelineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTimelineView.m; sourceTree = "<group>"; };
+		C5A4444D25ABFC0D000F0CD2 /* JXCategoryTimelineCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTimelineCellModel.m; sourceTree = "<group>"; };
+		C5A4444E25ABFC0D000F0CD2 /* JXCategoryTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTimelineCell.m; sourceTree = "<group>"; };
+		C5A4444F25ABFC0D000F0CD2 /* JXCategoryTimelineCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTimelineCellModel.h; sourceTree = "<group>"; };
+		C5A4445025ABFC0D000F0CD2 /* JXCategoryTimelineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTimelineView.h; sourceTree = "<group>"; };
+		C5A4445125ABFC0D000F0CD2 /* JXCategoryTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTimelineCell.h; sourceTree = "<group>"; };
+		C5A4445325ABFC0D000F0CD2 /* WHToast+DDToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WHToast+DDToast.m"; sourceTree = "<group>"; };
+		C5A4445425ABFC0D000F0CD2 /* WHToast+DDToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WHToast+DDToast.h"; sourceTree = "<group>"; };
 		C5AA48A9250BB2FA009F583F /* AABlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABlock.h; sourceTree = "<group>"; };
 		C5AA48BA250BB6C4009F583F /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
 		C5AA48BB250BB6C4009F583F /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
@@ -563,6 +594,9 @@
 		C55805A5258A46540078DB8F /* PodsManual */ = {
 			isa = PBXGroup;
 			children = (
+				C5A4443F25ABFC0D000F0CD2 /* GKPhotoBrowser+SaveBtn */,
+				C5A4444225ABFC0D000F0CD2 /* JXCategoryView */,
+				C5A4445225ABFC0D000F0CD2 /* WHToast */,
 				C5C652C4259DF92100FD2F99 /* ECPrivacyCheckTools */,
 			);
 			path = PodsManual;
@@ -690,6 +724,7 @@
 		C558F167258A2EF80078DB8F /* Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
+				C5A439E325AAF80F000F0CD2 /* 手势滑动返回 */,
 				C59A3E16258DD21D005F6260 /* UserDefaultManager */,
 				C5AA48AA250BB47C009F583F /* 分享控件 */,
 				C5FAC32D24C5656400372BCD /* Animation */,
@@ -762,6 +797,71 @@
 				C59A3E1A258DD21D005F6260 /* UserDefaultManager.m */,
 			);
 			path = UserDefaultManager;
+			sourceTree = "<group>";
+		};
+		C5A439E325AAF80F000F0CD2 /* 手势滑动返回 */ = {
+			isa = PBXGroup;
+			children = (
+				C5A439E625AAF80F000F0CD2 /* README.md */,
+				C5A439E525AAF80F000F0CD2 /* UINavigationController+FDFullscreenPopGesture.h */,
+				C5A439E825AAF80F000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m */,
+				C5A439E725AAF80F000F0CD2 /* UIScrollView+FDFullscreenPopGesture.h */,
+				C5A439E425AAF80F000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m */,
+			);
+			path = "手势滑动返回";
+			sourceTree = "<group>";
+		};
+		C5A4443F25ABFC0D000F0CD2 /* GKPhotoBrowser+SaveBtn */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4444025ABFC0D000F0CD2 /* GKPhotoBrowser+SaveBtn.h */,
+				C5A4444125ABFC0D000F0CD2 /* GKPhotoBrowser+SaveBtn.m */,
+			);
+			path = "GKPhotoBrowser+SaveBtn";
+			sourceTree = "<group>";
+		};
+		C5A4444225ABFC0D000F0CD2 /* JXCategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4444425ABFC0D000F0CD2 /* JXCategoryTitleBackgroundView */,
+				C5A4444B25ABFC0D000F0CD2 /* JXCategoryTimelineView */,
+			);
+			path = JXCategoryView;
+			sourceTree = "<group>";
+		};
+		C5A4444425ABFC0D000F0CD2 /* JXCategoryTitleBackgroundView */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4444525ABFC0D000F0CD2 /* JXCategoryTitleBackgroundCell.h */,
+				C5A4444825ABFC0D000F0CD2 /* JXCategoryTitleBackgroundCell.m */,
+				C5A4444A25ABFC0D000F0CD2 /* JXCategoryTitleBackgroundCellModel.h */,
+				C5A4444725ABFC0D000F0CD2 /* JXCategoryTitleBackgroundCellModel.m */,
+				C5A4444625ABFC0D000F0CD2 /* JXCategoryTitleBackgroundView.h */,
+				C5A4444925ABFC0D000F0CD2 /* JXCategoryTitleBackgroundView.m */,
+			);
+			path = JXCategoryTitleBackgroundView;
+			sourceTree = "<group>";
+		};
+		C5A4444B25ABFC0D000F0CD2 /* JXCategoryTimelineView */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4445125ABFC0D000F0CD2 /* JXCategoryTimelineCell.h */,
+				C5A4444E25ABFC0D000F0CD2 /* JXCategoryTimelineCell.m */,
+				C5A4444F25ABFC0D000F0CD2 /* JXCategoryTimelineCellModel.h */,
+				C5A4444D25ABFC0D000F0CD2 /* JXCategoryTimelineCellModel.m */,
+				C5A4445025ABFC0D000F0CD2 /* JXCategoryTimelineView.h */,
+				C5A4444C25ABFC0D000F0CD2 /* JXCategoryTimelineView.m */,
+			);
+			path = JXCategoryTimelineView;
+			sourceTree = "<group>";
+		};
+		C5A4445225ABFC0D000F0CD2 /* WHToast */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4445325ABFC0D000F0CD2 /* WHToast+DDToast.m */,
+				C5A4445425ABFC0D000F0CD2 /* WHToast+DDToast.h */,
+			);
+			path = WHToast;
 			sourceTree = "<group>";
 		};
 		C5AA48AA250BB47C009F583F /* 分享控件 */ = {
@@ -1427,12 +1527,16 @@
 				C5FAC2D224C54F4900372BCD /* main.m in Sources */,
 				C54AB15D255E6036000A314D /* UITableViewCell+Margin.m in Sources */,
 				C5727943254099F6002373D7 /* NavigationBar.m in Sources */,
+				C5A4445A25ABFC0E000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */,
 				C534CDBC25875A05001369FD /* BWItemModel.m in Sources */,
+				C5A4445825ABFC0E000F0CD2 /* JXCategoryTitleBackgroundView.m in Sources */,
+				C5A4445B25ABFC0E000F0CD2 /* JXCategoryTimelineCell.m in Sources */,
 				C5914C91253850BF007777A6 /* UIViewController+BackBtn.m in Sources */,
 				C5C6530B259DF92100FD2F99 /* ECPrivacyCheckHomeKit.m in Sources */,
 				C5C65310259DF92100FD2F99 /* ECPrivacyCheckCalendars.m in Sources */,
 				C55696CE255BFD49005C1361 /* NSString+Extras.m in Sources */,
 				C5AA48BC250BB6C5009F583F /* UIButton+ImageTitleSpacing.m in Sources */,
+				C5A4445625ABFC0E000F0CD2 /* JXCategoryTitleBackgroundCellModel.m in Sources */,
 				C5C6530D259DF92100FD2F99 /* ECPrivacyCheckCamera.m in Sources */,
 				C5914C8F253850BF007777A6 /* UIViewController+BaseVC.m in Sources */,
 				C59A3E1C258DD21D005F6260 /* UserDefaultManager.m in Sources */,
@@ -1449,6 +1553,7 @@
 				C59A3E1B258DD21D005F6260 /* UserDefaultModel.m in Sources */,
 				C5C6530F259DF92100FD2F99 /* ECPrivacyCheckFilesAndFolders.m in Sources */,
 				C5914C95253850BF007777A6 /* UIViewController+BRPickerView.m in Sources */,
+				C5A4445725ABFC0E000F0CD2 /* JXCategoryTitleBackgroundCell.m in Sources */,
 				C5C65315259DF92100FD2F99 /* ECPrivacyCheckContacts.m in Sources */,
 				C5C6530E259DF92100FD2F99 /* ECPrivacyCheckLocationServices.m in Sources */,
 				C5FAC32924C5635E00372BCD /* PushAnimation.m in Sources */,
@@ -1459,6 +1564,7 @@
 				C5FAC2CA24C54F4800372BCD /* ShadowTBVCell.xcdatamodeld in Sources */,
 				C5C65336259DF92100FD2F99 /* ECPrivacyCheckGatherTool.m in Sources */,
 				C5460FBC258C8F640008928C /* UIView+AOP.m in Sources */,
+				C5A439E925AAF80F000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
 				C5FAC2C424C54F4800372BCD /* ViewController.m in Sources */,
 				C57675762546BCC400C382C8 /* UIViewController+JXPagerViewListViewDelegate.m in Sources */,
 				C5267FBF258A4D270095A681 /* TimeModel.m in Sources */,
@@ -1470,16 +1576,20 @@
 				C5C6530C259DF92100FD2F99 /* ECPrivacyCheckBluetooth.m in Sources */,
 				C5D1C08F258B208F00784D2F /* UIViewController+EmptyData.m in Sources */,
 				C5C65313259DF92100FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m in Sources */,
+				C5A439EB25AAF80F000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				C5A4445925ABFC0E000F0CD2 /* JXCategoryTimelineView.m in Sources */,
 				C5914C8B253850BF007777A6 /* UIViewController+Shake.m in Sources */,
 				C5FAC2C124C54F4800372BCD /* SceneDelegate.m in Sources */,
 				C5DF449D25A899E400E91985 /* LOTAnimationMJRefreshFooter.m in Sources */,
 				C57F0D32253337370080EEF0 /* NSObject+OpenURL.m in Sources */,
+				C5A4445525ABFC0E000F0CD2 /* GKPhotoBrowser+SaveBtn.m in Sources */,
 				C5FAC32624C5614400372BCD /* PushToVCViewController.m in Sources */,
 				C5FAC30E24C5525400372BCD /* MyFansTBVCell.m in Sources */,
 				C534CDBD25875A05001369FD /* BWItemCollectionViewCell.m in Sources */,
 				C5C65311259DF92100FD2F99 /* ECPrivacyCheckSpeechRecognition.m in Sources */,
 				C5914C90253850BF007777A6 /* UIViewController+JPImageresizerView.m in Sources */,
 				C5727942254099F6002373D7 /* BaseNavigationVC.m in Sources */,
+				C5A4445C25ABFC0E000F0CD2 /* WHToast+DDToast.m in Sources */,
 				C5DF44A025A899E400E91985 /* UIViewController+MJRefresh.m in Sources */,
 				C5C65316259DF92100FD2F99 /* ECPrivacyCheckHealth.m in Sources */,
 				C5C65314259DF92100FD2F99 /* ECPrivacyCheckPhotos.m in Sources */,
