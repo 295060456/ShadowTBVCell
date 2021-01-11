@@ -96,6 +96,7 @@
 		C5C65334259DF92100FD2F99 /* 文件和文件夹@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C652FF259DF92100FD2F99 /* 文件和文件夹@3x.png */; };
 		C5C65335259DF92100FD2F99 /* 定位服务@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C65300259DF92100FD2F99 /* 定位服务@3x.png */; };
 		C5C65336259DF92100FD2F99 /* ECPrivacyCheckGatherTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C65303259DF92100FD2F99 /* ECPrivacyCheckGatherTool.m */; };
+		C5CF16E525AC7F6100381935 /* LYLUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF16E225AC7F6100381935 /* LYLUnicode.m */; };
 		C5D1C086258B207C00784D2F /* UIView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1C084258B207C00784D2F /* UIView+EmptyData.m */; };
 		C5D1C08F258B208F00784D2F /* UIViewController+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1C08E258B208F00784D2F /* UIViewController+EmptyData.m */; };
 		C5D60235258631C600029AFF /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D60234258631C600029AFF /* UIViewController+NavigationBar.m */; };
@@ -314,6 +315,9 @@
 		C5C65306259DF92100FD2F99 /* ECPrivacyCheckTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPrivacyCheckTools.h; sourceTree = "<group>"; };
 		C5C65308259DF92100FD2F99 /* ECPrivacyCheckTools不用pod管理的情况说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "ECPrivacyCheckTools不用pod管理的情况说明.md"; sourceTree = "<group>"; };
 		C5C65309259DF92100FD2F99 /* ECAuthorizationTools.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ECAuthorizationTools.md; sourceTree = "<group>"; };
+		C5CF16E225AC7F6100381935 /* LYLUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLUnicode.m; sourceTree = "<group>"; };
+		C5CF16E325AC7F6100381935 /* 解决打印日志对于Unicode编码不能正常显示中文的问题 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "解决打印日志对于Unicode编码不能正常显示中文的问题"; sourceTree = "<group>"; };
+		C5CF16E425AC7F6100381935 /* LYLUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLUnicode.h; sourceTree = "<group>"; };
 		C5D1C084258B207C00784D2F /* UIView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EmptyData.m"; sourceTree = "<group>"; };
 		C5D1C085258B207C00784D2F /* UIView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EmptyData.h"; sourceTree = "<group>"; };
 		C5D1C08D258B208F00784D2F /* UIViewController+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EmptyData.h"; sourceTree = "<group>"; };
@@ -724,6 +728,7 @@
 		C558F167258A2EF80078DB8F /* Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
+				C5CF16E125AC7F6100381935 /* LYLUnicode */,
 				C5A439E325AAF80F000F0CD2 /* 手势滑动返回 */,
 				C59A3E16258DD21D005F6260 /* UserDefaultManager */,
 				C5AA48AA250BB47C009F583F /* 分享控件 */,
@@ -1007,6 +1012,16 @@
 				C5C65309259DF92100FD2F99 /* ECAuthorizationTools.md */,
 			);
 			path = ReadMe;
+			sourceTree = "<group>";
+		};
+		C5CF16E125AC7F6100381935 /* LYLUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				C5CF16E325AC7F6100381935 /* 解决打印日志对于Unicode编码不能正常显示中文的问题 */,
+				C5CF16E425AC7F6100381935 /* LYLUnicode.h */,
+				C5CF16E225AC7F6100381935 /* LYLUnicode.m */,
+			);
+			path = LYLUnicode;
 			sourceTree = "<group>";
 		};
 		C5D1BBB3258B0CDC00784D2F /* UIViewController+EmptyData */ = {
@@ -1529,6 +1544,7 @@
 				C5727943254099F6002373D7 /* NavigationBar.m in Sources */,
 				C5A4445A25ABFC0E000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */,
 				C534CDBC25875A05001369FD /* BWItemModel.m in Sources */,
+				C5CF16E525AC7F6100381935 /* LYLUnicode.m in Sources */,
 				C5A4445825ABFC0E000F0CD2 /* JXCategoryTitleBackgroundView.m in Sources */,
 				C5A4445B25ABFC0E000F0CD2 /* JXCategoryTimelineCell.m in Sources */,
 				C5914C91253850BF007777A6 /* UIViewController+BackBtn.m in Sources */,
