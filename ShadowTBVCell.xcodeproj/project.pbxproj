@@ -23,6 +23,8 @@
 		C54AB160255E6036000A314D /* UITableViewCell+WhiteArrows.m in Sources */ = {isa = PBXBuildFile; fileRef = C54AB15C255E6036000A314D /* UITableViewCell+WhiteArrows.m */; };
 		C55696CE255BFD49005C1361 /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C55696CA255BFD49005C1361 /* NSString+Extras.m */; };
 		C55AF585253C453100C558C4 /* ⚽️PicResource in Resources */ = {isa = PBXBuildFile; fileRef = C55AF584253C453100C558C4 /* ⚽️PicResource */; };
+		C55FF4A425B42F3C00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FF4A225B42F3C00D8C30D /* UIView+MJRefresh.m */; };
+		C55FF4AE25B42FAD00D8C30D /* UIView+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FF4AC25B42FAD00D8C30D /* UIView+Measure.m */; };
 		C5727942254099F6002373D7 /* BaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C572793D254099F6002373D7 /* BaseNavigationVC.m */; };
 		C5727943254099F6002373D7 /* NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C5727940254099F6002373D7 /* NavigationBar.m */; };
 		C57675762546BCC400C382C8 /* UIViewController+JXPagerViewListViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57675722546BCC400C382C8 /* UIViewController+JXPagerViewListViewDelegate.m */; };
@@ -190,6 +192,10 @@
 		C558EE9E258A2AA60078DB8F /* Other.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
 		C558EE9F258A2AE00078DB8F /* MacroDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef.h; sourceTree = "<group>"; };
 		C55AF584253C453100C558C4 /* ⚽️PicResource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "⚽️PicResource"; sourceTree = "<group>"; };
+		C55FF4A225B42F3C00D8C30D /* UIView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJRefresh.m"; sourceTree = "<group>"; };
+		C55FF4A325B42F3C00D8C30D /* UIView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJRefresh.h"; sourceTree = "<group>"; };
+		C55FF4AC25B42FAD00D8C30D /* UIView+Measure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Measure.m"; sourceTree = "<group>"; };
+		C55FF4AD25B42FAD00D8C30D /* UIView+Measure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Measure.h"; sourceTree = "<group>"; };
 		C56208A82553FFD100FE435F /* 高度自定义的按钮.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "高度自定义的按钮.md"; sourceTree = "<group>"; };
 		C572793D254099F6002373D7 /* BaseNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationVC.m; sourceTree = "<group>"; };
 		C572793E254099F6002373D7 /* BaseNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationVC.h; sourceTree = "<group>"; };
@@ -550,8 +556,8 @@
 		C5460FB9258C8F640008928C /* UIView+AOP */ = {
 			isa = PBXGroup;
 			children = (
-				C5460FBA258C8F640008928C /* UIView+AOP.m */,
 				C5460FBB258C8F640008928C /* UIView+AOP.h */,
+				C5460FBA258C8F640008928C /* UIView+AOP.m */,
 			);
 			path = "UIView+AOP";
 			sourceTree = "<group>";
@@ -587,10 +593,12 @@
 		C55696D5255BFD51005C1361 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				C5460FB9258C8F640008928C /* UIView+AOP */,
 				C595BDFF25864216002A4531 /* UIView+Animation */,
+				C5460FB9258C8F640008928C /* UIView+AOP */,
 				C5D1C083258B207C00784D2F /* UIView+EmptyData */,
 				C595BE002586421B002A4531 /* UIView+Extras */,
+				C55FF4AB25B42FAD00D8C30D /* UIView+Measure */,
+				C55FF4A125B42F3C00D8C30D /* UIView+MJRefresh */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -735,6 +743,24 @@
 				C5FAC32D24C5656400372BCD /* Animation */,
 			);
 			path = "Manual_Add_ThirdParty ";
+			sourceTree = "<group>";
+		};
+		C55FF4A125B42F3C00D8C30D /* UIView+MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				C55FF4A325B42F3C00D8C30D /* UIView+MJRefresh.h */,
+				C55FF4A225B42F3C00D8C30D /* UIView+MJRefresh.m */,
+			);
+			path = "UIView+MJRefresh";
+			sourceTree = "<group>";
+		};
+		C55FF4AB25B42FAD00D8C30D /* UIView+Measure */ = {
+			isa = PBXGroup;
+			children = (
+				C55FF4AD25B42FAD00D8C30D /* UIView+Measure.h */,
+				C55FF4AC25B42FAD00D8C30D /* UIView+Measure.m */,
+			);
+			path = "UIView+Measure";
 			sourceTree = "<group>";
 		};
 		C572793C254099F6002373D7 /* UINavigationController */ = {
@@ -1036,8 +1062,8 @@
 		C5D1C083258B207C00784D2F /* UIView+EmptyData */ = {
 			isa = PBXGroup;
 			children = (
-				C5D1C084258B207C00784D2F /* UIView+EmptyData.m */,
 				C5D1C085258B207C00784D2F /* UIView+EmptyData.h */,
+				C5D1C084258B207C00784D2F /* UIView+EmptyData.m */,
 			);
 			path = "UIView+EmptyData";
 			sourceTree = "<group>";
@@ -1541,6 +1567,7 @@
 				C5AEEB04253841F8000E1C5F /* UIView+Extras.m in Sources */,
 				C5FAC2D224C54F4900372BCD /* main.m in Sources */,
 				C54AB15D255E6036000A314D /* UITableViewCell+Margin.m in Sources */,
+				C55FF4AE25B42FAD00D8C30D /* UIView+Measure.m in Sources */,
 				C5727943254099F6002373D7 /* NavigationBar.m in Sources */,
 				C5A4445A25ABFC0E000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */,
 				C534CDBC25875A05001369FD /* BWItemModel.m in Sources */,
@@ -1567,6 +1594,7 @@
 				C5DF449E25A899E400E91985 /* LOTAnimationMJRefreshHeader.m in Sources */,
 				C5C6530A259DF92100FD2F99 /* ECPrivacyCheckMicrophone.m in Sources */,
 				C59A3E1B258DD21D005F6260 /* UserDefaultModel.m in Sources */,
+				C55FF4A425B42F3C00D8C30D /* UIView+MJRefresh.m in Sources */,
 				C5C6530F259DF92100FD2F99 /* ECPrivacyCheckFilesAndFolders.m in Sources */,
 				C5914C95253850BF007777A6 /* UIViewController+BRPickerView.m in Sources */,
 				C5A4445725ABFC0E000F0CD2 /* JXCategoryTitleBackgroundCell.m in Sources */,
