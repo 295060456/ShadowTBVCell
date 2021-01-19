@@ -152,9 +152,9 @@ static inline CGFloat Top(){
 #define kFontSize(x) [UIFont systemFontOfSize:x weight:UIFontWeightRegular]
 
 #pragma mark ======================================== 默认值 ========================================
-#define defaultValue 0
-#define defaultObj Nil
-#define defaultSize CGSizeZero
+#define DefaultValue 0
+#define DefaultObj Nil
+#define DefaultSize CGSizeZero
 #pragma mark ======================================== 色彩相关 ========================================
 #define kTableViewBackgroundColor HEXCOLOR(0xf6f5fa)
 ///常见颜色
