@@ -27,6 +27,7 @@
 		C55FF4AE25B42FAD00D8C30D /* UIView+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FF4AC25B42FAD00D8C30D /* UIView+Measure.m */; };
 		C5727942254099F6002373D7 /* BaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C572793D254099F6002373D7 /* BaseNavigationVC.m */; };
 		C5727943254099F6002373D7 /* NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C5727940254099F6002373D7 /* NavigationBar.m */; };
+		C572972025BB0A7000726419 /* UIView+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C572971E25BB0A7000726419 /* UIView+BackgroundImage.m */; };
 		C57675762546BCC400C382C8 /* UIViewController+JXPagerViewListViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57675722546BCC400C382C8 /* UIViewController+JXPagerViewListViewDelegate.m */; };
 		C57675772546BCC400C382C8 /* UIViewController+JXCategoryListContentViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57675732546BCC400C382C8 /* UIViewController+JXCategoryListContentViewDelegate.m */; };
 		C57F0D32253337370080EEF0 /* NSObject+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C57F0D30253337370080EEF0 /* NSObject+OpenURL.m */; };
@@ -202,6 +203,8 @@
 		C572793E254099F6002373D7 /* BaseNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationVC.h; sourceTree = "<group>"; };
 		C5727940254099F6002373D7 /* NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBar.m; sourceTree = "<group>"; };
 		C5727941254099F6002373D7 /* NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBar.h; sourceTree = "<group>"; };
+		C572971E25BB0A7000726419 /* UIView+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundImage.m"; sourceTree = "<group>"; };
+		C572971F25BB0A7000726419 /* UIView+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BackgroundImage.h"; sourceTree = "<group>"; };
 		C57675722546BCC400C382C8 /* UIViewController+JXPagerViewListViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JXPagerViewListViewDelegate.m"; sourceTree = "<group>"; };
 		C57675732546BCC400C382C8 /* UIViewController+JXCategoryListContentViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JXCategoryListContentViewDelegate.m"; sourceTree = "<group>"; };
 		C57675742546BCC400C382C8 /* UIViewController+JXPagerViewListViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JXPagerViewListViewDelegate.h"; sourceTree = "<group>"; };
@@ -596,6 +599,7 @@
 		C55696D5255BFD51005C1361 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				C572971D25BB0A7000726419 /* UIView+BackgroundImage */,
 				C595BDFF25864216002A4531 /* UIView+Animation */,
 				C5460FB9258C8F640008928C /* UIView+AOP */,
 				C5D1C083258B207C00784D2F /* UIView+EmptyData */,
@@ -782,6 +786,15 @@
 				C5727940254099F6002373D7 /* NavigationBar.m */,
 			);
 			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		C572971D25BB0A7000726419 /* UIView+BackgroundImage */ = {
+			isa = PBXGroup;
+			children = (
+				C572971E25BB0A7000726419 /* UIView+BackgroundImage.m */,
+				C572971F25BB0A7000726419 /* UIView+BackgroundImage.h */,
+			);
+			path = "UIView+BackgroundImage";
 			sourceTree = "<group>";
 		};
 		C57671202546B9E800C382C8 /* UIViewController+JXCategory */ = {
@@ -1586,6 +1599,7 @@
 				C534CDBC25875A05001369FD /* BWItemModel.m in Sources */,
 				C5CF16E525AC7F6100381935 /* LYLUnicode.m in Sources */,
 				C5A4445825ABFC0E000F0CD2 /* JXCategoryTitleBackgroundView.m in Sources */,
+				C572972025BB0A7000726419 /* UIView+BackgroundImage.m in Sources */,
 				C5A4445B25ABFC0E000F0CD2 /* JXCategoryTimelineCell.m in Sources */,
 				C5914C91253850BF007777A6 /* UIViewController+BackBtn.m in Sources */,
 				C5C6530B259DF92100FD2F99 /* ECPrivacyCheckHomeKit.m in Sources */,
