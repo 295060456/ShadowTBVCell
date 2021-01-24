@@ -10,8 +10,6 @@
 		5E50E62EAD8DAE56536DBD90 /* Pods_ShadowTBVCellUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4B821F274BCEAFF35B290D /* Pods_ShadowTBVCellUITests.framework */; };
 		6ABAD4E39E6C5B6552C4E801 /* Pods_ShadowTBVCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71F229796717705CD401899 /* Pods_ShadowTBVCell.framework */; };
 		C5267FBF258A4D270095A681 /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5267FBD258A4D270095A681 /* TimeModel.m */; };
-		C52F9AE025A6D9EA00924990 /* NSObject+SPAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52F9ADD25A6D9E900924990 /* NSObject+SPAlertController.m */; };
-		C52F9AE125A6D9EA00924990 /* NSObject+SYSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C52F9ADE25A6D9E900924990 /* NSObject+SYSAlertController.m */; };
 		C534CDBC25875A05001369FD /* BWItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CDB525875A05001369FD /* BWItemModel.m */; };
 		C534CDBD25875A05001369FD /* BWItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CDB625875A05001369FD /* BWItemCollectionViewCell.m */; };
 		C534CDBF25875A05001369FD /* BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CDBA25875A05001369FD /* BWShareView.m */; };
@@ -51,6 +49,8 @@
 		C5A4445A25ABFC0E000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4444D25ABFC0D000F0CD2 /* JXCategoryTimelineCellModel.m */; };
 		C5A4445B25ABFC0E000F0CD2 /* JXCategoryTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4444E25ABFC0D000F0CD2 /* JXCategoryTimelineCell.m */; };
 		C5A4445C25ABFC0E000F0CD2 /* WHToast+DDToast.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4445325ABFC0D000F0CD2 /* WHToast+DDToast.m */; };
+		C5A96F1D25BD347A000077BC /* NSObject+SPAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A96F1925BD347A000077BC /* NSObject+SPAlertController.m */; };
+		C5A96F1E25BD347A000077BC /* NSObject+SYSAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A96F1A25BD347A000077BC /* NSObject+SYSAlertController.m */; };
 		C5AA48BC250BB6C5009F583F /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA48BA250BB6C4009F583F /* UIButton+ImageTitleSpacing.m */; };
 		C5AA48BF250BB6F5009F583F /* NSObject+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AA48BE250BB6F5009F583F /* NSObject+Extras.m */; };
 		C5AEEB04253841F8000E1C5F /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AEEB01253841F8000E1C5F /* UIView+Extras.m */; };
@@ -163,10 +163,6 @@
 		C4A32A22AF5631C9CE30AE1F /* Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCell-ShadowTBVCellUITests/Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C5267FBD258A4D270095A681 /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
 		C5267FBE258A4D270095A681 /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
-		C52F9ADC25A6D9E900924990 /* NSObject+SPAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SPAlertController.h"; sourceTree = "<group>"; };
-		C52F9ADD25A6D9E900924990 /* NSObject+SPAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SPAlertController.m"; sourceTree = "<group>"; };
-		C52F9ADE25A6D9E900924990 /* NSObject+SYSAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SYSAlertController.m"; sourceTree = "<group>"; };
-		C52F9ADF25A6D9E900924990 /* NSObject+SYSAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SYSAlertController.h"; sourceTree = "<group>"; };
 		C534CDB525875A05001369FD /* BWItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWItemModel.m; sourceTree = "<group>"; };
 		C534CDB625875A05001369FD /* BWItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWItemCollectionViewCell.m; sourceTree = "<group>"; };
 		C534CDB725875A05001369FD /* 分享控件的用法.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "分享控件的用法.md"; sourceTree = "<group>"; };
@@ -252,6 +248,10 @@
 		C5A4445125ABFC0D000F0CD2 /* JXCategoryTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTimelineCell.h; sourceTree = "<group>"; };
 		C5A4445325ABFC0D000F0CD2 /* WHToast+DDToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WHToast+DDToast.m"; sourceTree = "<group>"; };
 		C5A4445425ABFC0D000F0CD2 /* WHToast+DDToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WHToast+DDToast.h"; sourceTree = "<group>"; };
+		C5A96F1925BD347A000077BC /* NSObject+SPAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SPAlertController.m"; sourceTree = "<group>"; };
+		C5A96F1A25BD347A000077BC /* NSObject+SYSAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SYSAlertController.m"; sourceTree = "<group>"; };
+		C5A96F1B25BD347A000077BC /* NSObject+SYSAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SYSAlertController.h"; sourceTree = "<group>"; };
+		C5A96F1C25BD347A000077BC /* NSObject+SPAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SPAlertController.h"; sourceTree = "<group>"; };
 		C5AA48A9250BB2FA009F583F /* AABlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABlock.h; sourceTree = "<group>"; };
 		C5AA48BA250BB6C4009F583F /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
 		C5AA48BB250BB6C4009F583F /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
@@ -453,10 +453,10 @@
 		C53CFB5525234C66001091E5 /* NSObject+Alert */ = {
 			isa = PBXGroup;
 			children = (
-				C52F9ADC25A6D9E900924990 /* NSObject+SPAlertController.h */,
-				C52F9ADD25A6D9E900924990 /* NSObject+SPAlertController.m */,
-				C52F9ADF25A6D9E900924990 /* NSObject+SYSAlertController.h */,
-				C52F9ADE25A6D9E900924990 /* NSObject+SYSAlertController.m */,
+				C5A96F1C25BD347A000077BC /* NSObject+SPAlertController.h */,
+				C5A96F1925BD347A000077BC /* NSObject+SPAlertController.m */,
+				C5A96F1B25BD347A000077BC /* NSObject+SYSAlertController.h */,
+				C5A96F1A25BD347A000077BC /* NSObject+SYSAlertController.m */,
 			);
 			path = "NSObject+Alert";
 			sourceTree = "<group>";
@@ -1613,11 +1613,9 @@
 				C5D1C086258B207C00784D2F /* UIView+EmptyData.m in Sources */,
 				C5914C94253850BF007777A6 /* UIViewController+GifImageView.m in Sources */,
 				C5DF449F25A899E400E91985 /* MJRefreshConfigModel.m in Sources */,
-				C52F9AE125A6D9EA00924990 /* NSObject+SYSAlertController.m in Sources */,
 				C534CDBF25875A05001369FD /* BWShareView.m in Sources */,
 				C5D6DBD025860EF900029AFF /* NSObject+Time.m in Sources */,
 				C57675772546BCC400C382C8 /* UIViewController+JXCategoryListContentViewDelegate.m in Sources */,
-				C52F9AE025A6D9EA00924990 /* NSObject+SPAlertController.m in Sources */,
 				C5DF449E25A899E400E91985 /* LOTAnimationMJRefreshHeader.m in Sources */,
 				C5C6530A259DF92100FD2F99 /* ECPrivacyCheckMicrophone.m in Sources */,
 				C59A3E1B258DD21D005F6260 /* UserDefaultModel.m in Sources */,
@@ -1639,7 +1637,9 @@
 				C5FAC2C424C54F4800372BCD /* ViewController.m in Sources */,
 				C57675762546BCC400C382C8 /* UIViewController+JXPagerViewListViewDelegate.m in Sources */,
 				C5267FBF258A4D270095A681 /* TimeModel.m in Sources */,
+				C5A96F1D25BD347A000077BC /* NSObject+SPAlertController.m in Sources */,
 				C53CFB6525234CC7001091E5 /* NSObject+Shake.m in Sources */,
+				C5A96F1E25BD347A000077BC /* NSObject+SYSAlertController.m in Sources */,
 				C5914C8D253850BF007777A6 /* UIViewController+BWShareView.m in Sources */,
 				C58D94D825B80D5100414ACB /* BaseTableViewCell.m in Sources */,
 				C5FAC2BE24C54F4800372BCD /* AppDelegate.m in Sources */,
