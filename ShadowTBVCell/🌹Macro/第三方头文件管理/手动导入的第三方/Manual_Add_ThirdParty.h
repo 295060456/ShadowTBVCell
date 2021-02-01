@@ -20,6 +20,7 @@
 #import "UIView+EmptyData.h"
 #import "UIView+MJRefresh.h"
 #import "UIView+Measure.h"
+#import "UIView+ViewController.h"
 /// NSObject
 #import "NSObject+Extras.h"
 #import "NSObject+Shake.h"
