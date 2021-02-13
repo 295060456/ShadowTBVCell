@@ -16,6 +16,9 @@
 #import "NSString+Extras.h"
 /// UIView
 #import "LoadingImage.h"
+// BaseView
+#import "BaseView.h"
+// UIView+Category
 #import "UIView+Extras.h"
 #import "UIView+EmptyData.h"
 #import "UIView+MJRefresh.h"
