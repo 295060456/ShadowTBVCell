@@ -31,6 +31,8 @@
 		C57675762546BCC400C382C8 /* UIViewController+JXPagerViewListViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57675722546BCC400C382C8 /* UIViewController+JXPagerViewListViewDelegate.m */; };
 		C57675772546BCC400C382C8 /* UIViewController+JXCategoryListContentViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57675732546BCC400C382C8 /* UIViewController+JXCategoryListContentViewDelegate.m */; };
 		C57F0D32253337370080EEF0 /* NSObject+OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C57F0D30253337370080EEF0 /* NSObject+OpenURL.m */; };
+		C583B9E225E4B32D0054FD6E /* BaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C583B9DD25E4B32C0054FD6E /* BaseImageView.m */; };
+		C583B9E325E4B32D0054FD6E /* UIImageView+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = C583B9E025E4B32D0054FD6E /* UIImageView+GIF.m */; };
 		C58D94D825B80D5100414ACB /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D94D625B80D5100414ACB /* BaseTableViewCell.m */; };
 		C5914C8B253850BF007777A6 /* UIViewController+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = C5914C72253850BE007777A6 /* UIViewController+Shake.m */; };
 		C5914C8D253850BF007777A6 /* UIViewController+BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5914C78253850BE007777A6 /* UIViewController+BWShareView.m */; };
@@ -213,6 +215,10 @@
 		C57675752546BCC400C382C8 /* UIViewController+JXCategoryListContentViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JXCategoryListContentViewDelegate.h"; sourceTree = "<group>"; };
 		C57F0D30253337370080EEF0 /* NSObject+OpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OpenURL.m"; sourceTree = "<group>"; };
 		C57F0D31253337370080EEF0 /* NSObject+OpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OpenURL.h"; sourceTree = "<group>"; };
+		C583B9DD25E4B32C0054FD6E /* BaseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseImageView.m; sourceTree = "<group>"; };
+		C583B9DE25E4B32C0054FD6E /* BaseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseImageView.h; sourceTree = "<group>"; };
+		C583B9E025E4B32D0054FD6E /* UIImageView+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GIF.m"; sourceTree = "<group>"; };
+		C583B9E125E4B32D0054FD6E /* UIImageView+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GIF.h"; sourceTree = "<group>"; };
 		C58D94D625B80D5100414ACB /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
 		C58D94D725B80D5100414ACB /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
 		C5914C72253850BE007777A6 /* UIViewController+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Shake.m"; sourceTree = "<group>"; };
@@ -625,14 +631,15 @@
 		C558EDD3258A29280078DB8F /* BaseCustomizeUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				C558EDD5258A29780078DB8F /* UIImage */,
-				C55696D5255BFD51005C1361 /* UIView */,
-				C55696C5255BFD40005C1361 /* NSString */,
 				C53CFB5F25234C81001091E5 /* NSObject */,
+				C55696C5255BFD40005C1361 /* NSString */,
 				C558EDD4258A29380078DB8F /* UIButton */,
+				C558EDD5258A29780078DB8F /* UIImage */,
+				C583B9DB25E4B32C0054FD6E /* UIImageView */,
 				C572793F254099F6002373D7 /* UINavigationBar */,
 				C572793C254099F6002373D7 /* UINavigationController */,
 				C5FAC30F24C5527A00372BCD /* UITableViewCell */,
+				C55696D5255BFD51005C1361 /* UIView */,
 				C5914C6A2538508D007777A6 /* UIViewController */,
 			);
 			path = BaseCustomizeUIKit;
@@ -840,6 +847,33 @@
 				C57675722546BCC400C382C8 /* UIViewController+JXPagerViewListViewDelegate.m */,
 			);
 			path = "UIViewController+JXCategory";
+			sourceTree = "<group>";
+		};
+		C583B9DB25E4B32C0054FD6E /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C583B9DC25E4B32C0054FD6E /* BaseImageView */,
+				C583B9DF25E4B32C0054FD6E /* UIImageView+Category */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		C583B9DC25E4B32C0054FD6E /* BaseImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C583B9DD25E4B32C0054FD6E /* BaseImageView.m */,
+				C583B9DE25E4B32C0054FD6E /* BaseImageView.h */,
+			);
+			path = BaseImageView;
+			sourceTree = "<group>";
+		};
+		C583B9DF25E4B32C0054FD6E /* UIImageView+Category */ = {
+			isa = PBXGroup;
+			children = (
+				C583B9E025E4B32D0054FD6E /* UIImageView+GIF.m */,
+				C583B9E125E4B32D0054FD6E /* UIImageView+GIF.h */,
+			);
+			path = "UIImageView+Category";
 			sourceTree = "<group>";
 		};
 		C58D94D525B80D5100414ACB /* BaseTableViewCell */ = {
@@ -1625,6 +1659,7 @@
 				C5D60235258631C600029AFF /* UIViewController+NavigationBar.m in Sources */,
 				C5D6023D258631F400029AFF /* BaseViewController.m in Sources */,
 				C5AEEB04253841F8000E1C5F /* UIView+Extras.m in Sources */,
+				C583B9E225E4B32D0054FD6E /* BaseImageView.m in Sources */,
 				C5FAC2D224C54F4900372BCD /* main.m in Sources */,
 				C54AB15D255E6036000A314D /* UITableViewCell+Margin.m in Sources */,
 				C55FF4AE25B42FAD00D8C30D /* UIView+Measure.m in Sources */,
@@ -1682,6 +1717,7 @@
 				C5FAC32C24C5655700372BCD /* BackAnimation.m in Sources */,
 				C5AA48BF250BB6F5009F583F /* NSObject+Extras.m in Sources */,
 				C5C6530C259DF92100FD2F99 /* ECPrivacyCheckBluetooth.m in Sources */,
+				C583B9E325E4B32D0054FD6E /* UIImageView+GIF.m in Sources */,
 				C5D1C08F258B208F00784D2F /* UIViewController+EmptyData.m in Sources */,
 				C5C65313259DF92100FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m in Sources */,
 				C5A439EB25AAF80F000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
