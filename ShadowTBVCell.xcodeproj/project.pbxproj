@@ -41,6 +41,7 @@
 		C5914C91253850BF007777A6 /* UIViewController+BackBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5914C7F253850BF007777A6 /* UIViewController+BackBtn.m */; };
 		C5914C94253850BF007777A6 /* UIViewController+GifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5914C87253850BF007777A6 /* UIViewController+GifImageView.m */; };
 		C5914C95253850BF007777A6 /* UIViewController+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5914C88253850BF007777A6 /* UIViewController+BRPickerView.m */; };
+		C594342125E7AABC003BCA91 /* UITextView+IndicateWordLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = C594341E25E7AABC003BCA91 /* UITextView+IndicateWordLimit.m */; };
 		C59A3E1B258DD21D005F6260 /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3E19258DD21D005F6260 /* UserDefaultModel.m */; };
 		C59A3E1C258DD21D005F6260 /* UserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3E1A258DD21D005F6260 /* UserDefaultManager.m */; };
 		C5A439E925AAF80F000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A439E425AAF80F000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m */; };
@@ -235,6 +236,9 @@
 		C5914C85253850BF007777A6 /* UIViewController+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Shake.h"; sourceTree = "<group>"; };
 		C5914C87253850BF007777A6 /* UIViewController+GifImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GifImageView.m"; sourceTree = "<group>"; };
 		C5914C88253850BF007777A6 /* UIViewController+BRPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BRPickerView.m"; sourceTree = "<group>"; };
+		C594341E25E7AABC003BCA91 /* UITextView+IndicateWordLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+IndicateWordLimit.m"; sourceTree = "<group>"; };
+		C594341F25E7AABC003BCA91 /* UITextView+IndicateWordLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+IndicateWordLimit.h"; sourceTree = "<group>"; };
+		C594342025E7AABC003BCA91 /* UITextView+IndicateWordLimit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UITextView+IndicateWordLimit.png"; sourceTree = "<group>"; };
 		C59A3E17258DD21D005F6260 /* UserDefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultManager.h; sourceTree = "<group>"; };
 		C59A3E18258DD21D005F6260 /* UserDefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultModel.h; sourceTree = "<group>"; };
 		C59A3E19258DD21D005F6260 /* UserDefaultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultModel.m; sourceTree = "<group>"; };
@@ -639,6 +643,7 @@
 				C572793F254099F6002373D7 /* UINavigationBar */,
 				C572793C254099F6002373D7 /* UINavigationController */,
 				C5FAC30F24C5527A00372BCD /* UITableViewCell */,
+				C594341D25E7AABC003BCA91 /* UITextView+IndicateWordLimit */,
 				C55696D5255BFD51005C1361 /* UIView */,
 				C5914C6A2538508D007777A6 /* UIViewController */,
 			);
@@ -892,6 +897,16 @@
 				C5D60239258631E900029AFF /* UIViewController+Category */,
 			);
 			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		C594341D25E7AABC003BCA91 /* UITextView+IndicateWordLimit */ = {
+			isa = PBXGroup;
+			children = (
+				C594341F25E7AABC003BCA91 /* UITextView+IndicateWordLimit.h */,
+				C594341E25E7AABC003BCA91 /* UITextView+IndicateWordLimit.m */,
+				C594342025E7AABC003BCA91 /* UITextView+IndicateWordLimit.png */,
+			);
+			path = "UITextView+IndicateWordLimit";
 			sourceTree = "<group>";
 		};
 		C595BDFF25864216002A4531 /* UIView+Animation */ = {
@@ -1668,6 +1683,7 @@
 				C534CDBC25875A05001369FD /* BWItemModel.m in Sources */,
 				C5CF16E525AC7F6100381935 /* LYLUnicode.m in Sources */,
 				C567348E25D77AD6008ABAF9 /* BaseView.m in Sources */,
+				C594342125E7AABC003BCA91 /* UITextView+IndicateWordLimit.m in Sources */,
 				C5A4445825ABFC0E000F0CD2 /* JXCategoryTitleBackgroundView.m in Sources */,
 				C572972025BB0A7000726419 /* UIView+BackgroundImage.m in Sources */,
 				C5A4445B25ABFC0E000F0CD2 /* JXCategoryTimelineCell.m in Sources */,
