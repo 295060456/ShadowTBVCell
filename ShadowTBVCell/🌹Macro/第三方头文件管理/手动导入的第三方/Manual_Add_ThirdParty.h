@@ -24,11 +24,11 @@
 #import "UIView+MJRefresh.h"
 #import "UIView+Measure.h"
 #import "UIView+ViewController.h"
-#import "UIView+CallBackInfoByBlock.h"
 #pragma mark —— NSObject
 #import "NSObject+Extras.h"
 #import "NSObject+Shake.h"
 #import "NSObject+OpenURL.h"
+#import "NSObject+CallBackInfoByBlock.h"
 #pragma mark —— UIViewController
 #import "UIViewController+BaseVC.h"
 #import "UIViewController+BackBtn.h"
@@ -42,7 +42,6 @@
 #import "UIViewController+Shake.h"
 #import "UIViewController+NavigationBar.h"
 #import "UIViewController+EmptyData.h"
-#import "UIViewController+CallBackInfoByBlock.h"
 #pragma mark —— UINavigationController
 #import "BaseNavigationVC.h"
 #pragma mark —— UINavigationBar
