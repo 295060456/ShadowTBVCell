@@ -27,7 +27,7 @@
 		C567348E25D77AD6008ABAF9 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C567348D25D77AD6008ABAF9 /* BaseView.m */; };
 		C56BD71825E938F1001E1E69 /* NSObject+CallBackInfoByBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BD71725E938F1001E1E69 /* NSObject+CallBackInfoByBlock.m */; };
 		C5727942254099F6002373D7 /* BaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C572793D254099F6002373D7 /* BaseNavigationVC.m */; };
-		C5727943254099F6002373D7 /* NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C5727940254099F6002373D7 /* NavigationBar.m */; };
+		C5727943254099F6002373D7 /* BaseNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C5727940254099F6002373D7 /* BaseNavigationBar.m */; };
 		C572972025BB0A7000726419 /* UIView+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C572971E25BB0A7000726419 /* UIView+BackgroundImage.m */; };
 		C57675762546BCC400C382C8 /* UIViewController+JXPagerViewListViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57675722546BCC400C382C8 /* UIViewController+JXPagerViewListViewDelegate.m */; };
 		C57675772546BCC400C382C8 /* UIViewController+JXCategoryListContentViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57675732546BCC400C382C8 /* UIViewController+JXCategoryListContentViewDelegate.m */; };
@@ -209,8 +209,8 @@
 		C56BD71725E938F1001E1E69 /* NSObject+CallBackInfoByBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CallBackInfoByBlock.m"; sourceTree = "<group>"; };
 		C572793D254099F6002373D7 /* BaseNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationVC.m; sourceTree = "<group>"; };
 		C572793E254099F6002373D7 /* BaseNavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationVC.h; sourceTree = "<group>"; };
-		C5727940254099F6002373D7 /* NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBar.m; sourceTree = "<group>"; };
-		C5727941254099F6002373D7 /* NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBar.h; sourceTree = "<group>"; };
+		C5727940254099F6002373D7 /* BaseNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationBar.m; sourceTree = "<group>"; };
+		C5727941254099F6002373D7 /* BaseNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationBar.h; sourceTree = "<group>"; };
 		C572971E25BB0A7000726419 /* UIView+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundImage.m"; sourceTree = "<group>"; };
 		C572971F25BB0A7000726419 /* UIView+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BackgroundImage.h"; sourceTree = "<group>"; };
 		C57675722546BCC400C382C8 /* UIViewController+JXPagerViewListViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JXPagerViewListViewDelegate.m"; sourceTree = "<group>"; };
@@ -494,6 +494,32 @@
 			path = NSObject;
 			sourceTree = "<group>";
 		};
+		C542D5DB25EB7A0A00D776D8 /* BaseNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				C5727941254099F6002373D7 /* BaseNavigationBar.h */,
+				C5727940254099F6002373D7 /* BaseNavigationBar.m */,
+			);
+			path = BaseNavigationBar;
+			sourceTree = "<group>";
+		};
+		C542D5DC25EB7A2800D776D8 /* BaseNavigationVC */ = {
+			isa = PBXGroup;
+			children = (
+				C572793E254099F6002373D7 /* BaseNavigationVC.h */,
+				C572793D254099F6002373D7 /* BaseNavigationVC.m */,
+			);
+			path = BaseNavigationVC;
+			sourceTree = "<group>";
+		};
+		C542D5DD25EB7A3600D776D8 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				C594341D25E7AABC003BCA91 /* UITextView+IndicateWordLimit */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
 		C544BD5E2583733900C6CF2A /* UIViewController+BackBtn */ = {
 			isa = PBXGroup;
 			children = (
@@ -639,6 +665,7 @@
 		C558EDD3258A29280078DB8F /* BaseCustomizeUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C542D5DD25EB7A3600D776D8 /* UITextView */,
 				C53CFB5F25234C81001091E5 /* NSObject */,
 				C55696C5255BFD40005C1361 /* NSString */,
 				C558EDD4258A29380078DB8F /* UIButton */,
@@ -647,7 +674,6 @@
 				C572793F254099F6002373D7 /* UINavigationBar */,
 				C572793C254099F6002373D7 /* UINavigationController */,
 				C5FAC30F24C5527A00372BCD /* UITableViewCell */,
-				C594341D25E7AABC003BCA91 /* UITextView+IndicateWordLimit */,
 				C55696D5255BFD51005C1361 /* UIView */,
 				C5914C6A2538508D007777A6 /* UIViewController */,
 			);
@@ -832,8 +858,7 @@
 		C572793C254099F6002373D7 /* UINavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				C572793D254099F6002373D7 /* BaseNavigationVC.m */,
-				C572793E254099F6002373D7 /* BaseNavigationVC.h */,
+				C542D5DC25EB7A2800D776D8 /* BaseNavigationVC */,
 			);
 			path = UINavigationController;
 			sourceTree = "<group>";
@@ -841,8 +866,7 @@
 		C572793F254099F6002373D7 /* UINavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				C5727941254099F6002373D7 /* NavigationBar.h */,
-				C5727940254099F6002373D7 /* NavigationBar.m */,
+				C542D5DB25EB7A0A00D776D8 /* BaseNavigationBar */,
 			);
 			path = UINavigationBar;
 			sourceTree = "<group>";
@@ -1691,7 +1715,7 @@
 				C5FAC2D224C54F4900372BCD /* main.m in Sources */,
 				C54AB15D255E6036000A314D /* UITableViewCell+Margin.m in Sources */,
 				C55FF4AE25B42FAD00D8C30D /* UIView+Measure.m in Sources */,
-				C5727943254099F6002373D7 /* NavigationBar.m in Sources */,
+				C5727943254099F6002373D7 /* BaseNavigationBar.m in Sources */,
 				C5A4445A25ABFC0E000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */,
 				C534CDBC25875A05001369FD /* BWItemModel.m in Sources */,
 				C5CF16E525AC7F6100381935 /* LYLUnicode.m in Sources */,
