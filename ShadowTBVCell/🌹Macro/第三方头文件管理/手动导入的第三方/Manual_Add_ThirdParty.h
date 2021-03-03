@@ -59,5 +59,6 @@
 #import "BWShareView.h"
 #import "PushAnimation.h"
 #import "BackAnimation.h"
+#import "DDCacheTool.h"
 
 #endif /* Manual_Add_ThirdParty_h */
