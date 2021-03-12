@@ -200,6 +200,7 @@
 		C558EE9E258A2AA60078DB8F /* Other.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
 		C558EE9F258A2AE00078DB8F /* MacroDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef.h; sourceTree = "<group>"; };
 		C55AF584253C453100C558C4 /* ⚽️PicResource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "⚽️PicResource"; sourceTree = "<group>"; };
+		C55E2A3925FB281200716A9B /* MacroDef_SysWarning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_SysWarning.h; sourceTree = "<group>"; };
 		C55FF4A225B42F3C00D8C30D /* UIView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJRefresh.m"; sourceTree = "<group>"; };
 		C55FF4A325B42F3C00D8C30D /* UIView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJRefresh.h"; sourceTree = "<group>"; };
 		C55FF4AC25B42FAD00D8C30D /* UIView+Measure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Measure.m"; sourceTree = "<group>"; };
@@ -783,6 +784,7 @@
 		C558EE92258A2A3D0078DB8F /* 各项宏定义 */ = {
 			isa = PBXGroup;
 			children = (
+				C55E2A3925FB281200716A9B /* MacroDef_SysWarning.h */,
 				C558EE9F258A2AE00078DB8F /* MacroDef.h */,
 			);
 			path = "各项宏定义";
