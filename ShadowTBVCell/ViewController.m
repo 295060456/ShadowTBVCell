@@ -49,7 +49,7 @@ UITableViewDelegate
 #pragma mark —————————— UITableViewDelegate,UITableViewDataSource ——————————
 - (CGFloat)tableView:(UITableView *)tableView
 heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return [MyFansTBVCell cellHeightWithModel:nil];;
+    return [MyFansTBVCell cellHeightWithModel:nil];
 }
 
 - (void)tableView:(UITableView *)tableView
