@@ -33,6 +33,7 @@
 		C55AF585253C453100C558C4 /* ⚽️PicResource in Resources */ = {isa = PBXBuildFile; fileRef = C55AF584253C453100C558C4 /* ⚽️PicResource */; };
 		C55FF4A425B42F3C00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FF4A225B42F3C00D8C30D /* UIView+MJRefresh.m */; };
 		C55FF4AE25B42FAD00D8C30D /* UIView+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FF4AC25B42FAD00D8C30D /* UIView+Measure.m */; };
+		C56190D626008F3300D4546E /* UITextView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C56190D526008F3300D4546E /* UITextView+Extend.m */; };
 		C562DDCA25C7C46C004D1AEA /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C562DDC925C7C46C004D1AEA /* UIView+ViewController.m */; };
 		C567348E25D77AD6008ABAF9 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C567348D25D77AD6008ABAF9 /* BaseView.m */; };
 		C5727942254099F6002373D7 /* BaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C572793D254099F6002373D7 /* BaseNavigationVC.m */; };
@@ -226,6 +227,8 @@
 		C55FF4A325B42F3C00D8C30D /* UIView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJRefresh.h"; sourceTree = "<group>"; };
 		C55FF4AC25B42FAD00D8C30D /* UIView+Measure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Measure.m"; sourceTree = "<group>"; };
 		C55FF4AD25B42FAD00D8C30D /* UIView+Measure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Measure.h"; sourceTree = "<group>"; };
+		C56190D426008F3300D4546E /* UITextView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extend.h"; sourceTree = "<group>"; };
+		C56190D526008F3300D4546E /* UITextView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extend.m"; sourceTree = "<group>"; };
 		C56208A82553FFD100FE435F /* 高度自定义的按钮.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "高度自定义的按钮.md"; sourceTree = "<group>"; };
 		C562DDC825C7C46C004D1AEA /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
 		C562DDC925C7C46C004D1AEA /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
@@ -627,7 +630,7 @@
 		C542D5DD25EB7A3600D776D8 /* UITextView */ = {
 			isa = PBXGroup;
 			children = (
-				C594341D25E7AABC003BCA91 /* UITextView+IndicateWordLimit */,
+				C56190D226008F2400D4546E /* UITextView+Category */,
 			);
 			path = UITextView;
 			sourceTree = "<group>";
@@ -943,6 +946,24 @@
 				C55FF4AC25B42FAD00D8C30D /* UIView+Measure.m */,
 			);
 			path = "UIView+Measure";
+			sourceTree = "<group>";
+		};
+		C56190D226008F2400D4546E /* UITextView+Category */ = {
+			isa = PBXGroup;
+			children = (
+				C56190D326008F3300D4546E /* UITextView+Extend */,
+				C594341D25E7AABC003BCA91 /* UITextView+IndicateWordLimit */,
+			);
+			path = "UITextView+Category";
+			sourceTree = "<group>";
+		};
+		C56190D326008F3300D4546E /* UITextView+Extend */ = {
+			isa = PBXGroup;
+			children = (
+				C56190D426008F3300D4546E /* UITextView+Extend.h */,
+				C56190D526008F3300D4546E /* UITextView+Extend.m */,
+			);
+			path = "UITextView+Extend";
 			sourceTree = "<group>";
 		};
 		C562DDC425C7C464004D1AEA /* UIView+ViewController */ = {
@@ -1802,6 +1823,7 @@
 				C5FAC2D224C54F4900372BCD /* main.m in Sources */,
 				C54AB15D255E6036000A314D /* UITableViewCell+Margin.m in Sources */,
 				C55FF4AE25B42FAD00D8C30D /* UIView+Measure.m in Sources */,
+				C56190D626008F3300D4546E /* UITextView+Extend.m in Sources */,
 				C5727943254099F6002373D7 /* BaseNavigationBar.m in Sources */,
 				C5A4445A25ABFC0E000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */,
 				C53E490825FB5672007D92BE /* NSObject+RichText.m in Sources */,
