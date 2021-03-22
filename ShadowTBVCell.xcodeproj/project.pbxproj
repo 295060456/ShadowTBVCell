@@ -172,6 +172,10 @@
 		91356C72DB4F47CEBF82B460 /* Pods-ShadowTBVCellTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCellTests.release.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCellTests/Pods-ShadowTBVCellTests.release.xcconfig"; sourceTree = "<group>"; };
 		97C0AE21B85CED08A36D8817 /* Pods-ShadowTBVCellUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCellUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCellUITests/Pods-ShadowTBVCellUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4A32A22AF5631C9CE30AE1F /* Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCell-ShadowTBVCellUITests/Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C51F8837260861F800953C10 /* 安全区域.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安全区域.png"; sourceTree = "<group>"; };
+		C51F8838260861F800953C10 /* MacroDef_AppDeviceScreenSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_AppDeviceScreenSize.h; sourceTree = "<group>"; };
+		C51F8839260861F800953C10 /* iPhone尺寸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone尺寸.png"; sourceTree = "<group>"; };
+		C51F883A260861F800953C10 /* iPad尺寸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad尺寸.png"; sourceTree = "<group>"; };
 		C534CDB525875A05001369FD /* BWItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWItemModel.m; sourceTree = "<group>"; };
 		C534CDB625875A05001369FD /* BWItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWItemCollectionViewCell.m; sourceTree = "<group>"; };
 		C534CDB725875A05001369FD /* 分享控件的用法.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "分享控件的用法.md"; sourceTree = "<group>"; };
@@ -232,6 +236,9 @@
 		C56208A82553FFD100FE435F /* 高度自定义的按钮.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "高度自定义的按钮.md"; sourceTree = "<group>"; };
 		C562DDC825C7C46C004D1AEA /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
 		C562DDC925C7C46C004D1AEA /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		C563214026084B7500822149 /* BaseViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewControllerProtocol.h; sourceTree = "<group>"; };
+		C563214126084B7500822149 /* BaseCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCellProtocol.h; sourceTree = "<group>"; };
+		C563214226084B7500822149 /* BaseViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewProtocol.h; sourceTree = "<group>"; };
 		C567348C25D77AD6008ABAF9 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
 		C567348D25D77AD6008ABAF9 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
 		C572793D254099F6002373D7 /* BaseNavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationVC.m; sourceTree = "<group>"; };
@@ -474,6 +481,17 @@
 				32A5147F8466899A41F3AC5B /* Pods-ShadowTBVCellUITests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C51F8836260861F800953C10 /* 苹果产品尺寸 */ = {
+			isa = PBXGroup;
+			children = (
+				C51F8837260861F800953C10 /* 安全区域.png */,
+				C51F883A260861F800953C10 /* iPad尺寸.png */,
+				C51F8839260861F800953C10 /* iPhone尺寸.png */,
+				C51F8838260861F800953C10 /* MacroDef_AppDeviceScreenSize.h */,
+			);
+			path = "苹果产品尺寸";
 			sourceTree = "<group>";
 		};
 		C53CFB5F25234C81001091E5 /* NSObject */ = {
@@ -797,6 +815,7 @@
 		C558EDD3258A29280078DB8F /* BaseCustomizeUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C563213F26084B7500822149 /* BaseProtocol */,
 				C542D5DD25EB7A3600D776D8 /* UITextView */,
 				C53CFB5F25234C81001091E5 /* NSObject */,
 				C55696C5255BFD40005C1361 /* NSString */,
@@ -894,6 +913,7 @@
 		C558EE92258A2A3D0078DB8F /* 各项宏定义 */ = {
 			isa = PBXGroup;
 			children = (
+				C51F8836260861F800953C10 /* 苹果产品尺寸 */,
 				C55E2A3925FB281200716A9B /* MacroDef_SysWarning.h */,
 				C558EE9F258A2AE00078DB8F /* MacroDef.h */,
 			);
@@ -973,6 +993,16 @@
 				C562DDC925C7C46C004D1AEA /* UIView+ViewController.m */,
 			);
 			path = "UIView+ViewController";
+			sourceTree = "<group>";
+		};
+		C563213F26084B7500822149 /* BaseProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				C563214026084B7500822149 /* BaseViewControllerProtocol.h */,
+				C563214126084B7500822149 /* BaseCellProtocol.h */,
+				C563214226084B7500822149 /* BaseViewProtocol.h */,
+			);
+			path = BaseProtocol;
 			sourceTree = "<group>";
 		};
 		C567347E25D77ABF008ABAF9 /* UIView+Category */ = {

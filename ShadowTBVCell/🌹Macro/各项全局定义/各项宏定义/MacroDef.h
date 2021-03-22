@@ -10,6 +10,7 @@
 #define MacroDef_h
 
 #import "MacroDef_SysWarning.h"
+#import "MacroDef_AppDeviceScreenSize.h"
 
 #define WeakSelf __weak typeof(self) weakSelf = self;
 #define StrongSelf __strong typeof(self) strongSelf = self;
