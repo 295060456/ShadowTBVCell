@@ -27,6 +27,7 @@
 #pragma mark —— NSObject
 #import "NSObject+Extras.h"
 #import "NSObject+Shake.h"
+#import "NSObject+DefConfig.h"
 #import "NSObject+OpenURL.h"
 #import "NSObject+CallBackInfoByBlock.h"
 #pragma mark —— UIViewController
