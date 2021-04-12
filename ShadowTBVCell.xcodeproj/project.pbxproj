@@ -617,8 +617,8 @@
 		C53E48FC25FB5672007D92BE /* NSObject+SYSAlertController */ = {
 			isa = PBXGroup;
 			children = (
-				C53E48FD25FB5672007D92BE /* NSObject+SYSAlertController.m */,
 				C53E48FE25FB5672007D92BE /* NSObject+SYSAlertController.h */,
+				C53E48FD25FB5672007D92BE /* NSObject+SYSAlertController.m */,
 			);
 			path = "NSObject+SYSAlertController";
 			sourceTree = "<group>";
