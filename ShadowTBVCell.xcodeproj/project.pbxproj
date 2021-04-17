@@ -608,8 +608,8 @@
 		C53E48F925FB5672007D92BE /* NSObject+SPAlertController */ = {
 			isa = PBXGroup;
 			children = (
-				C53E48FA25FB5672007D92BE /* NSObject+SPAlertController.m */,
 				C53E48FB25FB5672007D92BE /* NSObject+SPAlertController.h */,
+				C53E48FA25FB5672007D92BE /* NSObject+SPAlertController.m */,
 			);
 			path = "NSObject+SPAlertController";
 			sourceTree = "<group>";
