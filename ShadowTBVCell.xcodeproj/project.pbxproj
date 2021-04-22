@@ -200,6 +200,7 @@
 		C5C65335259DF92100FD2F99 /* 定位服务@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C65300259DF92100FD2F99 /* 定位服务@3x.png */; };
 		C5C65336259DF92100FD2F99 /* ECPrivacyCheckGatherTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C65303259DF92100FD2F99 /* ECPrivacyCheckGatherTool.m */; };
 		C5D8D27D260CC46600BDAF76 /* toastLoading.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5D8D27C260CC46600BDAF76 /* toastLoading.gif */; };
+		C5EA143B2631204500155822 /* UILabel+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EA14392631204500155822 /* UILabel+Gesture.m */; };
 		C5FAC2BE24C54F4800372BCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2BD24C54F4800372BCD /* AppDelegate.m */; };
 		C5FAC2C124C54F4800372BCD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2C024C54F4800372BCD /* SceneDelegate.m */; };
 		C5FAC2C424C54F4800372BCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC2C324C54F4800372BCD /* ViewController.m */; };
@@ -612,6 +613,9 @@
 		C5C65308259DF92100FD2F99 /* ECPrivacyCheckTools不用pod管理的情况说明.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "ECPrivacyCheckTools不用pod管理的情况说明.md"; sourceTree = "<group>"; };
 		C5C65309259DF92100FD2F99 /* ECAuthorizationTools.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ECAuthorizationTools.md; sourceTree = "<group>"; };
 		C5D8D27C260CC46600BDAF76 /* toastLoading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = toastLoading.gif; sourceTree = "<group>"; };
+		C5EA14392631204500155822 /* UILabel+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Gesture.m"; sourceTree = "<group>"; };
+		C5EA143A2631204500155822 /* UILabel+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Gesture.h"; sourceTree = "<group>"; };
+		C5EA19B42631244200155822 /* JobsBaseCustomizeUIKitCoreHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBaseCustomizeUIKitCoreHeader.h; sourceTree = "<group>"; };
 		C5FAC2B924C54F4800372BCD /* ShadowTBVCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowTBVCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FAC2BC24C54F4800372BCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5FAC2BD24C54F4800372BCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -767,6 +771,7 @@
 			isa = PBXGroup;
 			children = (
 				C558EE36258A2A0B0078DB8F /* Manual_Add_ThirdParty.h */,
+				C5EA19B42631244200155822 /* JobsBaseCustomizeUIKitCoreHeader.h */,
 			);
 			path = "手动导入的第三方";
 			sourceTree = "<group>";
@@ -850,34 +855,34 @@
 		C58D7977263050BD00966F5F /* JobsBaseCustomizeUIKitCore */ = {
 			isa = PBXGroup;
 			children = (
-				C58D7978263050BD00966F5F /* UIImage */,
-				C58D798D263050BD00966F5F /* UILabel */,
-				C58D7992263050BD00966F5F /* UITableViewCell */,
-				C58D799F263050BD00966F5F /* UIButton */,
-				C58D79B9263050BD00966F5F /* UIColor */,
-				C58D79C2263050BD00966F5F /* UIView */,
-				C58D79F1263050BD00966F5F /* UIFont */,
+				C58D7ADC263050BD00966F5F /* BaseProtocol */,
+				C58D7AA1263050BD00966F5F /* CALayer */,
+				C58D7AE0263050BD00966F5F /* DebugLogDescription */,
+				C58D7A86263050BD00966F5F /* NSArray */,
+				C58D7AAC263050BD00966F5F /* NSObject */,
+				C58D7A29263050BD00966F5F /* NSString */,
 				C58D79F7263050BD00966F5F /* RedefineSys */,
-				C58D79FC263050BD00966F5F /* UITextView */,
-				C58D7A05263050BD00966F5F /* UIDevice */,
+				C58D799F263050BD00966F5F /* UIButton */,
+				C58D7AA8263050BD00966F5F /* UICollectionReusableView 用作基类 */,
 				C58D7A0B263050BD00966F5F /* UICollectionView */,
 				C58D7A13263050BD00966F5F /* UICollectionViewCell */,
+				C58D7A95263050BD00966F5F /* UICollectionViewFlowLayout */,
+				C58D79B9263050BD00966F5F /* UIColor */,
+				C58D7A80263050BD00966F5F /* UIControl */,
+				C58D7A05263050BD00966F5F /* UIDevice */,
+				C58D79F1263050BD00966F5F /* UIFont */,
+				C58D7978263050BD00966F5F /* UIImage */,
 				C58D7A1E263050BD00966F5F /* UIImageView */,
+				C58D798D263050BD00966F5F /* UILabel */,
 				C58D7A25263050BD00966F5F /* UINavigationBar */,
-				C58D7A29263050BD00966F5F /* NSString */,
-				C58D7A2D263050BD00966F5F /* UIViewController */,
 				C58D7A69263050BD00966F5F /* UINavigationController */,
 				C58D7A6D263050BD00966F5F /* UITableView */,
-				C58D7A80263050BD00966F5F /* UIControl */,
-				C58D7A86263050BD00966F5F /* NSArray */,
+				C58D7992263050BD00966F5F /* UITableViewCell */,
 				C58D7A8D263050BD00966F5F /* UITableViewHeaderFooterView */,
-				C58D7A95263050BD00966F5F /* UICollectionViewFlowLayout */,
-				C58D7AA1263050BD00966F5F /* CALayer */,
-				C58D7AA8263050BD00966F5F /* UICollectionReusableView 用作基类 */,
-				C58D7AAC263050BD00966F5F /* NSObject */,
-				C58D7ADC263050BD00966F5F /* BaseProtocol */,
-				C58D7AE0263050BD00966F5F /* DebugLogDescription */,
 				C58D7AE3263050BD00966F5F /* UITextField */,
+				C58D79FC263050BD00966F5F /* UITextView */,
+				C58D79C2263050BD00966F5F /* UIView */,
+				C58D7A2D263050BD00966F5F /* UIViewController */,
 			);
 			path = JobsBaseCustomizeUIKitCore;
 			sourceTree = "<group>";
@@ -970,6 +975,7 @@
 			isa = PBXGroup;
 			children = (
 				C58D798F263050BD00966F5F /* UILabel+Extra */,
+				C5EA14382631204500155822 /* UILabel+Gesture */,
 			);
 			path = "UILabel+Category";
 			sourceTree = "<group>";
@@ -2584,6 +2590,15 @@
 			path = ReadMe;
 			sourceTree = "<group>";
 		};
+		C5EA14382631204500155822 /* UILabel+Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				C5EA14392631204500155822 /* UILabel+Gesture.m */,
+				C5EA143A2631204500155822 /* UILabel+Gesture.h */,
+			);
+			path = "UILabel+Gesture";
+			sourceTree = "<group>";
+		};
 		C5FAC2B024C54F4800372BCD = {
 			isa = PBXGroup;
 			children = (
@@ -3079,6 +3094,7 @@
 				C5FAC2C424C54F4800372BCD /* ViewController.m in Sources */,
 				C58D7B30263050BE00966F5F /* UIImageView+GIF.m in Sources */,
 				C5542CFA25F324E9002D1CA6 /* CheckMemFreeVC.m in Sources */,
+				C5EA143B2631204500155822 /* UILabel+Gesture.m in Sources */,
 				C58D7B5C263050BE00966F5F /* NSObject+SYSAlertController.m in Sources */,
 				C58D7B5B263050BE00966F5F /* NSObject+SPAlertController.m in Sources */,
 				C58D7B50263050BE00966F5F /* NSArray+Extension.m in Sources */,
