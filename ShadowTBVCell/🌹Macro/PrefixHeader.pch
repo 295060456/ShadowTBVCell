@@ -32,7 +32,7 @@
 #import "ShadowTBVCell-Bridging-Header.h"
 
 #pragma mark —— 第三方头文件管理
-#import "Pods.h"
+#import "PodsHeader.h"
 #import "Manual_Add_ThirdParty.h"
 
 #pragma mark —— 其他杂项
