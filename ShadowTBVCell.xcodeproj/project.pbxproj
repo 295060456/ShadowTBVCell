@@ -142,6 +142,7 @@
 		C58D7BD82630512E00966F5F /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D7BCE2630512E00966F5F /* NSTimerManager.m */; };
 		C58D7BD92630512E00966F5F /* Nanosecond_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D7BD12630512E00966F5F /* Nanosecond_TimerManager.m */; };
 		C58D7BDA2630512E00966F5F /* CADisplayLink_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D7BD42630512E00966F5F /* CADisplayLink_TimerManager.m */; };
+		C58E93F326312FD500D1EDB8 /* UIButton+DataBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = C58E93F226312FD500D1EDB8 /* UIButton+DataBinding.m */; };
 		C59A3E1B258DD21D005F6260 /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3E19258DD21D005F6260 /* UserDefaultModel.m */; };
 		C59A3E1C258DD21D005F6260 /* UserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3E1A258DD21D005F6260 /* UserDefaultManager.m */; };
 		C5A439E925AAF80F000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A439E425AAF80F000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m */; };
@@ -520,6 +521,8 @@
 		C58D7BD42630512E00966F5F /* CADisplayLink_TimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADisplayLink_TimerManager.m; sourceTree = "<group>"; };
 		C58D7BD52630512E00966F5F /* CADisplayLink_TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADisplayLink_TimerManager.h; sourceTree = "<group>"; };
 		C58D7C73263051FA00966F5F /* PodsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsHeader.h; sourceTree = "<group>"; };
+		C58E93F126312FD500D1EDB8 /* UIButton+DataBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DataBinding.h"; sourceTree = "<group>"; };
+		C58E93F226312FD500D1EDB8 /* UIButton+DataBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DataBinding.m"; sourceTree = "<group>"; };
 		C59A3E17258DD21D005F6260 /* UserDefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultManager.h; sourceTree = "<group>"; };
 		C59A3E18258DD21D005F6260 /* UserDefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultModel.h; sourceTree = "<group>"; };
 		C59A3E19258DD21D005F6260 /* UserDefaultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultModel.m; sourceTree = "<group>"; };
@@ -1041,9 +1044,10 @@
 			children = (
 				C58D79A0263050BD00966F5F /* 高度自定义的按钮 */,
 				C58D79A4263050BD00966F5F /* 高仿抖音点赞动画 */,
-				C58D79A8263050BD00966F5F /* UIButton+Timer */,
-				C58D79AF263050BD00966F5F /* SoundBtn */,
 				C58D79B4263050BD00966F5F /* 高仿iOS长按删除+抖动 */,
+				C58D79AF263050BD00966F5F /* SoundBtn */,
+				C58E93F026312FD500D1EDB8 /* UIButton+DataBinding */,
+				C58D79A8263050BD00966F5F /* UIButton+Timer */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -2368,6 +2372,15 @@
 			path = CADisplayLink_TimerManager;
 			sourceTree = "<group>";
 		};
+		C58E93F026312FD500D1EDB8 /* UIButton+DataBinding */ = {
+			isa = PBXGroup;
+			children = (
+				C58E93F126312FD500D1EDB8 /* UIButton+DataBinding.h */,
+				C58E93F226312FD500D1EDB8 /* UIButton+DataBinding.m */,
+			);
+			path = "UIButton+DataBinding";
+			sourceTree = "<group>";
+		};
 		C59A3E16258DD21D005F6260 /* UserDefaultManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -3010,6 +3023,7 @@
 				C534CDBC25875A05001369FD /* BWItemModel.m in Sources */,
 				C58D7B3C263050BE00966F5F /* UIViewController+Shake.m in Sources */,
 				C58D7BD92630512E00966F5F /* Nanosecond_TimerManager.m in Sources */,
+				C58E93F326312FD500D1EDB8 /* UIButton+DataBinding.m in Sources */,
 				C58D7B53263050BE00966F5F /* TableViewFooterView.m in Sources */,
 				C58D7B33263050BE00966F5F /* UIViewController+JXPagerViewListViewDelegate.m in Sources */,
 				C58D7AFA263050BD00966F5F /* UIImage+SYS.m in Sources */,
