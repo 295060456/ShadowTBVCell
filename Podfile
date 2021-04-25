@@ -18,6 +18,7 @@ use_frameworks!
 
 def func
   
+  pod 'JobsGlobleDef'
   pod 'SZTextView'
   pod 'Reachability'  # https://github.com/tonymillion/Reachability 检查联网情况 NO_SMP
   pod 'PPBadgeView' #https://github.com/jkpang/PPBadgeView iOS自定义Badge组件, 支持UIView, UITabBarItem, UIBarButtonItem以及子类
