@@ -14,6 +14,7 @@
 		C534CDBF25875A05001369FD /* BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CDBA25875A05001369FD /* BWShareView.m */; };
 		C5542CFA25F324E9002D1CA6 /* CheckMemFreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5542CF925F324E9002D1CA6 /* CheckMemFreeVC.m */; };
 		C55AF585253C453100C558C4 /* ⚽️PicResource in Resources */ = {isa = PBXBuildFile; fileRef = C55AF584253C453100C558C4 /* ⚽️PicResource */; };
+		C57688082674AC7B00379F34 /* DDRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C57688072674AC7A00379F34 /* DDRecord.m */; };
 		C58D7AF8263050BD00966F5F /* UIImage+ScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D797C263050BD00966F5F /* UIImage+ScreenShot.m */; };
 		C58D7AF9263050BD00966F5F /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D797F263050BD00966F5F /* UIImage+Extras.m */; };
 		C58D7AFA263050BD00966F5F /* UIImage+SYS.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D7983263050BD00966F5F /* UIImage+SYS.m */; };
@@ -274,6 +275,8 @@
 		C558EE9F258A2AE00078DB8F /* MacroDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef.h; sourceTree = "<group>"; };
 		C55AF584253C453100C558C4 /* ⚽️PicResource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "⚽️PicResource"; sourceTree = "<group>"; };
 		C55E2A3925FB281200716A9B /* MacroDef_SysWarning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_SysWarning.h; sourceTree = "<group>"; };
+		C57688062674AC7A00379F34 /* DDRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRecord.h; sourceTree = "<group>"; };
+		C57688072674AC7A00379F34 /* DDRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRecord.m; sourceTree = "<group>"; };
 		C58D7979263050BD00966F5F /* LoadingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingImage.h; sourceTree = "<group>"; };
 		C58D797C263050BD00966F5F /* UIImage+ScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScreenShot.m"; sourceTree = "<group>"; };
 		C58D797D263050BD00966F5F /* UIImage+ScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScreenShot.h"; sourceTree = "<group>"; };
@@ -857,6 +860,15 @@
 				C5FAC32D24C5656400372BCD /* Animation */,
 			);
 			path = "Manual_Add_ThirdParty ";
+			sourceTree = "<group>";
+		};
+		C57688052674AC7A00379F34 /* DDRecord */ = {
+			isa = PBXGroup;
+			children = (
+				C57688062674AC7A00379F34 /* DDRecord.h */,
+				C57688072674AC7A00379F34 /* DDRecord.m */,
+			);
+			path = DDRecord;
 			sourceTree = "<group>";
 		};
 		C58D7977263050BD00966F5F /* JobsBaseCustomizeUIKitCore */ = {
@@ -2044,6 +2056,7 @@
 		C58D7AAC263050BD00966F5F /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				C57688052674AC7A00379F34 /* DDRecord */,
 				C58D7AD3263050BD00966F5F /* NSObject (Time) */,
 				C58D7AAD263050BD00966F5F /* NSObject+Alert */,
 				C58D7AD9263050BD00966F5F /* NSObject+CallBackInfoByBlock */,
@@ -3079,6 +3092,7 @@
 				C58D7B6B263050BE00966F5F /* UITextField+Extend.m in Sources */,
 				C58D7B69263050BE00966F5F /* NSObject+CallBackInfoByBlock.m in Sources */,
 				C59A3E1B258DD21D005F6260 /* UserDefaultModel.m in Sources */,
+				C57688082674AC7B00379F34 /* DDRecord.m in Sources */,
 				C58D7B6A263050BE00966F5F /* DebugLogDescription.m in Sources */,
 				C5C6530F259DF92100FD2F99 /* ECPrivacyCheckFilesAndFolders.m in Sources */,
 				C58D7B3B263050BE00966F5F /* UIViewController+EmptyData.m in Sources */,
