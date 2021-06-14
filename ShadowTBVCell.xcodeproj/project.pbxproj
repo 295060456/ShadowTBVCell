@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E50E62EAD8DAE56536DBD90 /* Pods_ShadowTBVCellUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4B821F274BCEAFF35B290D /* Pods_ShadowTBVCellUITests.framework */; };
 		6ABAD4E39E6C5B6552C4E801 /* Pods_ShadowTBVCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71F229796717705CD401899 /* Pods_ShadowTBVCell.framework */; };
+		82751E08C7658E97A50F8CCB /* Pods_ShadowTBVCellTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586B2E7B1738CC567CA7D652 /* Pods_ShadowTBVCellTests.framework */; };
+		8C2A996E1D61D9227C99F79B /* Pods_ShadowTBVCellUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2A45DED1DBB8C72EC69EFC /* Pods_ShadowTBVCellUITests.framework */; };
 		C534CDBC25875A05001369FD /* BWItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CDB525875A05001369FD /* BWItemModel.m */; };
 		C534CDBD25875A05001369FD /* BWItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CDB625875A05001369FD /* BWItemCollectionViewCell.m */; };
 		C534CDBF25875A05001369FD /* BWShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CDBA25875A05001369FD /* BWShareView.m */; };
@@ -224,7 +225,6 @@
 		C5FAC32624C5614400372BCD /* PushToVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC32524C5614400372BCD /* PushToVCViewController.m */; };
 		C5FAC32924C5635E00372BCD /* PushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC32824C5635E00372BCD /* PushAnimation.m */; };
 		C5FAC32C24C5655700372BCD /* BackAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAC32A24C5655700372BCD /* BackAnimation.m */; };
-		F0CCF7B31B15B08D602B6B27 /* Pods_ShadowTBVCellTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076A6AC94C9193572639EF18 /* Pods_ShadowTBVCellTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -245,14 +245,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		076A6AC94C9193572639EF18 /* Pods_ShadowTBVCellTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShadowTBVCellTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A4B821F274BCEAFF35B290D /* Pods_ShadowTBVCellUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShadowTBVCellUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0261DA26D3C709E72B633628 /* Pods-ShadowTBVCellTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCellTests.release.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCellTests/Pods-ShadowTBVCellTests.release.xcconfig"; sourceTree = "<group>"; };
 		2BA685B28A35C329C4671F7C /* Pods-ShadowTBVCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCell.debug.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCell/Pods-ShadowTBVCell.debug.xcconfig"; sourceTree = "<group>"; };
-		32A5147F8466899A41F3AC5B /* Pods-ShadowTBVCellUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCellUITests.release.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCellUITests/Pods-ShadowTBVCellUITests.release.xcconfig"; sourceTree = "<group>"; };
 		367C627C746F7D9578C9EBCB /* Pods-ShadowTBVCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCell.release.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCell/Pods-ShadowTBVCell.release.xcconfig"; sourceTree = "<group>"; };
-		4E487F84E26226382C8E7731 /* Pods-ShadowTBVCellTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCellTests.debug.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCellTests/Pods-ShadowTBVCellTests.debug.xcconfig"; sourceTree = "<group>"; };
-		91356C72DB4F47CEBF82B460 /* Pods-ShadowTBVCellTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCellTests.release.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCellTests/Pods-ShadowTBVCellTests.release.xcconfig"; sourceTree = "<group>"; };
-		97C0AE21B85CED08A36D8817 /* Pods-ShadowTBVCellUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCellUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCellUITests/Pods-ShadowTBVCellUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		586B2E7B1738CC567CA7D652 /* Pods_ShadowTBVCellTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShadowTBVCellTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2A45DED1DBB8C72EC69EFC /* Pods_ShadowTBVCellUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShadowTBVCellUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6CF058594E89EF4BEE5BA3 /* Pods-ShadowTBVCellUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCellUITests.release.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCellUITests/Pods-ShadowTBVCellUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C202FA267F095B6E55D5FE75 /* Pods-ShadowTBVCellUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCellUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCellUITests/Pods-ShadowTBVCellUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4A32A22AF5631C9CE30AE1F /* Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCell-ShadowTBVCellUITests/Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C51F8837260861F800953C10 /* 安全区域.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安全区域.png"; sourceTree = "<group>"; };
 		C51F8838260861F800953C10 /* MacroDef_AppDeviceScreenSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_AppDeviceScreenSize.h; sourceTree = "<group>"; };
@@ -661,6 +660,7 @@
 		C5FAC32A24C5655700372BCD /* BackAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackAnimation.m; sourceTree = "<group>"; };
 		C5FAC32B24C5655700372BCD /* BackAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackAnimation.h; sourceTree = "<group>"; };
 		E71F229796717705CD401899 /* Pods_ShadowTBVCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShadowTBVCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E922B0EA29DD0C058CA18D /* Pods-ShadowTBVCellTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCellTests.debug.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCellTests/Pods-ShadowTBVCellTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F75669ED6EA7A1DDDF3038B1 /* Pods-ShadowTBVCell-ShadowTBVCellUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowTBVCell-ShadowTBVCellUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShadowTBVCell-ShadowTBVCellUITests/Pods-ShadowTBVCell-ShadowTBVCellUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -677,7 +677,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0CCF7B31B15B08D602B6B27 /* Pods_ShadowTBVCellTests.framework in Frameworks */,
+				82751E08C7658E97A50F8CCB /* Pods_ShadowTBVCellTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,7 +685,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E50E62EAD8DAE56536DBD90 /* Pods_ShadowTBVCellUITests.framework in Frameworks */,
+				8C2A996E1D61D9227C99F79B /* Pods_ShadowTBVCellUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,8 +696,8 @@
 			isa = PBXGroup;
 			children = (
 				E71F229796717705CD401899 /* Pods_ShadowTBVCell.framework */,
-				076A6AC94C9193572639EF18 /* Pods_ShadowTBVCellTests.framework */,
-				2A4B821F274BCEAFF35B290D /* Pods_ShadowTBVCellUITests.framework */,
+				586B2E7B1738CC567CA7D652 /* Pods_ShadowTBVCellTests.framework */,
+				9A2A45DED1DBB8C72EC69EFC /* Pods_ShadowTBVCellUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -709,10 +709,10 @@
 				367C627C746F7D9578C9EBCB /* Pods-ShadowTBVCell.release.xcconfig */,
 				F75669ED6EA7A1DDDF3038B1 /* Pods-ShadowTBVCell-ShadowTBVCellUITests.debug.xcconfig */,
 				C4A32A22AF5631C9CE30AE1F /* Pods-ShadowTBVCell-ShadowTBVCellUITests.release.xcconfig */,
-				4E487F84E26226382C8E7731 /* Pods-ShadowTBVCellTests.debug.xcconfig */,
-				91356C72DB4F47CEBF82B460 /* Pods-ShadowTBVCellTests.release.xcconfig */,
-				97C0AE21B85CED08A36D8817 /* Pods-ShadowTBVCellUITests.debug.xcconfig */,
-				32A5147F8466899A41F3AC5B /* Pods-ShadowTBVCellUITests.release.xcconfig */,
+				F4E922B0EA29DD0C058CA18D /* Pods-ShadowTBVCellTests.debug.xcconfig */,
+				0261DA26D3C709E72B633628 /* Pods-ShadowTBVCellTests.release.xcconfig */,
+				C202FA267F095B6E55D5FE75 /* Pods-ShadowTBVCellUITests.debug.xcconfig */,
+				BC6CF058594E89EF4BEE5BA3 /* Pods-ShadowTBVCellUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -2759,8 +2759,8 @@
 				C5FAC2B524C54F4800372BCD /* Sources */,
 				C5FAC2B624C54F4800372BCD /* Frameworks */,
 				C5FAC2B724C54F4800372BCD /* Resources */,
-				78FB9E5BC64BFAA7406A7647 /* [CP] Embed Pods Frameworks */,
-				85C58E3CB90475EC0C31AA07 /* [CP] Copy Pods Resources */,
+				8E98FA4A9418981ED4BFBADD /* [CP] Embed Pods Frameworks */,
+				335369A58C7B3FCD85A65330 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2775,7 +2775,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5FAC2EE24C54F4A00372BCD /* Build configuration list for PBXNativeTarget "ShadowTBVCellTests" */;
 			buildPhases = (
-				E0D8EDF9CE1FB6A4E7C04F97 /* [CP] Check Pods Manifest.lock */,
+				F80829781AB57E9CD93917F5 /* [CP] Check Pods Manifest.lock */,
 				C5FAC2D324C54F4900372BCD /* Sources */,
 				C5FAC2D424C54F4900372BCD /* Frameworks */,
 				C5FAC2D524C54F4900372BCD /* Resources */,
@@ -2794,7 +2794,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5FAC2F124C54F4A00372BCD /* Build configuration list for PBXNativeTarget "ShadowTBVCellUITests" */;
 			buildPhases = (
-				BF2E3243C072D1A2E3C0BC23 /* [CP] Check Pods Manifest.lock */,
+				F37A10283C09C0885EF3ECF1 /* [CP] Check Pods Manifest.lock */,
 				C5FAC2DE24C54F4A00372BCD /* Sources */,
 				C5FAC2DF24C54F4A00372BCD /* Frameworks */,
 				C5FAC2E024C54F4A00372BCD /* Resources */,
@@ -2937,22 +2937,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		78FB9E5BC64BFAA7406A7647 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShadowTBVCell/Pods-ShadowTBVCell-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		85C58E3CB90475EC0C31AA07 /* [CP] Copy Pods Resources */ = {
+		335369A58C7B3FCD85A65330 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2965,6 +2950,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShadowTBVCell/Pods-ShadowTBVCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E98FA4A9418981ED4BFBADD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShadowTBVCell/Pods-ShadowTBVCell-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A057B2CEAEF70BE691568B8E /* [CP] Check Pods Manifest.lock */ = {
@@ -2989,7 +2989,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BF2E3243C072D1A2E3C0BC23 /* [CP] Check Pods Manifest.lock */ = {
+		F37A10283C09C0885EF3ECF1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3011,7 +3011,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E0D8EDF9CE1FB6A4E7C04F97 /* [CP] Check Pods Manifest.lock */ = {
+		F80829781AB57E9CD93917F5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3409,7 +3409,7 @@
 		};
 		C5FAC2EF24C54F4A00372BCD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E487F84E26226382C8E7731 /* Pods-ShadowTBVCellTests.debug.xcconfig */;
+			baseConfigurationReference = F4E922B0EA29DD0C058CA18D /* Pods-ShadowTBVCellTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -3430,7 +3430,7 @@
 		};
 		C5FAC2F024C54F4A00372BCD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91356C72DB4F47CEBF82B460 /* Pods-ShadowTBVCellTests.release.xcconfig */;
+			baseConfigurationReference = 0261DA26D3C709E72B633628 /* Pods-ShadowTBVCellTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -3451,7 +3451,7 @@
 		};
 		C5FAC2F224C54F4A00372BCD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97C0AE21B85CED08A36D8817 /* Pods-ShadowTBVCellUITests.debug.xcconfig */;
+			baseConfigurationReference = C202FA267F095B6E55D5FE75 /* Pods-ShadowTBVCellUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGGNX9596Z;
@@ -3470,7 +3470,7 @@
 		};
 		C5FAC2F324C54F4A00372BCD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32A5147F8466899A41F3AC5B /* Pods-ShadowTBVCellUITests.release.xcconfig */;
+			baseConfigurationReference = BC6CF058594E89EF4BEE5BA3 /* Pods-ShadowTBVCellUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGGNX9596Z;
